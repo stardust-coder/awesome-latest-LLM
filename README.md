@@ -1,5 +1,8 @@
 # Keeping up with the latest LLMs !
 
+* 2023.12 [日本語LLMの学習データを問題視する記事](https://github.com/AUGMXNT/shisa/wiki/A-Review-of-Public-Japanese-Training-Sets#analysis)が公開されました.
+
+
 ## English-centric
 
 |When? | Name |  HF?  | Size | License | pretraining | finetuning | misc.|
@@ -24,6 +27,8 @@ PaLM(540B), GPT-4 are not open.
 |2023.10| [LLM-jp]() | [HF](https://huggingface.co/llm-jp) | 13B | |
 || [name]() | [HF]() | | |
 
+See more on [awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-llm)
+
 ## Medical
 
 |When? | Name |  HF?  | Size | License | pretraining | finetuning | test | misc.|
@@ -47,5 +52,7 @@ PaLM(540B), GPT-4 are not open.
 - SLAKE : 
 - PathVQA : 
 - Visual USMLE : 618 USMLE-style QA
+- [MedVTE](https://github.com/ynklab/MedVTE):numeric understanding
+- [MedICCaT](https://github.com/allenai/medicat):image, caption, textual reference
 
 See more on [He et al.(2023)](https://arxiv.org/pdf/2310.05694.pdf).
