@@ -1,5 +1,6 @@
 # Keeping up with the latest LLMs !
 
+* 2023.12 Microsoftから[Phi-2](https://huggingface.co/microsoft/phi-2)がリリースされました.
 * 2023.12 MistralAIから[Mixtral-8x7B](https://github.com/open-compass/MixtralKit)がリリースされました.
 * 2023.12 [日本語LLMの学習データを問題視する記事](https://github.com/AUGMXNT/shisa/wiki/A-Review-of-Public-Japanese-Training-Sets#analysis)が公開されました.
 
@@ -8,6 +9,7 @@
 
 |When? | Name |  HF?  | Size | License | pretraining | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2023.12| [Phi-2(Microsoft)]() | [HF](https://huggingface.co/microsoft/phi-2) | 2.7B | MSRA-license|||
 |2023.12| [gigaGPT(Cerebras)](https://github.com/Cerebras/gigaGPT) | | 70B | apache-2.0 | | |
 |2023.12| [Amber](https://www.llm360.ai) | [HF](https://huggingface.co/LLM360/Amber) | 7B | apache-2.0 | Llama|| totally open|
 |2023.12| [Mixtral-8x7B](https://github.com/open-compass/MixtralKit)| [HF](https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1) | 8x7B | apache-2.0 |||mixture of experts|
