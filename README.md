@@ -1,5 +1,6 @@
 # Keeping up with the latest LLMs !
 
+* 2023.12 東工大から[Swallow](https://tokyotech-llm.github.io)がリリースされました.
 * 2023.12 Microsoftから[Phi-2](https://huggingface.co/microsoft/phi-2)がリリースされました.
 * 2023.12 MistralAIから[Mixtral-8x7B](https://github.com/open-compass/MixtralKit)がリリースされました.
 * 2023.12 [日本語LLMの学習データを問題視する記事](https://github.com/AUGMXNT/shisa/wiki/A-Review-of-Public-Japanese-Training-Sets#analysis)が公開されました.
@@ -29,7 +30,8 @@ PaLM(540B), GPT-4 are not open.
 
 |When? | Name |  HF?  | Size | License | pretraining | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
-|2023.11| [StableLM(StabilityAI)](https://ja.stability.ai/blog/japanese-stable-lm-beta) | [HF](https://huggingface.co/stabilityai/japanese-stablelm-base-beta-70b) | 70B | |Llama2-70Bベース |
+|2023.12| [Swallow](https://tokyotech-llm.github.io) | [HF](https://huggingface.co/tokyotech-llm) | 70B | | Llama2-70Bベース |
+|2023.11| [StableLM(StabilityAI)](https://ja.stability.ai/blog/japanese-stable-lm-beta) | [HF](https://huggingface.co/stabilityai/japanese-stablelm-base-beta-70b) | 70B | | Llama2-70Bベース |
 |2023.10| [LLM-jp]() | [HF](https://huggingface.co/llm-jp) | 13B | |
 || [name]() | [HF]() | | |
 
