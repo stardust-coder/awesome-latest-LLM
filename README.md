@@ -10,6 +10,7 @@
 
 |When? | Name |  HF?  | Size | License | pretraining | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2023.12| [LongNet(Microsoft)](https://github.com/microsoft/torchscale) | [arXiv](https://arxiv.org/pdf/2307.02486.pdf) | | apache-2.0 || input 1B token|
 |2023.12| [Phi-2(Microsoft)]() | [HF](https://huggingface.co/microsoft/phi-2) | 2.7B | MSRA-license|||
 |2023.12| [gigaGPT(Cerebras)](https://github.com/Cerebras/gigaGPT) | | 70B | apache-2.0 | | |
 |2023.12| [Amber](https://www.llm360.ai) | [HF](https://huggingface.co/LLM360/Amber) | 7B | apache-2.0 | Llama|| totally open|
