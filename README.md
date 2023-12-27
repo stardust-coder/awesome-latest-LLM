@@ -1,5 +1,6 @@
 # Keeping up with the latest LLMs !
 
+* 2023.12 ELYZAから日本語[13Bモデル](https://huggingface.co/elyza/ELYZA-japanese-Llama-2-13b)がリリースされました.
 * 2023.12 東工大から[Swallow](https://tokyotech-llm.github.io)がリリースされました.
 * 2023.12 Microsoftから[Phi-2](https://huggingface.co/microsoft/phi-2)がリリースされました.
 * 2023.12 MistralAIから[Mixtral-8x7B](https://github.com/open-compass/MixtralKit)がリリースされました.
