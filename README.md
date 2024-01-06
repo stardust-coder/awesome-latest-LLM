@@ -1,8 +1,8 @@
 # Keeping up with the latest LLMs !
 
+* 2023.12 Phi-2のライセンスがMITに変更されました！
 * 2023.12 ELYZAから日本語[13Bモデル](https://huggingface.co/elyza/ELYZA-japanese-Llama-2-13b)がリリースされました.
 * 2023.12 東工大から[Swallow](https://tokyotech-llm.github.io)がリリースされました.
-* 2023.12 Microsoftから[Phi-2](https://huggingface.co/microsoft/phi-2)がリリースされました.
 * 2023.12 MistralAIから[Mixtral-8x7B](https://github.com/open-compass/MixtralKit)がリリースされました.
 * 2023.12 [日本語LLMの学習データを問題視する記事](https://github.com/AUGMXNT/shisa/wiki/A-Review-of-Public-Japanese-Training-Sets#analysis)が公開されました.
 
@@ -12,7 +12,7 @@
 |When? | Name |  HF?  | Size | License | pretraining | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
 |2023.12| [LongNet(Microsoft)](https://github.com/microsoft/torchscale) | [arXiv](https://arxiv.org/pdf/2307.02486.pdf) | | apache-2.0 || input 1B token|
-|2023.12| [Phi-2(Microsoft)]() | [HF](https://huggingface.co/microsoft/phi-2) | 2.7B | MSRA-license|||
+|2023.12| [Phi-2(Microsoft)]() | [HF](https://huggingface.co/microsoft/phi-2) | 2.7B | MIT |||
 |2023.12| [gigaGPT(Cerebras)](https://github.com/Cerebras/gigaGPT) | | 70B | apache-2.0 | | |
 |2023.12| [Amber](https://www.llm360.ai) | [HF](https://huggingface.co/LLM360/Amber) | 7B | apache-2.0 | Llama|| totally open|
 |2023.12| [Mixtral-8x7B](https://github.com/open-compass/MixtralKit)| [HF](https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1) | 8x7B | apache-2.0 |||mixture of experts, [offloading](https://github.com/dvmazur/mixtral-offloading)|
@@ -51,7 +51,6 @@ See more on [awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-ll
 |2023.8| [PMC-LLaMa](https://github.com/chaoyi-wu/PMC-LLaMA)| [HF]() | 13B | |
 |2023.7| [Med-Flamingo](https://github.com/snap-stanford/med-flamingo) | [HF]() | 8.3B| ? | OpenFlamingo | MTB | Visual USMLE|based on Flamingo |
 |2023.7| [LLaVa-Med(Microsoft)](https://github.com/microsoft/LLaVA-Med) | [HF](https://huggingface.co/microsoft/llava-med-7b-delta) | 13B | - | LLaVa| medical dataset |VAQ-RAD, SLAKE, PathVQA|multi-modal| 
-|2023.6| [BiomedGPT(Zhang et al.)](https://github.com/taokz/BiomedGPT) | [HF]() | 182M | |
 |2023| [Med-PaLM M(Google)](https://arxiv.org/abs/2307.14334) | not open | | - | PaLM2 | | |multi-modal| 
 |2023.5| [Med-PaLM2(Google)](https://arxiv.org/abs/2305.09617) | not open |340B | - | PaLM2 | | |
 |2022.12| [Med-PaLM(Google)](https://arxiv.org/abs/2212.13138) | not open | 540B| - | PaLM | | | |
