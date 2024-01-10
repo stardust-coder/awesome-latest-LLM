@@ -1,5 +1,6 @@
 # Keeping up with the latest LLMs !
 
+* 2024.1 Phi-2のMoE, Phixtralが公開されました！
 * 2023.12 Phi-2のライセンスがMITに変更されました！
 * 2023.12 ELYZAから日本語[13Bモデル](https://huggingface.co/elyza/ELYZA-japanese-Llama-2-13b)がリリースされました.
 * 2023.12 東工大から[Swallow](https://tokyotech-llm.github.io)がリリースされました.
@@ -11,6 +12,7 @@
 
 |When? | Name |  HF?  | Size | License | pretraining | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2024.1| [Phixtral]() | [HF](https://huggingface.co/mlabonne/phixtral-4x2_8) | 2.7Bx4 | MIT |||
 |2023.12| [LongNet(Microsoft)](https://github.com/microsoft/torchscale) | [arXiv](https://arxiv.org/pdf/2307.02486.pdf) | | apache-2.0 || input 1B token|
 |2023.12| [Phi-2(Microsoft)]() | [HF](https://huggingface.co/microsoft/phi-2) | 2.7B | MIT |||
 |2023.12| [gigaGPT(Cerebras)](https://github.com/Cerebras/gigaGPT) | | 70B | apache-2.0 | | |
@@ -46,7 +48,7 @@ See more on [awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-ll
 |When? | Name |  HF?  | Size | License | pretraining | finetuning/continual | test | misc.|
 |---|---|---|---|---|---|---|---|---|
 |2023.12| [Medprompt(Microsoft)]() | not open | - | - | GPT-4 | none |  |multi-modal| 
-|2023.11| [Meditron(EPFL)](https://github.com/epfLLM/meditron) | [HF](https://huggingface.co/epfl-llm/meditron-70B) | 70B | Llama2 | Llama2 | 4K tokens | 4 Q&As | |
+|2023.11| [Meditron(EPFL)](https://github.com/epfLLM/meditron) | [HF](https://huggingface.co/epfl-llm/meditron-70B) | 70B | Llama2 | Llama2, 48.1B | | 4 Q&As | |
 |2023.8| [BioMedGPT(Luo et al.)](https://github.com/PharMolix/OpenBioMed) | [HF]() | 10B | |
 |2023.8| [PMC-LLaMa](https://github.com/chaoyi-wu/PMC-LLaMA)| [HF]() | 13B | |
 |2023.7| [Med-Flamingo](https://github.com/snap-stanford/med-flamingo) | [HF]() | 8.3B| ? | OpenFlamingo | MTB | Visual USMLE|based on Flamingo |
