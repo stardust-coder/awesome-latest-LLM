@@ -12,6 +12,7 @@
 
 |When? | Name |  HF?  | Size | License | pretraining | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2024.1| [LLaMa-Pro-8B](Tencent) | [HF](https://huggingface.co/TencentARC/LLaMA-Pro-8B) | 8B | Llama2 |||
 |2024.1| [Phixtral]() | [HF](https://huggingface.co/mlabonne/phixtral-4x2_8) | 2.7Bx4 | MIT |||
 |2023.12| [LongNet(Microsoft)](https://github.com/microsoft/torchscale) | [arXiv](https://arxiv.org/pdf/2307.02486.pdf) | | apache-2.0 || input 1B token|
 |2023.12| [Phi-2(Microsoft)]() | [HF](https://huggingface.co/microsoft/phi-2) | 2.7B | MIT |||
