@@ -56,7 +56,7 @@ Keeping up with the latest LLMs !
 
 See more on [awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-llm)
 
-## Medical　Adaptation
+## Medical　Adaptation including Multi-modality
 
 |When? | Name |  HF?  | Size | License | pretraining | finetuning/continual | test | misc.|
 |---|---|---|---|---|---|---|---|---|
@@ -73,23 +73,32 @@ See more on [awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-ll
 || [name]() | [HF]() | | |
 
 
-### Lists of train dataset (medical)
-- MTB: chopped cleaned text and images collected from 4721 textbooks.
-- PMC-15M : the largest biomedical image-text dataset
-- PMC-OA : 1.6M image-caption pairs
+### Lists of dataset (medical)
 
-### Lists of test dataset (medical)
-- VQA-RAD : 
-- SLAKE : 
-- PathVQA : 
-- Visual USMLE : 618 USMLE-style QA
-- [MedVTE](https://github.com/ynklab/MedVTE):numeric understanding
-- [MedICCaT](https://github.com/allenai/medicat):image, caption, textual reference
-- [MedQA](https://github.com/jind11/MedQA)
+Only Text
+- [MedQA](https://github.com/jind11/MedQA) （USMLE）
 - [MedMCQA](https://arxiv.org/abs/2203.14371)
 - [PubMedQA](https://arxiv.org/abs/1909.06146)
 - MMLU-Medical
+- IgakuQA（Japanese National Medical License Exam）
+
+
+Image + Text
+- MTB: chopped cleaned text and images collected from 4721 textbooks.
+- PMC-15M : the largest biomedical image-text dataset
+- PMC-OA : 1.6M image-caption pairs
+- [MedICaT](https://github.com/allenai/medicat): image, caption, textual reference
+- [VQA-RAD](https://osf.io/89kps/) : 3515 question–answer pairs on 315 radiology images.
+- SLAKE : bilingual dataset (English&Chinese) consisting of 642 images and 14,028 question-answer pairs
+- PathVQA : 
+- Visual USMLE : 618 USMLE-style QA
+- [MedVTE](https://github.com/ynklab/MedVTE): numeric understanding
 - [MedAlign(Stanford)](https://github.com/som-shahlab/medalign)
-- ECG-QA
+- MIMIC-IV : ECG-caption dataset
+- [ECG-QA](https://github.com/Jwoo5/ecg-qa)
+
+
+### Curations
+- [Clinical NLP 2023](https://clinical-nlp.github.io/2023/resources.html)
 
 See more on [He et al.(2023)](https://arxiv.org/pdf/2310.05694.pdf).
