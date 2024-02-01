@@ -4,6 +4,8 @@ Keeping up with the latest LLMs !
 
 **NEWS**
 
+* 2024.2 カラクリから70B日本語LLMが公開されました！
+* 2024.1 [リコー](https://www.nikkei.com/article/DGXZRSP667803_R30C24A1000000/)が13B日本語LLMを発表しました！
 * 2024.1 Phi-2のMoE, Phixtralが公開されました！
 
 
@@ -40,13 +42,16 @@ Keeping up with the latest LLMs !
 <!-- |2023.12| [Amber](https://www.llm360.ai) | [HF](https://huggingface.co/LLM360/Amber) | 7B | apache-2.0 | Llama|| totally open| -->
 <!-- |2023.11| [Orca2(Microsoft)]() | [HF](https://huggingface.co/microsoft/Orca-2-13b) | 13B | MSRA-license| based on Llama2||| -->
 <!-- |2023.9| [Phi-1.5(Microsoft)](https://arxiv.org/abs/2309.05463) | [HF](https://huggingface.co/microsoft/phi-1_5) | 1.3B| MSRA-license||textbooks| -->
-- PaLM(540B), GPT-4 are not open.
-- MoE:mixture of experts
+- PaLM(540B) and GPT-4 are not open.
+- MoE : mixture of experts
 
 ## Japanese-centric
 
+
+
 |When? | Name |  HF?  | Size | License | pretraining | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2024.1| [KARAKURI](https://karakuri.ai/seminar/news/karakuri-lm/) | [HF](https://huggingface.co/karakuri-ai/karakuri-lm-70b-v0.1) | 70B | cc-by-sa-4.0 | Llama2-70Bベース |
 |2023.12| [ELYZA-japanese-Llama-2-13b](https://note.com/elyza/n/n5d42686b60b7) | [HF](https://huggingface.co/elyza/ELYZA-japanese-Llama-2-13b) | 13B | | Llama-2-13b-chatベース |
 |2023.12| [Swallow(東工大)](https://tokyotech-llm.github.io) | [HF](https://huggingface.co/tokyotech-llm) | 70B | | Llama2-70Bベース |
 |2023.11| [StableLM(StabilityAI)](https://ja.stability.ai/blog/japanese-stable-lm-beta) | [HF](https://huggingface.co/stabilityai/japanese-stablelm-base-beta-70b) | 70B | | Llama2-70Bベース |
@@ -55,7 +60,7 @@ Keeping up with the latest LLMs !
 
 See more on [awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-llm)
 
-## Medical　Adaptation including Multi-modality
+## Medical-Adaptation 
 
 |When? | Name |  HF?  | Size | License | pretraining | finetuning/continual | test | misc.|
 |---|---|---|---|---|---|---|---|---|
