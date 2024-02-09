@@ -4,6 +4,7 @@ Keeping up with the latest LLMs !
 
 **NEWS**
 
+* 2024.2 LLM-jpのモデルが更新されました！v1.1
 * 2024.2 カラクリから70B日本語LLMが公開されました！
 * 2024.1 [リコー](https://www.nikkei.com/article/DGXZRSP667803_R30C24A1000000/)が13B日本語LLMを発表しました！
 * 2024.1 Phi-2のMoE, Phixtralが公開されました！
@@ -51,12 +52,12 @@ Keeping up with the latest LLMs !
 
 |When? | Name |  HF?  | Size | License | pretraining | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
-|2024.1| [KARAKURI](https://karakuri.ai/seminar/news/karakuri-lm/) | [HF](https://huggingface.co/karakuri-ai/karakuri-lm-70b-v0.1) | 70B | cc-by-sa-4.0 | Llama2-70Bベース |
+|2024.2| [KARAKURI](https://karakuri.ai/seminar/news/karakuri-lm/) | [HF](https://huggingface.co/karakuri-ai/karakuri-lm-70b-v0.1) | 70B | cc-by-sa-4.0 | Llama2-70Bベース | | [note](https://note.com/ngc_shj/n/n46ced665b378?sub_rt=share_h)|
 |2023.12| [ELYZA-japanese-Llama-2-13b](https://note.com/elyza/n/n5d42686b60b7) | [HF](https://huggingface.co/elyza/ELYZA-japanese-Llama-2-13b) | 13B | | Llama-2-13b-chatベース |
 |2023.12| [Swallow(東工大)](https://tokyotech-llm.github.io) | [HF](https://huggingface.co/tokyotech-llm) | 70B | | Llama2-70Bベース |
 |2023.11| [StableLM(StabilityAI)](https://ja.stability.ai/blog/japanese-stable-lm-beta) | [HF](https://huggingface.co/stabilityai/japanese-stablelm-base-beta-70b) | 70B | | Llama2-70Bベース |
-|2023.10| [LLM-jp]() | [HF](https://huggingface.co/llm-jp) | 13B | |
-|| [name]() | [HF]() | | |
+|2023.10| [LLM-jp](https://llm-jp.nii.ac.jp/blog/2024/02/09/v1.1-tuning.html) | [HF](https://huggingface.co/llm-jp) | 13B | DPO追加あり |
+|| [name]() | [HF]() | | ||||
 
 See more on [awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-llm)
 
@@ -84,7 +85,7 @@ Only Text
 - [MedMCQA](https://arxiv.org/abs/2203.14371)
 - [PubMedQA](https://arxiv.org/abs/1909.06146)
 - MMLU-Medical
-- IgakuQA（Japanese National Medical License Exam）
+- [IgakuQA（Japanese National Medical License Exam）](https://github.com/jungokasai/IgakuQA)
 
 
 Image + Text
