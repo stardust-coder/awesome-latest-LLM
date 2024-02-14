@@ -4,6 +4,7 @@ Keeping up with the latest LLMs !
 
 **NEWS**
 
+* 2024.2 Reka AIから21BでGemini Pro, GPT-3.5超えと発表されました.
 * 2024.2 LLM-jpのモデルが更新されました！v1.1
 * 2024.2 カラクリから70B日本語LLMが公開されました！
 * 2024.1 [リコー](https://www.nikkei.com/article/DGXZRSP667803_R30C24A1000000/)が13B日本語LLMを発表しました！
@@ -26,6 +27,7 @@ Keeping up with the latest LLMs !
 
 |When? | Name |  HF?  | Size | License | pretraining/base | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2024.2| [Reka Flash](https://reka.ai/reka-flash-an-efficient-and-capable-multimodal-language-model/) |  | 21B | || not public|
 |2024.1| [Self-Rewarding(Meta)]() | [arxiv](https://arxiv.org/pdf/2401.10020.pdf) | 70B | Llama2 | Llama2| - | DPO |
 |2024.1| [Phixtral]() | [HF](https://huggingface.co/mlabonne/phixtral-4x2_8) | 2.7Bx4 | MIT |||MoE|
 |2023.12| [LongNet(Microsoft)](https://github.com/microsoft/torchscale) | [arXiv](https://arxiv.org/pdf/2307.02486.pdf) | - | apache-2.0 | [MAGNETO](https://arxiv.org/pdf/2210.06423.pdf)| input 1B token| |
@@ -47,8 +49,6 @@ Keeping up with the latest LLMs !
 - MoE : mixture of experts
 
 ## Japanese-centric
-
-
 
 |When? | Name |  HF?  | Size | License | pretraining | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
