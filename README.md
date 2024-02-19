@@ -4,24 +4,23 @@ Keeping up with the latest LLMs !
 
 **NEWS**
 
-* 2024.2 Alibabaの[QWen](https://qwenlm.github.io/blog/qwen1.5/)が1.5にアップグレードされました！！
-* 2024.2 Reka AIから21BでGemini Pro, GPT-3.5超えと発表されました.
-* 2024.2 LLM-jpのモデルが更新されました！v1.1
-* 2024.2 カラクリから70B日本語LLMが公開されました！
-* 2024.1 [リコー](https://www.nikkei.com/article/DGXZRSP667803_R30C24A1000000/)が13B日本語LLMを発表しました！
-* 2024.1 Phi-2のMoE, Phixtralが公開されました！
+- 2024.2 Kotoba Technologyと東工大から[日本語Mamba 2.8B](https://huggingface.co/kotoba-tech/kotomamba-2.8B-v1.0)が公開されました!
+- 2024.2 Alibabaの[QWen](https://qwenlm.github.io/blog/qwen1.5/)が1.5にアップグレードされました！！
+- 2024.2 Reka AIから21BでGemini Pro, GPT-3.5超えと発表されました.
+- 2024.2 LLM-jpのモデルが更新されました！v1.1
+- 2024.2 カラクリから70B日本語LLMが公開されました！
 
 
 <details>
 
 <summary>History</summary>
-
+- 2024.1 [リコー](https://www.nikkei.com/article/DGXZRSP667803_R30C24A1000000/)が13B日本語LLMを発表しました！
+- 2024.1 Phi-2のMoE, Phixtralが公開されました！
 - 2023.12 Phi-2のライセンスがMITに変更されました！  
 - 2023.12 ELYZAから日本語[13Bモデル](https://huggingface.co/elyza/ELYZA-japanese-Llama-2-13b)がリリースされました.  
 - 2023.12 東工大から[Swallow](https://tokyotech-llm.github.io)がリリースされました.  
 - 2023.12 MistralAIから[Mixtral-8x7B](https://github.com/open-compass/MixtralKit)がリリースされました.    
 - 2023.12 [日本語LLMの学習データを問題視する記事](https://github.com/AUGMXNT/shisa/wiki/A-Review-of-Public-Japanese-Training-Sets#analysis)が公開されました.
-
 </details>
 
 ## English-centric
