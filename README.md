@@ -4,6 +4,7 @@ Keeping up with the latest LLMs !
 
 **NEWS**
 
+- 2024.2 GoogleからGeminiで用いられているLLM [Gemma](https://blog.google/technology/developers/gemma-open-models/)をオープンにするとのお達しが出ました!
 - 2024.2 Kotoba Technologyと東工大から[日本語Mamba 2.8B](https://huggingface.co/kotoba-tech/kotomamba-2.8B-v1.0)が公開されました!
 - 2024.2 Alibabaの[QWen](https://qwenlm.github.io/blog/qwen1.5/)が1.5にアップグレードされました！！
 - 2024.2 Reka AIから21BでGemini Pro, GPT-3.5超えと発表されました.
@@ -28,6 +29,7 @@ Keeping up with the latest LLMs !
 
 |When? | Name |  HF?  | Size | License | pretraining/base | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2024.2| [Gemma(Google)](https://blog.google/technology/developers/gemma-open-models/) | | 7B | | |application open for reseachers |
 |2024.2| [Miqu](https://twitter.com/arthurmensch/status/1752737462663684344?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1752737462663684344%7Ctwgr%5Ecd2e234e5fa688c1a14852aa90158cd4f59facb4%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fgigazine.net%2Fnews%2F20240201-hugging-face-miqu-mistral-model%2F) | [HF](https://huggingface.co/miqudev/miqu-1-70b/tree/main) | 70B | none || leaked from Mistral |
 |2024.2| [Reka Flash](https://reka.ai/reka-flash-an-efficient-and-capable-multimodal-language-model/) |  | 21B | || not public|
 |2024.1| [Self-Rewarding(Meta)]() | [arxiv](https://arxiv.org/pdf/2401.10020.pdf) | 70B | Llama2 | Llama2| - | DPO |
@@ -47,7 +49,7 @@ Keeping up with the latest LLMs !
 <!-- |2023.12| [Amber](https://www.llm360.ai) | [HF](https://huggingface.co/LLM360/Amber) | 7B | apache-2.0 | Llama|| totally open| -->
 <!-- |2023.11| [Orca2(Microsoft)]() | [HF](https://huggingface.co/microsoft/Orca-2-13b) | 13B | MSRA-license| based on Llama2||| -->
 <!-- |2023.9| [Phi-1.5(Microsoft)](https://arxiv.org/abs/2309.05463) | [HF](https://huggingface.co/microsoft/phi-1_5) | 1.3B| MSRA-license||textbooks| -->
-- PaLM(540B) and GPT-4 are not open.
+- PaLM(540B), PaLM2(340B) and GPT-4 are not open.
 - MoE : mixture of experts
 
 ## Japanese-centric
@@ -65,8 +67,10 @@ See more on [awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-ll
 
 ## Medical-Adaptation 
 
+
 |When? | Name |  HF?  | Size | License | pretraining | finetuning/continual | test | misc.|
 |---|---|---|---|---|---|---|---|---|
+|2024.2| [BioMistral](https://arxiv.org/pdf/2402.10373.pdf) | not open | 7B | - |  |  |  | | 
 |2024.1| [AMIE(Google)](https://arxiv.org/pdf/2401.05654.pdf) | not open | - | - | based on PaLM 2 |  |  | EHR| 
 |2023.12| [Medprompt(Microsoft)]() | not open | - | - | GPT-4 | none |  |multi-modal| 
 |2023.11| [Meditron(EPFL)](https://github.com/epfLLM/meditron) | [HF](https://huggingface.co/epfl-llm/meditron-70B) | 70B | Llama2 | Llama2 | GAP-Replay(48.1B) | [dataset](img/meditron-testdata.png),[score](img/meditron-eval.png) | |
