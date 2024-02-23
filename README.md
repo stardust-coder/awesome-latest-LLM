@@ -29,6 +29,7 @@ Keeping up with the latest LLMs !
 
 |When? | Name |  HF?  | Size | License | pretraining/base | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2024.2| [Aya(Cohere)](https://cohere.com/research/aya?ref=txt.cohere.com) |[HF](https://huggingface.co/CohereForAI/aya-101) | 13B | apache-2.0 | | multilingual |
 |2024.2| [Gemma(Google)](https://blog.google/technology/developers/gemma-open-models/) | | 7B | | |application open for reseachers |
 |2024.2| [Miqu](https://twitter.com/arthurmensch/status/1752737462663684344?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1752737462663684344%7Ctwgr%5Ecd2e234e5fa688c1a14852aa90158cd4f59facb4%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fgigazine.net%2Fnews%2F20240201-hugging-face-miqu-mistral-model%2F) | [HF](https://huggingface.co/miqudev/miqu-1-70b/tree/main) | 70B | none || leaked from Mistral |
 |2024.2| [Reka Flash](https://reka.ai/reka-flash-an-efficient-and-capable-multimodal-language-model/) |  | 21B | || not public|
@@ -84,13 +85,16 @@ See more on [awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-ll
 || [name]() | [HF]() | | |
 
 
+[医療ドメイン特化LLMの性能はどうやって評価する？](https://zenn.dev/hellorusk/articles/04a29974138c7b)
+
 ### Lists of dataset (medical)
 
 Only Text
 - [MedQA](https://github.com/jind11/MedQA) （USMLE）
 - [MedMCQA](https://arxiv.org/abs/2203.14371)
 - [PubMedQA](https://arxiv.org/abs/1909.06146)
-- MMLU-Medical
+- MMLU-Medical : extracted from [MMLU](https://github.com/hendrycks/test)
+- [JMMLU](https://github.com/nlp-waseda/JMMLU) : Japanese-translated version of MMLU
 - [IgakuQA（Japanese National Medical License Exam）](https://github.com/jungokasai/IgakuQA)
 
 
