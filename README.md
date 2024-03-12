@@ -3,7 +3,8 @@
 Keeping up with the latest LLMs !
 
 **NEWS**
-- 2024.3 東工大からMixtralの追加学習日本語モデル[Swallow-MX]がリリースされました！👏
+- 2024.3 ELYZAからLlama2の追加学習日本語モデルのデモがリリースされました！
+- 2024.3 東工大からMixtralの追加学習日本語モデル[Swallow-MX](), [Swallow-MS]()がリリースされました！👏
 <details>
 
 <summary>History</summary>
@@ -66,7 +67,12 @@ Keeping up with the latest LLMs !
 
 See more on [awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-llm)
 
-## Medical-Adaptation 
+
+--- 
+
+# Medical-Adaptation 
+
+## Model
 
 |When? | Name |  HF?  | Size | License | pretraining | finetuning/continual | test | misc.|
 |---|---|---|---|---|---|---|---|---|
@@ -74,6 +80,7 @@ See more on [awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-ll
 |2024.2| [BioMistral](https://arxiv.org/pdf/2402.10373.pdf) | not open | 7B | - |  |  |  | | 
 |2024.1| [AMIE(Google)](https://arxiv.org/pdf/2401.05654.pdf) | not open | - | - | based on PaLM 2 |  |  | EHR| 
 |2023.12| [Medprompt(Microsoft)]() | not open | - | - | GPT-4 | none |  |multi-modal| 
+|2023.12| [JMedLoRA(UTokyo)](https://arxiv.org/abs/2310.10083) | [HF](https://huggingface.co/AIgroup-CVM-utokyohospital/llama2-jmedlora-3000) | 70B | none | none | QLoRA | IgakuQA | Japanese, insufficient quality | 
 |2023.11| [Meditron(EPFL)](https://github.com/epfLLM/meditron) | [HF](https://huggingface.co/epfl-llm/meditron-70B) | 70B | Llama2 | Llama2 | GAP-Replay(48.1B) | [dataset](img/meditron-testdata.png),[score](img/meditron-eval2.png) | |
 |2023.8| [BioMedGPT(Luo et al.)](https://github.com/PharMolix/OpenBioMed) | [HF]() | 10B | |
 |2023.8| [PMC-LLaMa](https://github.com/chaoyi-wu/PMC-LLaMA)| [HF]() | 13B | |
@@ -89,7 +96,20 @@ See also [Awesome-Healthcare-Foundation-Models](https://github.com/Jianing-Qiu/A
 
 [医療ドメイン特化LLMの性能はどうやって評価する？](https://zenn.dev/hellorusk/articles/04a29974138c7b)
 
-### Lists of dataset (medical)
+## Evaluation
+
+| How? | Who? | example works | form of output | example datasets | 
+|---|---|---|---|---|
+| Medical Doctor | | [Med-Flamingo](), [Med-PaLM]() | | |
+| BERT similarity score | [Zhang et al.]() | [Med-Flamingo]() | text generation | |
+| Exact match (modulo puncutuation) | | [Med-Flamingo]() | short text generation | VQA-RAD | 
+| Exact match | [JMedLoRA(UTokyo)](https://arxiv.org/abs/2310.10083) | [JMedLoRA(UTokyo)](https://arxiv.org/abs/2310.10083) | multiple choice question | IgakuQA | 
+| Gestalt score | [JMedLoRA(UTokyo)](https://arxiv.org/abs/2310.10083) | [JMedLoRA(UTokyo)](https://arxiv.org/abs/2310.10083) | multiple choice question | IgakuQA | 
+| Accuracy | [JMedLoRA(UTokyo)](https://arxiv.org/abs/2310.10083) | [JMedLoRA(UTokyo)](https://arxiv.org/abs/2310.10083) | multiple choice question | IgakuQA | 
+
+
+
+## Dataset
 
 Only Text
 - [MedQA](https://github.com/jind11/MedQA) （USMLE）
@@ -115,8 +135,7 @@ Image + Text
 - MIMIC-IV : ECG-caption dataset
 - [ECG-QA](https://github.com/Jwoo5/ecg-qa)
 
-
-### Curations
+Curations
 - [Clinical NLP 2023](https://clinical-nlp.github.io/2023/resources.html)
 
 See more on [He et al.(2023)](https://arxiv.org/pdf/2310.05694.pdf).
