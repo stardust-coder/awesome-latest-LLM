@@ -75,10 +75,11 @@ See more on [awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-ll
 # Medical-Adaptation 
 
 ## Model
-
 |When? | Name |  HF?  | Size | License | pretraining | finetuning/continual | test | misc.|
 |---|---|---|---|---|---|---|---|---|
-|2024.2| [Health-LLM(Rutgersなど)](https://arxiv.org/pdf/2402.00746.pdf) | | | | | | | RAG |
+|2024.3| [AdaptLLM(Microsoft Research)](https://arxiv.org/pdf/2309.09530.pdf) | [HF](https://huggingface.co/AdaptLLM/medicine-LLM) | | | | | |  | ICLR2024 |
+|2024.3| [Apollo](https://github.com/FreedomIntelligence/Apollo) | | | | | | |  | multilingual |
+2024.2| [Health-LLM(Rutgersなど)](https://arxiv.org/pdf/2402.00746.pdf) | | | | | | | RAG |
 |2024.2| [BioMistral](https://arxiv.org/pdf/2402.10373.pdf) | not open | 7B | - |  |  |  | | 
 |2024.1| [AMIE(Google)](https://arxiv.org/pdf/2401.05654.pdf) | not open | - | - | based on PaLM 2 |  |  | EHR| 
 |2023.12| [Medprompt(Microsoft)]() | not open | - | - | GPT-4 | none |  |multi-modal| 
