@@ -59,6 +59,7 @@ Keeping up with the latest LLMs !
 
 |When? | Name |  HF?  | Size | License | pretraining | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2024.3| [RakutenAI]() | [HF](https://huggingface.co/Rakuten/RakutenAI-7B) | 7B | apache-2.0 | Mistral | |  |
 |2024.3| [Swallow-MX(東工大)]() | [HF](https://huggingface.co/tokyotech-llm/Swallow-MX-8x7b-NVE-v0.1) | 8x7B | | Mixtralベース |
 |2024.2| [KARAKURI](https://karakuri.ai/seminar/news/karakuri-lm/) | [HF](https://huggingface.co/karakuri-ai/karakuri-lm-70b-v0.1) | 70B | cc-by-sa-4.0 | Llama2-70Bベース | | [note](https://note.com/ngc_shj/n/n46ced665b378?sub_rt=share_h)|
 |2023.12| [ELYZA-japanese-Llama-2-13b](https://note.com/elyza/n/n5d42686b60b7) | [HF](https://huggingface.co/elyza/ELYZA-japanese-Llama-2-13b) | 13B | | Llama-2-13b-chatベース |
@@ -77,10 +78,10 @@ See more on [awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-ll
 ## Model
 |When? | Name |  HF?  | Size | License | pretraining | finetuning/continual | test | misc.|
 |---|---|---|---|---|---|---|---|---|
-|2024.3| [AdaptLLM(Microsoft Research)](https://arxiv.org/pdf/2309.09530.pdf) | [HF](https://huggingface.co/AdaptLLM/medicine-LLM) | | | | | |  | ICLR2024 |
-|2024.3| [Apollo](https://github.com/FreedomIntelligence/Apollo) | | | | | | |  | multilingual |
+|2024.3| [AdaptLLM(Microsoft Research)](https://arxiv.org/pdf/2309.09530.pdf) | [HF](https://huggingface.co/AdaptLLM/medicine-LLM) | 7B, 13B | | reading comprehensive corpora | | |  | ICLR2024 |
+|2024.3| [Apollo](https://github.com/FreedomIntelligence/Apollo) | [HF](https://huggingface.co/FreedomIntelligence/Apollo-7B) | ~7B | | | | |  | multilingual |
 2024.2| [Health-LLM(Rutgersなど)](https://arxiv.org/pdf/2402.00746.pdf) | | | | | | | RAG |
-|2024.2| [BioMistral](https://arxiv.org/pdf/2402.10373.pdf) | not open | 7B | - |  |  |  | | 
+|2024.2| [BioMistral](https://arxiv.org/pdf/2402.10373.pdf) | [HF](https://huggingface.co/BioMistral) | 7B | - |  |  |  | | 
 |2024.1| [AMIE(Google)](https://arxiv.org/pdf/2401.05654.pdf) | not open | - | - | based on PaLM 2 |  |  | EHR| 
 |2023.12| [Medprompt(Microsoft)]() | not open | - | - | GPT-4 | none |  |multi-modal| 
 |2023.12| [JMedLoRA(UTokyo)](https://arxiv.org/abs/2310.10083) | [HF](https://huggingface.co/AIgroup-CVM-utokyohospital/llama2-jmedlora-3000) | 70B | none | none | QLoRA | IgakuQA | Japanese, insufficient quality | 
@@ -110,7 +111,7 @@ See also [Awesome-Healthcare-Foundation-Models](https://github.com/Jianing-Qiu/A
 | Gestalt score | [JMedLoRA(UTokyo)](https://arxiv.org/abs/2310.10083) | [JMedLoRA(UTokyo)](https://arxiv.org/abs/2310.10083) | multiple choice question | IgakuQA | 
 | Accuracy | [JMedLoRA(UTokyo)](https://arxiv.org/abs/2310.10083) | [JMedLoRA(UTokyo)](https://arxiv.org/abs/2310.10083) | multiple choice question | IgakuQA | 
 
-
+[MIRAGE Leaderboard](https://teddy-xionggz.github.io/MIRAGE/)
 
 ## Dataset
 
