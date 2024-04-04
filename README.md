@@ -3,12 +3,13 @@
 Keeping up with the latest LLMs !
 
 **NEWS**
-- 2024.3 Cohereからプロダクション向けCommand-Rがリリース!研究用に重みも公開.
-- 2024.3 ELYZAからLlama2の追加学習日本語モデルのデモがリリースされました！
-- 2024.3 東工大からMixtralの追加学習日本語モデル[Swallow-MX](), [Swallow-MS]()がリリースされました！👏
+- 2024.4 🔥 Databricksより132BのMoEモデルが公開されました！大きい！
 <details>
 
 <summary>History</summary>
+- 2024.3 Cohereからプロダクション向けCommand-Rがリリース!研究用に重みも公開.
+- 2024.3 ELYZAからLlama2の追加学習日本語モデルのデモがリリースされました！
+- 2024.3 東工大からMixtralの追加学習日本語モデル[Swallow-MX](), [Swallow-MS]()がリリースされました！👏
 - 2024.2 GoogleからGeminiで用いられているLLM [Gemma](https://blog.google/technology/developers/gemma-open-models/)をオープンにするとのお達しが出ました!
 - 2024.2 Kotoba Technologyと東工大から[日本語Mamba 2.8B](https://huggingface.co/kotoba-tech/kotomamba-2.8B-v1.0)が公開されました!
 - 2024.2 Alibabaの[QWen](https://qwenlm.github.io/blog/qwen1.5/)が1.5にアップグレードされました！！
@@ -29,6 +30,8 @@ Keeping up with the latest LLMs !
 
 |When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2024.4| [DBRX(Databricks)]() |[HF](https://huggingface.co/databricks/dbrx-instruct) | 132B | databricks | || MoE |
+|2024.3| [Grok-1](https://github.com/xai-org/grok-1) | | 314B | | twitter | | MoE |
 |2024.3| [Command-R(Cohere)](https://txt.cohere.com/command-r/) |[HF](https://huggingface.co/CohereForAI/c4ai-command-r-v01) | 35B | non commercial | || RAG capability |
 |2024.2| [Aya(Cohere)](https://cohere.com/research/aya?ref=txt.cohere.com) |[HF](https://huggingface.co/CohereForAI/aya-101) | 13B | apache-2.0 | || multilingual |
 |2024.2| [Gemma(Google)](https://blog.google/technology/developers/gemma-open-models/) | | 8.5B | || |application open for reseachers |
@@ -96,7 +99,7 @@ See more on [awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-ll
 |2022.12| [Med-PaLM(Google)](https://arxiv.org/abs/2212.13138) | not open | 540B| - | PaLM | | | |
 || [name]() | [HF]() | | |
 
-See also [Awesome-Healthcare-Foundation-Models](https://github.com/Jianing-Qiu/Awesome-Healthcare-Foundation-Models)
+See also [Awesome-Healthcare-Foundation-Models](https://github.com/Jianing-Qiu/Awesome-Healthcare-Foundation-Models) and [MedLLMsPracticalGuide](https://github.com/AI-in-Health/MedLLMsPracticalGuide).
 
 [医療ドメイン特化LLMの性能はどうやって評価する？](https://zenn.dev/hellorusk/articles/04a29974138c7b)
 
@@ -111,7 +114,8 @@ See also [Awesome-Healthcare-Foundation-Models](https://github.com/Jianing-Qiu/A
 | Gestalt score | [JMedLoRA(UTokyo)](https://arxiv.org/abs/2310.10083) | [JMedLoRA(UTokyo)](https://arxiv.org/abs/2310.10083) | multiple choice question | IgakuQA | 
 | Accuracy | [JMedLoRA(UTokyo)](https://arxiv.org/abs/2310.10083) | [JMedLoRA(UTokyo)](https://arxiv.org/abs/2310.10083) | multiple choice question | IgakuQA | 
 
-[MIRAGE Leaderboard](https://teddy-xionggz.github.io/MIRAGE/)
+- [MIRAGE Leaderboard](https://teddy-xionggz.github.io/MIRAGE/)
+- [Japanese Medical Language Model Evaluation Harness](https://github.com/stardust-coder/japanese-lm-med-harness)
 
 ## Dataset
 
@@ -124,6 +128,7 @@ Only Text
 - [JMMLU](https://github.com/nlp-waseda/JMMLU) : Japanese-translated version of MMLU
 - [IgakuQA（Japanese National Medical License Exam）](https://github.com/jungokasai/IgakuQA)
 - [J-ResearchCorpus](https://huggingface.co/datasets/kunishou/J-ResearchCorpus)
+- [Apollo Corpus JP](https://huggingface.co/datasets/kunishou/ApolloCorpus-ja)
 
 Image + Text
 - MTB: chopped cleaned text and images collected from 4721 textbooks.
