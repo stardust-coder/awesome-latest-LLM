@@ -3,6 +3,7 @@
 Keeping up with the latest LLMs !
 
 **NEWS**
+- 2024.4 🔥CohereからCommand-R+がリリース!研究用に重みも公開.
 - 2024.4 🔥 Databricksより132BのMoEモデルが公開されました！大きい！
 <details>
 
@@ -30,6 +31,7 @@ Keeping up with the latest LLMs !
 
 |When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2024.3| [Command-R+(Cohere)](https://txt.cohere.com/command-r/) |[HF](https://huggingface.co/CohereForAI/c4ai-command-r-plus) | 104B | non commercial | || RAG capability |
 |2024.4| [DBRX(Databricks)]() |[HF](https://huggingface.co/databricks/dbrx-instruct) | 132B | databricks | || MoE |
 |2024.3| [Grok-1](https://github.com/xai-org/grok-1) | | 314B | | twitter | | MoE |
 |2024.3| [Command-R(Cohere)](https://txt.cohere.com/command-r/) |[HF](https://huggingface.co/CohereForAI/c4ai-command-r-v01) | 35B | non commercial | || RAG capability |
