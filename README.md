@@ -28,12 +28,12 @@ Keeping up with the latest LLMs !
 
 ## English-centric
 
-
-|When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
+| When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
-|2024.3| [Command-R+(Cohere)](https://txt.cohere.com/command-r/) |[HF](https://huggingface.co/CohereForAI/c4ai-command-r-plus) | 104B | non commercial | || RAG capability |
+|2024.4| [Command-R+(Cohere)](https://txt.cohere.com/command-r/) |[HF](https://huggingface.co/CohereForAI/c4ai-command-r-plus) | 104B | non commercial | || RAG capability |
 |2024.4| [DBRX(Databricks)]() |[HF](https://huggingface.co/databricks/dbrx-instruct) | 132B | databricks | || MoE |
 |2024.3| [Grok-1](https://github.com/xai-org/grok-1) | | 314B | | twitter | | MoE |
+|2024.3| [BTX(Meta)](https://arxiv.org/pdf/2403.07816.pdf)|||||| MoE |
 |2024.3| [Command-R(Cohere)](https://txt.cohere.com/command-r/) |[HF](https://huggingface.co/CohereForAI/c4ai-command-r-v01) | 35B | non commercial | || RAG capability |
 |2024.2| [Aya(Cohere)](https://cohere.com/research/aya?ref=txt.cohere.com) |[HF](https://huggingface.co/CohereForAI/aya-101) | 13B | apache-2.0 | || multilingual |
 |2024.2| [Gemma(Google)](https://blog.google/technology/developers/gemma-open-models/) | | 8.5B | || |application open for reseachers |
@@ -62,8 +62,9 @@ Keeping up with the latest LLMs !
 
 ## Japanese-centric
 
-|When? | Name |  HF?  | Size | License | pretraining | finetuning | misc.|
+| When? | Name |  HF?  | Size | License | pretraining | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2024.3| [EvoLLM-JP]() | [HF](https://huggingface.co/SakanaAI/EvoLLM-JP-v1-7B) | 7B | MSR(non-commecial) | | | |
 |2024.3| [RakutenAI]() | [HF](https://huggingface.co/Rakuten/RakutenAI-7B) | 7B | apache-2.0 | Mistral | |  |
 |2024.3| [Swallow-MX(東工大)]() | [HF](https://huggingface.co/tokyotech-llm/Swallow-MX-8x7b-NVE-v0.1) | 8x7B | | Mixtralベース |
 |2024.2| [KARAKURI](https://karakuri.ai/seminar/news/karakuri-lm/) | [HF](https://huggingface.co/karakuri-ai/karakuri-lm-70b-v0.1) | 70B | cc-by-sa-4.0 | Llama2-70Bベース | | [note](https://note.com/ngc_shj/n/n46ced665b378?sub_rt=share_h)|
