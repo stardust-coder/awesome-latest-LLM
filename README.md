@@ -30,7 +30,8 @@ Keeping up with the latest LLMs !
 
 | When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
-|2024.4| [Mixtral-8x22B(Mistral)](v) |[HF](https://huggingface.co/CohereForAI/c4ai-command-r-plus) | 8x22B | apache-2.0 | || MoE |
+|2024.4| [Wizart-8x22B(Microsoft)]() |[HF](https://huggingface.co/microsoft/WizardLM-2-8x22B) | 8x22B | apache-2.0 | || MoE |
+|2024.4| [Mixtral-8x22B(Mistral)]() |[HF](https://huggingface.co/mistral-community/Mixtral-8x22B-v0.1) | 8x22B | apache-2.0 | || MoE |
 |2024.4| [Command-R+(Cohere)](https://txt.cohere.com/command-r/) |[HF](https://huggingface.co/CohereForAI/c4ai-command-r-plus) | 104B | non commercial | || RAG capability |
 |2024.4| [DBRX(Databricks)]() |[HF](https://huggingface.co/databricks/dbrx-instruct) | 132B | databricks | || MoE |
 |2024.3| [Grok-1](https://github.com/xai-org/grok-1) | | 314B | | twitter | | MoE |
