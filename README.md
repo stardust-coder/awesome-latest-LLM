@@ -3,13 +3,15 @@
 Keeping up with the latest LLMs !
 
 **NEWS**
-- 2024.4 🔥MicrosoftからPhi-3がリリース!まずは3.8B！Phiの後継モデル.
-- 2024.4 🔥MetaからLlama3がリリース!まずは8Bと70B!
-- 2024.4 🔥CohereからCommand-R+がリリース!研究用に重みも公開.
-- 2024.4 🔥Databricksより132BのMoEモデルが公開されました！大きい！
+- 2024.5 🔥Stockmarkから100Bの日本語モデルがリリース!さすがGENIAC
+
 <details>
 
 <summary>History</summary>
+
+- 2024.4 🔥MetaからLlama3がリリース!まずは8Bと70B!
+- 2024.4 🔥CohereからCommand-R+がリリース!研究用に重みも公開.
+- 2024.4 🔥Databricksより132BのMoEモデルが公開されました！大きい！
 - 2024.3 Cohereからプロダクション向けCommand-Rがリリース!研究用に重みも公開.
 - 2024.3 ELYZAからLlama2の追加学習日本語モデルのデモがリリースされました！
 - 2024.3 東工大からMixtralの追加学習日本語モデル[Swallow-MX](), [Swallow-MS]()がリリースされました！👏
@@ -68,8 +70,10 @@ Keeping up with the latest LLMs !
 
 ## Japanese-centric
 
+
 | When? | Name |  HF?  | Size | License | pretraining | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2024.5| [Stockmark-100B]() | [HF](stockmark/stockmark-100b) | 100B | MIT |  | | |
 |2024.3| [youko(rinna)]() | [HF](https://huggingface.co/rinna/llama-3-youko-8b) | 8B | Llama3 | Llama3 | | |
 |2024.3| [suzume]() | [HF]() | 8B | Llama3 | Llama3 | | |
 |2024.3| [EvoLLM-JP]() | [HF](https://huggingface.co/SakanaAI/EvoLLM-JP-v1-7B) | 7B | MSR(non-commercial) | | | |
