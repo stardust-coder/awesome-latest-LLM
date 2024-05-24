@@ -3,6 +3,7 @@
 Keeping up with the latest LLMs !
 
 **NEWS**
+- 2024.5 🔥MicrosoftからPhi-3シリーズが登場！
 - 2024.5 🔥Stockmarkから100Bの日本語モデルがリリース!さすがGENIAC
 
 <details>
@@ -34,7 +35,7 @@ Keeping up with the latest LLMs !
 
 | When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
-|2024.4| [Phi-3(Microsoft)]() |[HF]() | 3.8B | []() | ||  |
+|2024.4| [Phi-3(Microsoft)](https://arxiv.org/abs/2404.14219) |[HF](microsoft/Phi-3-medium-128k-instruct) | 3.8B, 13B | MIT |  Phi-3 datasets | - |  |
 |2024.4| [Llama 3(Meta)](https://llama.meta.com/llama3/) |[HF](https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct) | 70B | [META LLAMA3](https://llama.meta.com/llama3/license/) | || [extended to 120B](https://huggingface.co/mlabonne/Meta-Llama-3-120B-Instruct) |
 |2024.4| [Wizart-8x22B(Microsoft)]() |[HF](https://huggingface.co/microsoft/WizardLM-2-8x22B) | 8x22B | apache-2.0 | [Mixtral-8x22B(Mistral)](https://mistral.ai/news/mixtral-8x22b/) | | MoE, closed now |
 |2024.4| [Mixtral-8x22B(Mistral)](https://mistral.ai/news/mixtral-8x22b/) |[HF](https://huggingface.co/mistral-community/Mixtral-8x22B-v0.1) | 8x22B | apache-2.0 | || MoE |
@@ -75,7 +76,6 @@ Keeping up with the latest LLMs !
 |---|---|---|---|---|---|---|---|
 |2024.5| [Stockmark-100B]() | [HF](stockmark/stockmark-100b) | 100B | MIT |  | | |
 |2024.3| [youko(rinna)]() | [HF](https://huggingface.co/rinna/llama-3-youko-8b) | 8B | Llama3 | Llama3 | | |
-|2024.3| [suzume]() | [HF]() | 8B | Llama3 | Llama3 | | |
 |2024.3| [EvoLLM-JP]() | [HF](https://huggingface.co/SakanaAI/EvoLLM-JP-v1-7B) | 7B | MSR(non-commercial) | | | |
 |2024.3| [RakutenAI]() | [HF](https://huggingface.co/Rakuten/RakutenAI-7B) | 7B | apache-2.0 | Mistral | |  |
 |2024.3| [Swallow-MX(東工大)]() | [HF](https://huggingface.co/tokyotech-llm/Swallow-MX-8x7b-NVE-v0.1) | 8x7B | | Mixtralベース |
