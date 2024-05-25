@@ -96,8 +96,9 @@ See more on [awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-ll
 ## Model
 |When? | Name |  HF?  | Size | License | pretraining | finetuning/continual | test | misc.|
 |---|---|---|---|---|---|---|---|---|
-|2024.4| [OpenBioLLM-70B]() | [HF](https://huggingface.co/aaditya/Llama3-OpenBioLLM-70B) | ? | - |  | | |  | SOTA? |
-|2024.4| [Med-Gemini](https://arxiv.org/pdf/2404.18416) | closed | ? | - | Gemini | | |  | |
+|2024.4| [Meditron(EPFL)](https://www.meditron.io) | - | 8B | - | Llama3 |  | MedQA, MedMCQA, PubmedQA | SOTA |
+|2024.4| [OpenBioLLM-70B]() | [HF](https://huggingface.co/aaditya/Llama3-OpenBioLLM-70B) | ? | - |  | |  | SOTA |
+|2024.4| [Med-Gemini](https://arxiv.org/pdf/2404.18416) | closed | ? | - | Gemini | | |multimodal|
 |2024.4| [Hippocrates](https://cyberiada.github.io/Hippocrates/) | [HF]() | 7B | |  | | |  | |
 |2024.3| [AdaptLLM(Microsoft Research)](https://github.com/microsoft/LMOps/tree/main/adaptllm) | [HF](https://huggingface.co/AdaptLLM/medicine-LLM-13B) | 7B, 13B | | reading comprehensive corpora | | |  | ICLR2024 |
 |2024.3| [Apollo](https://github.com/FreedomIntelligence/Apollo) | [HF](https://huggingface.co/FreedomIntelligence/Apollo-7B) | ~7B | | | | |  | multilingual |
@@ -124,17 +125,9 @@ See also [Awesome-Healthcare-Foundation-Models](https://github.com/Jianing-Qiu/A
 
 ## Evaluation
 
-| How? | Who? | example works | form of output | example datasets | 
-|---|---|---|---|---|
-| Medical Doctor | | [Med-Flamingo](), [Med-PaLM]() | | |
-| BERT similarity score | [Zhang et al.]() | [Med-Flamingo]() | text generation | |
-| Exact match (modulo puncutuation) | | [Med-Flamingo]() | short text generation | VQA-RAD | 
-| Exact match | [JMedLoRA(UTokyo)](https://arxiv.org/abs/2310.10083) | [JMedLoRA(UTokyo)](https://arxiv.org/abs/2310.10083) | multiple choice question | IgakuQA | 
-| Gestalt score | [JMedLoRA(UTokyo)](https://arxiv.org/abs/2310.10083) | [JMedLoRA(UTokyo)](https://arxiv.org/abs/2310.10083) | multiple choice question | IgakuQA | 
-| Accuracy | [JMedLoRA(UTokyo)](https://arxiv.org/abs/2310.10083) | [JMedLoRA(UTokyo)](https://arxiv.org/abs/2310.10083) | multiple choice question | IgakuQA | 
-
 - [MIRAGE Leaderboard](https://teddy-xionggz.github.io/MIRAGE/)
 - [Japanese Medical Language Model Evaluation Harness](https://github.com/stardust-coder/japanese-lm-med-harness)
+- [Open Medical LLM leaderboard](https://huggingface.co/blog/leaderboard-medicalllm)
 
 ## Dataset
 
