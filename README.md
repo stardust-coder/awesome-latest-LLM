@@ -96,6 +96,7 @@ See more on [awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-ll
 ## Model
 |When? | Name |  HF?  | Size | License | pretraining | finetuning/continual | test | misc.|
 |---|---|---|---|---|---|---|---|---|
+|2024.5| medX(JiviAI) | [HF](https://huggingface.co/jiviai/medX_v1) | 8B | Apache-2.0 | Llama3 |  100,000+ data, [ORPO](https://huggingface.co/blog/mlabonne/orpo-llama-3) |  |  |
 |2024.4| [Meditron(EPFL)](https://www.meditron.io) | - | 8B | - | Llama3 |  | MedQA, MedMCQA, PubmedQA | SOTA |
 |2024.4| [OpenBioLLM-70B]() | [HF](https://huggingface.co/aaditya/Llama3-OpenBioLLM-70B) | ? | - |  | |  | SOTA |
 |2024.4| [Med-Gemini](https://arxiv.org/pdf/2404.18416) | closed | ? | - | Gemini | | |multimodal|
@@ -121,13 +122,12 @@ See more on [awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-ll
 
 See also [Awesome-Healthcare-Foundation-Models](https://github.com/Jianing-Qiu/Awesome-Healthcare-Foundation-Models) and [MedLLMsPracticalGuide](https://github.com/AI-in-Health/MedLLMsPracticalGuide).
 
-[医療ドメイン特化LLMの性能はどうやって評価する？](https://zenn.dev/hellorusk/articles/04a29974138c7b)
 
 ## Evaluation
-
+- [医療ドメイン特化LLMの性能はどうやって評価する？](https://zenn.dev/hellorusk/articles/04a29974138c7b)
 - [MIRAGE Leaderboard](https://teddy-xionggz.github.io/MIRAGE/)
 - [Japanese Medical Language Model Evaluation Harness](https://github.com/stardust-coder/japanese-lm-med-harness)
-- [Open Medical LLM leaderboard](https://huggingface.co/blog/leaderboard-medicalllm)
+- [Open Medical LLM leaderboard](https://huggingface.co/blog/leaderboard-medicalllm), [leaderboard](https://huggingface.co/spaces/openlifescienceai/open_medical_llm_leaderboard)
 
 ## Dataset
 
