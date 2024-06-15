@@ -3,7 +3,7 @@
 Keeping up with the latest LLMs !
 
 **NEWS**
-- 2024.5 🔥QWen2シリーズが登場！日本語も優秀！
+- 2024.6 🔥QWen2シリーズが登場！日本語も優秀！
 - 2024.5 🔥MicrosoftからPhi-3シリーズが登場！
 - 2024.5 🔥Stockmarkから100Bの日本語モデルがリリース!さすがGENIAC
 
@@ -36,7 +36,8 @@ Keeping up with the latest LLMs !
 
 | When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
-|2024.5| [QWen2]() |[HF](https://huggingface.co/Qwen/Qwen2-72B) | 7~72B | tongyi-qianwen | - | - |  |
+|2024.6| [Nemotron(NVIDIA)]() |[HF](https://huggingface.co/nvidia/Nemotron-4-340B-Instruct) | 340B |  | - | - |  |
+|2024.6| [QWen2(Alibaba)]() |[HF](https://huggingface.co/Qwen/Qwen2-72B) | 7~72B | tongyi-qianwen | - | - |  |
 |2024.4| [Phi-3(Microsoft)](https://arxiv.org/abs/2404.14219) |[HF](microsoft/Phi-3-medium-128k-instruct) | 3.8B, 13B | MIT |  Phi-3 datasets | - |  |
 |2024.4| [Llama 3(Meta)](https://llama.meta.com/llama3/) |[HF](https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct) | 70B | [META LLAMA3](https://llama.meta.com/llama3/license/) | || [extended to 120B](https://huggingface.co/mlabonne/Meta-Llama-3-120B-Instruct) |
 |2024.4| [Wizart-8x22B(Microsoft)]() |[HF](https://huggingface.co/microsoft/WizardLM-2-8x22B) | 8x22B | apache-2.0 | [Mixtral-8x22B(Mistral)](https://mistral.ai/news/mixtral-8x22b/) | | MoE, closed now |
@@ -98,6 +99,7 @@ See more on [awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-ll
 ## Model
 |When? | Name |  HF?  | Size | License | pretraining | finetuning/continual | test | misc.|
 |---|---|---|---|---|---|---|---|---|
+|2024.5| [MMed-LLama3-8B(上海交通大学)](https://github.com/MAGIC-AI4Med/MMedLM) | [HF](https://huggingface.co/Henrychur/MMed-Llama-3-8B) | 8B | cc-by-sa | Llama3 |   |  |  |
 |2024.5| [medX(JiviAI)]() | [HF](https://huggingface.co/jiviai/medX_v1) | 8B | Apache-2.0 | Llama3 |  100,000+ data, [ORPO](https://huggingface.co/blog/mlabonne/orpo-llama-3) |  |  |
 |2024.4| [Meditron(EPFL)](https://www.meditron.io) | - | 8B | - | Llama3 |  | MedQA, MedMCQA, PubmedQA | SOTA |
 |2024.4| [OpenBioLLM-70B]() | [HF](https://huggingface.co/aaditya/Llama3-OpenBioLLM-70B) | ? | - |  | |  | SOTA |
