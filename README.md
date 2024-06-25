@@ -3,6 +3,7 @@
 Keeping up with the latest LLMs !
 
 **NEWS**
+- 2024.6 🔥NVIDIAが340Bの巨大モデルを公開！publicにしては最大級
 - 2024.6 🔥QWen2シリーズが登場！日本語も優秀！
 - 2024.5 🔥MicrosoftからPhi-3シリーズが登場！
 - 2024.5 🔥Stockmarkから100Bの日本語モデルがリリース!さすがGENIAC
@@ -136,15 +137,17 @@ See also [Awesome-Healthcare-Foundation-Models](https://github.com/Jianing-Qiu/A
 ## Dataset
 
 Only Text
-- [MedQA](https://github.com/jind11/MedQA) （USMLE）
+- [MedQA (USMLE)](https://github.com/jind11/MedQA) 
 - [MedMCQA](https://arxiv.org/abs/2203.14371)
 - [PubMedQA](https://arxiv.org/abs/1909.06146)
-- MMLU-Medical : extracted from [MMLU](https://github.com/hendrycks/test)
 - [PubHealth](https://github.com/neemakot/Health-Fact-Checking)
+- [MMLU](https://github.com/hendrycks/test) : includes medicine and other related fields(clinical topics covering clinical knowledge,
+college biology, college medicine, medical genetics, professional medicine and anatomy)
 - [JMMLU](https://github.com/nlp-waseda/JMMLU) : Japanese-translated version of MMLU
 - [IgakuQA（Japanese National Medical License Exam）](https://github.com/jungokasai/IgakuQA)
 - [J-ResearchCorpus](https://huggingface.co/datasets/kunishou/J-ResearchCorpus)
 - [Apollo Corpus JP](https://huggingface.co/datasets/kunishou/ApolloCorpus-ja)
+- HeadQA : Spanish healthcare system
 
 Image + Text
 - MTB: chopped cleaned text and images collected from 4721 textbooks.
