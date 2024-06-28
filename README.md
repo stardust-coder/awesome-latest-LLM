@@ -3,15 +3,17 @@
 Keeping up with the latest LLMs !
 
 **NEWS**
+- 2024.6 🔥Googleから27BのGemma2が公開！何が強みか教えて！
 - 2024.6 🔥NVIDIAが340Bの巨大モデルを公開！publicにしては最大級
 - 2024.6 🔥QWen2シリーズが登場！日本語も優秀！
-- 2024.5 🔥MicrosoftからPhi-3シリーズが登場！
-- 2024.5 🔥Stockmarkから100Bの日本語モデルがリリース!さすがGENIAC
+
 
 <details>
 
 <summary>History</summary>
 
+- 2024.5 🔥MicrosoftからPhi-3シリーズが登場！
+- 2024.5 🔥Stockmarkから100Bの日本語モデルがリリース!さすがGENIAC
 - 2024.4 🔥MetaからLlama3がリリース!まずは8Bと70B!
 - 2024.4 🔥CohereからCommand-R+がリリース!研究用に重みも公開.
 - 2024.4 🔥Databricksより132BのMoEモデルが公開されました！大きい！
@@ -37,6 +39,7 @@ Keeping up with the latest LLMs !
 
 | When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2024.6| [Gemma2(Google)]() |[HF](https://huggingface.co/collections/google/gemma-2-release-667d6600fd5220e7b967f315) | 27B | gemma |  |  |  |
 |2024.6| [Nemotron(NVIDIA)]() |[HF](https://huggingface.co/nvidia/Nemotron-4-340B-Instruct) | 340B |  | - | - |  |
 |2024.6| [QWen2(Alibaba)]() |[HF](https://huggingface.co/Qwen/Qwen2-72B) | 7~72B | tongyi-qianwen | - | - |  |
 |2024.4| [Phi-3(Microsoft)](https://arxiv.org/abs/2404.14219) |[HF](microsoft/Phi-3-medium-128k-instruct) | 3.8B, 13B | MIT |  Phi-3 datasets | - |  |
