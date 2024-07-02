@@ -3,15 +3,18 @@
 Keeping up with the latest LLMs !
 
 **NEWS**
-- 2024.6 🔥Googleから27BのGemma2が公開！何が強みか教えて！
-- 2024.6 🔥NVIDIAが340Bの巨大モデルを公開！publicにしては最大級
-- 2024.6 🔥QWen2シリーズが登場！日本語も優秀！
+- 2024.7 🔥東工大からLlama3の日本語継続学習モデルが発表！
+
 
 
 <details>
 
 <summary>History</summary>
 
+- 2024.6 🔥ELYZAからLlama3の日本語継続学習モデルが発表！
+- 2024.6 🔥Googleから27BのGemma2が公開！何が強みか教えて！
+- 2024.6 🔥NVIDIAが340Bの巨大モデルを公開！publicにしては最大級
+- 2024.6 🔥QWen2シリーズが登場！日本語も優秀！
 - 2024.5 🔥MicrosoftからPhi-3シリーズが登場！
 - 2024.5 🔥Stockmarkから100Bの日本語モデルがリリース!さすがGENIAC
 - 2024.4 🔥MetaからLlama3がリリース!まずは8Bと70B!
@@ -78,24 +81,23 @@ Keeping up with the latest LLMs !
 
 ## Japanese-centric
 
-
 | When? | Name |  HF?  | Size | License | pretraining | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2024.7| [LLama3-Swallow]() | [HF](https://huggingface.co/tokyotech-llm/Llama-3-Swallow-70B-Instruct-v0.1) | 70B | Llama3 | Llama3  | |  |
 |2024.6| [LLama3ELYZA-JP-8B](https://elyza.ai/news/2024/06/26/elyza-llm-for-jp%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA%E3%81%AE%E6%9C%80%E6%96%B0%E3%83%A2%E3%83%87%E3%83%ABllam) | [HF](https://huggingface.co/elyza/Llama-3-ELYZA-JP-8B) | 8B | Llama3 | Llama3  | | 70B not open |
 |2024.6| [KARAKURI LM 8x7B](https://karakuri.ai/seminar/news/karakuri-lm-8x7b-instruct-v0-1/) | [HF](karakuri-ai/karakuri-lm-8x7b-chat-v0.1) | 8x7B | Apache-2.0 |  | | MoE |
 |2024.5| [Stockmark-100B]() | [HF](stockmark/stockmark-100b) | 100B | MIT |  | | |
 |2024.3| [youko(rinna)]() | [HF](https://huggingface.co/rinna/llama-3-youko-8b) | 8B | Llama3 | Llama3 | | |
 |2024.3| [EvoLLM-JP]() | [HF](https://huggingface.co/SakanaAI/EvoLLM-JP-v1-7B) | 7B | MSR(non-commercial) | | | |
-|2024.3| [RakutenAI]() | [HF](https://huggingface.co/Rakuten/RakutenAI-7B) | 7B | apache-2.0 | Mistral | |  |
 |2024.3| [Swallow-MX(東工大)]() | [HF](https://huggingface.co/tokyotech-llm/Swallow-MX-8x7b-NVE-v0.1) | 8x7B | | Mixtralベース |
-|2024.2| [KARAKURI](https://karakuri.ai/seminar/news/karakuri-lm/) | [HF](https://huggingface.co/karakuri-ai/karakuri-lm-70b-v0.1) | 70B | cc-by-sa-4.0 | Llama2-70Bベース | | [note](https://note.com/ngc_shj/n/n46ced665b378?sub_rt=share_h)|
+|2024.2| [KARAKURI 70B](https://karakuri.ai/seminar/news/karakuri-lm/) | [HF](https://huggingface.co/karakuri-ai/karakuri-lm-70b-v0.1) | 70B | cc-by-sa-4.0 | Llama2-70Bベース | | [note](https://note.com/ngc_shj/n/n46ced665b378?sub_rt=share_h)|
 |2023.12| [ELYZA-japanese-Llama-2-13b](https://note.com/elyza/n/n5d42686b60b7) | [HF](https://huggingface.co/elyza/ELYZA-japanese-Llama-2-13b) | 13B | | Llama-2-13b-chatベース |
 |2023.12| [Swallow(東工大)](https://tokyotech-llm.github.io) | [HF](https://huggingface.co/tokyotech-llm) | 70B | | Llama2-70Bベース |
 |2023.11| [StableLM(StabilityAI)](https://ja.stability.ai/blog/japanese-stable-lm-beta) | [HF](https://huggingface.co/stabilityai/japanese-stablelm-base-beta-70b) | 70B | | Llama2-70Bベース |
 |2023.10| [LLM-jp](https://llm-jp.nii.ac.jp/blog/2024/02/09/v1.1-tuning.html) | [HF](https://huggingface.co/llm-jp) | 13B | DPO追加あり |
 || [name]() | [HF]() | | ||||
 
-See more on [awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-llm)
+See more on [awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-llm) and [日本語LLM評価](https://swallow-llm.github.io/evaluation/about.ja.html)
 
 
 --- 
