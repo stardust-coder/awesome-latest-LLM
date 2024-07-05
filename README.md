@@ -141,6 +141,7 @@ See also [Awesome-Healthcare-Foundation-Models](https://github.com/Jianing-Qiu/A
 - [Japanese Medical Language Model Evaluation Harness](https://github.com/stardust-coder/japanese-lm-med-harness)
 - [Open Medical LLM leaderboard](https://huggingface.co/blog/leaderboard-medicalllm), [leaderboard](https://huggingface.co/spaces/openlifescienceai/open_medical_llm_leaderboard)
 - [MMedBench](https://github.com/MAGIC-AI4Med/MMedLM)
+- [MedEval](https://arxiv.org/pdf/2310.14088)
 
 ## Dataset
 
@@ -156,6 +157,7 @@ college biology, college medicine, medical genetics, professional medicine and a
 - [J-ResearchCorpus](https://huggingface.co/datasets/kunishou/J-ResearchCorpus)
 - [Apollo Corpus JP](https://huggingface.co/datasets/kunishou/ApolloCorpus-ja)
 - HeadQA : Spanish healthcare system
+- [K-Q&A](https://github.com/Itaymanes/K-QA)
 
 Image + Text
 - MTB: chopped cleaned text and images collected from 4721 textbooks.
