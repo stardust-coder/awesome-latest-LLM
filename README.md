@@ -42,7 +42,7 @@ Keeping up with the latest LLMs !
 
 | When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
-|2024.6| [Gemma2(Google)]() |[HF](https://huggingface.co/collections/google/gemma-2-release-667d6600fd5220e7b967f315) | 27B | gemma |  |  |  |
+|2024.6| [Gemma2(Google)]() |[HF](https://huggingface.co/collections/google/gemma-2-release-667d6600fd5220e7b967f315) | 9B, 27B | gemma |  |  |  |
 |2024.6| [Nemotron(NVIDIA)]() |[HF](https://huggingface.co/nvidia/Nemotron-4-340B-Instruct) | 340B |  | - | - |  |
 |2024.6| [QWen2(Alibaba)]() |[HF](https://huggingface.co/Qwen/Qwen2-72B) | 7~72B | tongyi-qianwen | - | - |  |
 |2024.4| [Phi-3(Microsoft)](https://arxiv.org/abs/2404.14219) |[HF](microsoft/Phi-3-medium-128k-instruct) | 3.8B, 13B | MIT |  Phi-3 datasets | - |  |
@@ -104,9 +104,13 @@ See more on [awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-ll
 
 # Medical-Adaptation 
 
+
 ## Model
 |When? | Name |  HF?  | Size | License | pretraining | finetuning/continual | test | misc.|
 |---|---|---|---|---|---|---|---|---|
+|2024.7| [Llama3-Preferred-MedSwallow]() | [HF](https://huggingface.co/pfnet/Llama3-Preferred-MedSwallow-70B) | 70B | Llama3 | Llama3 |   |  | japanese |
+|2024.7| [JMedLLM-v1]() | [HF](https://huggingface.co/stardust-coder/jmedllm-7b-v1) | 7B | qwen | Qwen2 |   |  | japanese |
+|2024.6| [MedSwallow]() | [HF](https://huggingface.co/AIgroup-CVM-utokyohospital/MedSwallow-70b) | 70B | cc-by-nc-sa | Swallow |   |  | japanese |
 |2024.5| [MMed-LLama3-8B(上海交通大学)](https://github.com/MAGIC-AI4Med/MMedLM) | [HF](https://huggingface.co/Henrychur/MMed-Llama-3-8B) | 8B | cc-by-sa | Llama3 |   |  |  |
 |2024.5| [medX(JiviAI)]() | [HF](https://huggingface.co/jiviai/medX_v1) | 8B | Apache-2.0 | Llama3 |  100,000+ data, [ORPO](https://huggingface.co/blog/mlabonne/orpo-llama-3) |  |  |
 |2024.4| [Meditron(EPFL)](https://www.meditron.io) | - | 8B | - | Llama3 |  | MedQA, MedMCQA, PubmedQA | SOTA |
