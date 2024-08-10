@@ -109,10 +109,12 @@ See more on [awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-ll
 |When? | Name |  HF?  | Size | License | pretraining | finetuning/continual | test | misc.|
 |---|---|---|---|---|---|---|---|---|
 |2024.7| [Llama3-Preferred-MedSwallow]() | [HF](https://huggingface.co/pfnet/Llama3-Preferred-MedSwallow-70B) | 70B | Llama3 | Llama3 |   |  | japanese |
+|2024.7| [Med42-v2]() | [HF](https://huggingface.co/m42-health/Llama3-Med42-70B) | 8,70B | Llama3 | llama3 |  ~1B tokens, including medical flashcards, exam questions, and open-domain dialogues. |  | |
 |2024.7| [JMedLLM-v1]() | [HF](https://huggingface.co/stardust-coder/jmedllm-7b-v1) | 7B | qwen | Qwen2 |   |  | japanese |
 |2024.6| [MedSwallow]() | [HF](https://huggingface.co/AIgroup-CVM-utokyohospital/MedSwallow-70b) | 70B | cc-by-nc-sa | Swallow |   |  | japanese |
 |2024.5| [MMed-LLama3-8B(上海交通大学)](https://github.com/MAGIC-AI4Med/MMedLM) | [HF](https://huggingface.co/Henrychur/MMed-Llama-3-8B) | 8B | cc-by-sa | Llama3 |   |  |  |
 |2024.5| [medX(JiviAI)]() | [HF](https://huggingface.co/jiviai/medX_v1) | 8B | Apache-2.0 | Llama3 |  100,000+ data, [ORPO](https://huggingface.co/blog/mlabonne/orpo-llama-3) |  |  |
+|2024.4| [UltraMedical(TsinghuaC3I)](https://arxiv.org/html/2406.03949v1) | [HF](https://huggingface.co/TsinghuaC3I) | 8B | - | Llama3 |  | | |
 |2024.4| [Meditron(EPFL)](https://www.meditron.io) | - | 8B | - | Llama3 |  | MedQA, MedMCQA, PubmedQA | SOTA |
 |2024.4| [OpenBioLLM-70B]() | [HF](https://huggingface.co/aaditya/Llama3-OpenBioLLM-70B) | ? | - |  | |  | SOTA |
 |2024.4| [Med-Gemini(Google)](https://arxiv.org/pdf/2404.18416) | closed | ? | - | Gemini | | |multimodal|
@@ -136,7 +138,10 @@ See more on [awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-ll
 |2022.12| [Med-PaLM(Google)](https://arxiv.org/abs/2212.13138) | not open | 540B| - | PaLM | | | |
 || [name]() | [HF]() | | |
 
-See also [Awesome-Healthcare-Foundation-Models](https://github.com/Jianing-Qiu/Awesome-Healthcare-Foundation-Models) and [MedLLMsPracticalGuide](https://github.com/AI-in-Health/MedLLMsPracticalGuide).
+See also 
+- [Awesome-Healthcare-Foundation-Models](https://github.com/Jianing-Qiu/Awesome-Healthcare-Foundation-Models)
+- [MedLLMsPracticalGuide](https://github.com/AI-in-Health/MedLLMsPracticalGuide).
+- [医療分野に特化したLLM紹介](https://speakerdeck.com/stardust11)
 
 
 ## Evaluation
@@ -148,6 +153,8 @@ See also [Awesome-Healthcare-Foundation-Models](https://github.com/Jianing-Qiu/A
 - [MedEval](https://arxiv.org/pdf/2310.14088)
 
 ## Dataset
+
+For Japanese medical dataset, see [JMedData4LLM](https://github.com/stardust-coder/jmed-data-for-llm).
 
 Only Text
 - [MedQA (USMLE)](https://github.com/jind11/MedQA) 
