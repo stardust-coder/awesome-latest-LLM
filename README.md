@@ -3,14 +3,12 @@
 Keeping up with the latest LLMs !
 
 **NEWS**
-- 2024.7 🔥東工大からLlama3の日本語継続学習モデルが発表！
-
-
+- 
 
 <details>
 
 <summary>History</summary>
-
+- 2024.7 🔥東工大からLlama3の日本語継続学習モデルが発表！
 - 2024.6 🔥ELYZAからLlama3の日本語継続学習モデルが発表！
 - 2024.6 🔥Googleから27BのGemma2が公開！何が強みか教えて！
 - 2024.6 🔥NVIDIAが340Bの巨大モデルを公開！publicにしては最大級
@@ -108,6 +106,7 @@ See more on [awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-ll
 ## Model
 |When? | Name |  HF?  | Size | License | pretraining | finetuning/continual | test | misc.|
 |---|---|---|---|---|---|---|---|---|
+|2024.7| [MedLlama3-JP(EQUES)]() | [HF](https://huggingface.co/EQUES/MedLLama3-JP-v2) | 8B | Llama3 | Llama3 |   |  | japanese, merge model|
 |2024.7| [Llama3-Preferred-MedSwallow]() | [HF](https://huggingface.co/pfnet/Llama3-Preferred-MedSwallow-70B) | 70B | Llama3 | Llama3 |   |  | japanese |
 |2024.7| [Med42-v2]() | [HF](https://huggingface.co/m42-health/Llama3-Med42-70B) | 8,70B | Llama3 | llama3 |  ~1B tokens, including medical flashcards, exam questions, and open-domain dialogues. |  | |
 |2024.7| [JMedLLM-v1]() | [HF](https://huggingface.co/stardust-coder/jmedllm-7b-v1) | 7B | qwen | Qwen2 |   |  | japanese |
