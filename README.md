@@ -40,9 +40,11 @@ Keeping up with the latest LLMs !
 
 | When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
-|2024.6| [Gemma2(Google)]() |[HF](https://huggingface.co/collections/google/gemma-2-release-667d6600fd5220e7b967f315) | 9B, 27B | gemma |  |  |  |
+|2024.7| [Reflection]() |[HF](https://huggingface.co/mattshumer/Reflection-Llama-3.1-70B) | 70B | Llama3.1 | Llama 3.1 | synthetic data (Glaive) |  |
+|2024.7| [Llama3.1(Meta)]() |[HF]() | 70B, 405B | Llama3.1 |  |  |  |
+|2024.6| [Gemma2(Google)]() |[HF](https://huggingface.co/collections/google/gemma-2-release-667d6600fd5220e7b967f315) | 2B, 9B, 27B | gemma |  |  |  |
 |2024.6| [Nemotron(NVIDIA)]() |[HF](https://huggingface.co/nvidia/Nemotron-4-340B-Instruct) | 340B |  | - | - |  |
-|2024.6| [QWen2(Alibaba)]() |[HF](https://huggingface.co/Qwen/Qwen2-72B) | 7~72B | tongyi-qianwen | - | - |  |
+|2024.6| [Qwen2(Alibaba)]() |[HF](https://huggingface.co/Qwen/Qwen2-72B) | 7~72B | tongyi-qianwen | - | - |  |
 |2024.4| [Phi-3(Microsoft)](https://arxiv.org/abs/2404.14219) |[HF](microsoft/Phi-3-medium-128k-instruct) | 3.8B, 13B | MIT |  Phi-3 datasets | - |  |
 |2024.4| [Llama 3(Meta)](https://llama.meta.com/llama3/) |[HF](https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct) | 70B | [META LLAMA3](https://llama.meta.com/llama3/license/) | || [extended to 120B](https://huggingface.co/mlabonne/Meta-Llama-3-120B-Instruct) |
 |2024.4| [Wizart-8x22B(Microsoft)]() |[HF](https://huggingface.co/microsoft/WizardLM-2-8x22B) | 8x22B | apache-2.0 | [Mixtral-8x22B(Mistral)](https://mistral.ai/news/mixtral-8x22b/) | | MoE, closed now |
@@ -81,6 +83,7 @@ Keeping up with the latest LLMs !
 
 | When? | Name |  HF?  | Size | License | pretraining | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2024.7| [Llama-3.1-70B-Japanese-Instruct-2407]() | [HF](https://huggingface.co/cyberagent/Llama-3.1-70B-Japanese-Instruct-2407) | 70B | Llama3.1 | Llama3.1  | |  |
 |2024.7| [LLama3-Swallow]() | [HF](https://huggingface.co/tokyotech-llm/Llama-3-Swallow-70B-Instruct-v0.1) | 70B | Llama3 | Llama3  | |  |
 |2024.6| [LLama3ELYZA-JP-8B](https://elyza.ai/news/2024/06/26/elyza-llm-for-jp%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA%E3%81%AE%E6%9C%80%E6%96%B0%E3%83%A2%E3%83%87%E3%83%ABllam) | [HF](https://huggingface.co/elyza/Llama-3-ELYZA-JP-8B) | 8B | Llama3 | Llama3  | | 70B not open |
 |2024.6| [KARAKURI LM 8x7B](https://karakuri.ai/seminar/news/karakuri-lm-8x7b-instruct-v0-1/) | [HF](karakuri-ai/karakuri-lm-8x7b-chat-v0.1) | 8x7B | Apache-2.0 |  | | MoE |
@@ -106,6 +109,7 @@ See more on [awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-ll
 ## Model
 |When? | Name |  HF?  | Size | License | pretraining | finetuning/continual | test | misc.|
 |---|---|---|---|---|---|---|---|---|
+|2024.8| [LLaVA-Med++](https://github.com/UCSC-VLAA/MedTrinity-25M) | [8B](https://huggingface.co/MBZUAI/LLaVA-Meta-Llama-3-8B-Instruct-FT-S2) | ? | MedTrinity-25M | VQA-RAD etc. |   |  | |
 |2024.7| [MedLlama3-JP(EQUES)]() | [HF](https://huggingface.co/EQUES/MedLLama3-JP-v2) | 8B | Llama3 | Llama3 |   |  | japanese, merge model|
 |2024.7| [Llama3-Preferred-MedSwallow]() | [HF](https://huggingface.co/pfnet/Llama3-Preferred-MedSwallow-70B) | 70B | Llama3 | Llama3 |   |  | japanese |
 |2024.7| [Med42-v2]() | [HF](https://huggingface.co/m42-health/Llama3-Med42-70B) | 8,70B | Llama3 | llama3 |  ~1B tokens, including medical flashcards, exam questions, and open-domain dialogues. |  | |
@@ -144,9 +148,8 @@ See also
 
 
 ## Evaluation
-- [医療ドメイン特化LLMの性能はどうやって評価する？](https://zenn.dev/hellorusk/articles/04a29974138c7b)
+
 - [MIRAGE Leaderboard](https://teddy-xionggz.github.io/MIRAGE/)
-- [Japanese Medical Language Model Evaluation Harness](https://github.com/stardust-coder/japanese-lm-med-harness)
 - [Open Medical LLM leaderboard](https://huggingface.co/blog/leaderboard-medicalllm), [leaderboard](https://huggingface.co/spaces/openlifescienceai/open_medical_llm_leaderboard)
 - [MMedBench](https://github.com/MAGIC-AI4Med/MMedLM)
 - [MedEval](https://arxiv.org/pdf/2310.14088)
@@ -155,35 +158,37 @@ See also
 
 For Japanese medical dataset, see [JMedData4LLM](https://github.com/stardust-coder/jmed-data-for-llm).
 
-Only Text
+### Only Text
 - [MedQA (USMLE)](https://github.com/jind11/MedQA) 
 - [MedMCQA](https://arxiv.org/abs/2203.14371)
 - [PubMedQA](https://arxiv.org/abs/1909.06146)
 - [PubHealth](https://github.com/neemakot/Health-Fact-Checking)
 - [MMLU](https://github.com/hendrycks/test) : includes medicine and other related fields(clinical topics covering clinical knowledge,
 college biology, college medicine, medical genetics, professional medicine and anatomy)
-- [JMMLU](https://github.com/nlp-waseda/JMMLU) : Japanese-translated version of MMLU
-- [IgakuQA（Japanese National Medical License Exam）](https://github.com/jungokasai/IgakuQA)
-- [J-ResearchCorpus](https://huggingface.co/datasets/kunishou/J-ResearchCorpus)
-- [Apollo Corpus JP](https://huggingface.co/datasets/kunishou/ApolloCorpus-ja)
 - HeadQA : Spanish healthcare system
 - [K-Q&A](https://github.com/Itaymanes/K-QA)
+- Clincal Case Challenges : NEHM dataset and JAMA dataset
+- MeDiSumQA : discharge summaries from the MIMIC-IV
+- MeDiSumCode : ICD-10 codes
+- MedNLI : MIMIC-III dataset, logical relationship between a premise and a hypothesis
+- MeQSum : summarizing health queries
+- LongHealth : 20 patient records, answer questions about them from a long document.
 
-Image + Text
+### Image + Text / Multimodal
 - MTB: chopped cleaned text and images collected from 4721 textbooks.
 - PMC-15M : the largest biomedical image-text dataset
 - PMC-OA : 1.6M image-caption pairs
 - [MedICaT](https://github.com/allenai/medicat): image, caption, textual reference
 - [VQA-RAD](https://osf.io/89kps/) : 3515 question–answer pairs on 315 radiology images.
 - SLAKE : bilingual dataset (English&Chinese) consisting of 642 images and 14,028 question-answer pairs
-- PathVQA : 
+- PathVQA : pathology image + caption
 - Visual USMLE : 618 USMLE-style QA
 - [MedVTE](https://github.com/ynklab/MedVTE): numeric understanding
 - [MedAlign(Stanford)](https://github.com/som-shahlab/medalign)
 - [MIMIC-ECG-IV](https://physionet.org/content/mimic-iv-ecg/) : ECG-caption dataset
 - [ECG-QA](https://github.com/Jwoo5/ecg-qa)
-
-Curations
+- [MedEval](https://github.com/ZexueHe/MedEval)
+- [MedTrinity](https://github.com/UCSC-VLAA/MedTrinity-25M)
 - [Clinical NLP 2023](https://clinical-nlp.github.io/2023/resources.html)
 
-See more on [He et al.(2023)](https://arxiv.org/pdf/2310.05694.pdf).
+See more on [He et al.(2023)](https://arxiv.org/pdf/2310.05694.pdf)
