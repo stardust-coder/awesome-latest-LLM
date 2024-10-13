@@ -153,12 +153,15 @@ See also
 - [Open Medical LLM leaderboard](https://huggingface.co/blog/leaderboard-medicalllm), [leaderboard](https://huggingface.co/spaces/openlifescienceai/open_medical_llm_leaderboard)
 - [MMedBench](https://github.com/MAGIC-AI4Med/MMedLM)
 - [MedEval](https://arxiv.org/pdf/2310.14088)
+- [MEDIC](https://arxiv.org/pdf/2409.07314)
 
 ## Dataset
 
 For Japanese medical dataset, see [JMedData4LLM](https://github.com/stardust-coder/jmed-data-for-llm).
 
 ### Only Text
+- [HealthsearchQA]() : 3173, used for MedPaLM paper
+- [LiveQA]() : 634+10, used for MedPaLM paper
 - [MedQA (USMLE)](https://github.com/jind11/MedQA) 
 - [MedMCQA](https://arxiv.org/abs/2203.14371)
 - [PubMedQA](https://arxiv.org/abs/1909.06146)
