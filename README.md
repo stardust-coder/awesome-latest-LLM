@@ -40,7 +40,9 @@ Keeping up with the latest LLMs !
 
 | When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
-|2024.7| [Reflection]() |[HF](https://huggingface.co/mattshumer/Reflection-Llama-3.1-70B) | 70B | Llama3.1 | Llama 3.1 | synthetic data (Glaive) |  |
+|2024.10| [Llama3.2(Meta)]() |[HF](https://huggingface.co/collections/meta-llama/llama-32-66f448ffc8c32f949b04c8cf) | 1B,3B | llama3.2 |  llama3.2 |  |  |
+|2024.9| [Qwen2.5(Alibaba)]() |[HF](https://huggingface.co/collections/Qwen/qwen25-66e81a666513e518adb90d9e) | 0.5,1.5,3,7,14,32,72B | apache2.0 |  |  |  |
+|2024.7| [Reflection]() |[HF](https://huggingface.co/mattshumer/ref_70_e3) | 70B | llama3.1 | Llama 3.1 | synthetic data (Glaive) |  |
 |2024.7| [Llama3.1(Meta)]() |[HF]() | 70B, 405B | Llama3.1 |  |  |  |
 |2024.6| [Gemma2(Google)]() |[HF](https://huggingface.co/collections/google/gemma-2-release-667d6600fd5220e7b967f315) | 2B, 9B, 27B | gemma |  |  |  |
 |2024.6| [Nemotron(NVIDIA)]() |[HF](https://huggingface.co/nvidia/Nemotron-4-340B-Instruct) | 340B |  | - | - |  |
@@ -70,7 +72,6 @@ Keeping up with the latest LLMs !
 |2023.9| [TinyLlama](https://github.com/jzhang38/TinyLlama) | [HF](https://huggingface.co/TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T) | apache-2.0 | 1.1B | based on Llama, 3T token |  | |
 |2023.9| [Xwin-LM](https://github.com/Xwin-LM/Xwin-LM) | [HF](https://huggingface.co/Xwin-LM/Xwin-LM-70B-V0.1)  | 70B | Llama2 |based on Llama2| also codes and math|
 |2023.7| [Llama2(Meta)](https://ai.meta.com/llama/) | [HF](https://huggingface.co/meta-llama) | 70B | Llama2 | 2T tokens| chat-hf seems the best|
-|| [name]() | [HF]() | | |||
 
 <!-- |2024.1| [LLaMa-Pro-8B(Tencent)]() | [HF](https://huggingface.co/TencentARC/LLaMA-Pro-8B) | 8B | Llama2 ||| -->
 <!-- |2023.12| [Amber](https://www.llm360.ai) | [HF](https://huggingface.co/LLM360/Amber) | 7B | apache-2.0 | Llama|| totally open| -->
