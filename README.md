@@ -40,6 +40,8 @@ Keeping up with the latest LLMs !
 
 | When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2024.12| [DeepSeekV3](https://github.com/deepseek-ai/DeepSeek-V3) | [HF](https://huggingface.co/deepseek-ai/DeepSeek-V3) | 671B | [link](https://github.com/deepseek-ai/DeepSeek-V3/blob/main/LICENSE-MODEL) | 14.8T | sft, RL | MoE |
+|2024.12| [Phi-4](https://www.microsoft.com/en-us/research/uploads/prod/2024/12/P4TechReport.pdf) |[HF](https://huggingface.co/NyxKrage/Microsoft_Phi-4) | 14B | msrla |  |  | small, sft, dpo |
 |2024.11| [QWQ]() |[HF](https://huggingface.co/Qwen/QwQ-32B-Preview) | 32B | Qwen2.5 | apache-2.0 |  | reasoning |
 |2024.10| [Llama3.2(Meta)]() |[HF](https://huggingface.co/collections/meta-llama/llama-32-66f448ffc8c32f949b04c8cf) | 1B,3B | llama3.2 |  llama3.2 |  |  |
 |2024.9| [Qwen2.5(Alibaba)]() |[HF](https://huggingface.co/collections/Qwen/qwen25-66e81a666513e518adb90d9e) | 0.5,1.5,3,7,14,32,72B | apache2.0 |  |  |  |
@@ -85,6 +87,7 @@ Keeping up with the latest LLMs !
 
 | When? | Name |  HF?  | Size | License | pretraining | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2024.12| [llm-jp-3-172b-instruct3]() | [HF](https://huggingface.co/llm-jp/llm-jp-3-172b-instruct3) | 172B | [利用規約](https://huggingface.co/llm-jp/llm-jp-3-172b-instruct3/raw/main/LICENSE_ja)  |  | |  |
 |2024.7| [Llama-3.1-70B-Japanese-Instruct-2407]() | [HF](https://huggingface.co/cyberagent/Llama-3.1-70B-Japanese-Instruct-2407) | 70B | Llama3.1 | Llama3.1  | |  |
 |2024.7| [LLama3-Swallow]() | [HF](https://huggingface.co/tokyotech-llm/Llama-3-Swallow-70B-Instruct-v0.1) | 70B | Llama3 | Llama3  | |  |
 |2024.6| [LLama3ELYZA-JP-8B](https://elyza.ai/news/2024/06/26/elyza-llm-for-jp%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA%E3%81%AE%E6%9C%80%E6%96%B0%E3%83%A2%E3%83%87%E3%83%ABllam) | [HF](https://huggingface.co/elyza/Llama-3-ELYZA-JP-8B) | 8B | Llama3 | Llama3  | | 70B not open |
@@ -170,16 +173,28 @@ For Japanese medical dataset, see [JMedData4LLM](https://github.com/stardust-cod
 - [PubHealth](https://github.com/neemakot/Health-Fact-Checking)
 - [MMLU](https://github.com/hendrycks/test) : includes medicine and other related fields(clinical topics covering clinical knowledge,
 college biology, college medicine, medical genetics, professional medicine and anatomy)
-- HeadQA : Spanish healthcare system
+- [HeadQA](https://huggingface.co/datasets/dvilares/head_qa) : Spanish healthcare system
 - [K-Q&A](https://github.com/Itaymanes/K-QA)
 - Clincal Case Challenges : NEHM dataset and JAMA dataset
 - MeDiSumQA : discharge summaries from the MIMIC-IV
 - MeDiSumCode : ICD-10 codes
 - MedNLI : MIMIC-III dataset, logical relationship between a premise and a hypothesis
 - MeQSum : summarizing health queries
-- LongHealth : 20 patient records, answer questions about them from a long document.
+- [LongHealth](https://github.com/kbressem/LongHealth) : 20 patient records, answer questions about them from a long document.
+- [Medical Eval Sphere](https://github.com/lavita-ai/medical-eval-sphere) : Long form medical questions
+- [MedCalcBench](https://github.com/ncbi-nlp/MedCalc-Bench):  [HF](https://huggingface.co/datasets/ncbi/MedCalc-Bench-v1.0)
+- [PMC Patients](https://huggingface.co/datasets/zhengyun21/PMC-Patients/tree/main)
+- [MedQA-Calc](https://huggingface.co/datasets/Nicholas-Wan/MedQA-Calc)
+- [MedS-Bench](https://huggingface.co/datasets/Henrychur/MedS-Bench)
+- [MedQuAD](https://github.com/abachaa/MedQuAD)
+- [TJH Dataset](https://github.com/HAIRLAB/Pre_Surv_COVID_19)
+- [MIMIC-IV]() : Sourced from the EHRs of the Beth Israel Deaconess Medical Center.
+- [ClinicBench]() : 17 comprehensive benchmarks. 
 
-### Image + Text / Multimodal
+
+
+
+### Image + Text
 - MTB: chopped cleaned text and images collected from 4721 textbooks.
 - PMC-15M : the largest biomedical image-text dataset
 - PMC-OA : 1.6M image-caption pairs
@@ -196,4 +211,6 @@ college biology, college medicine, medical genetics, professional medicine and a
 - [MedTrinity](https://github.com/UCSC-VLAA/MedTrinity-25M)
 - [Clinical NLP 2023](https://clinical-nlp.github.io/2023/resources.html)
 
-See more on [He et al.(2023)](https://arxiv.org/pdf/2310.05694.pdf)
+See more on 
+- [He et al.(2023)](https://arxiv.org/pdf/2310.05694.pdf)
+- [MedLLMsPracticalGuide](https://github.com/AI-in-Health/MedLLMsPracticalGuide?tab=readme-ov-file#-practical-guide-for-medical-data)
