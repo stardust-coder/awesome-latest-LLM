@@ -3,6 +3,7 @@
 Keeping up with the latest LLMs !
 
 **NEWS**
+-  2025.1 🔥Minimax-01がリリースされました！
 -  2024.11 🔥Qwenチームからreasoningに優れたとされる実験的モデルQWQがリリースされました！
 
 <details>
@@ -40,6 +41,7 @@ Keeping up with the latest LLMs !
 
 | When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2025.1| [Minimax-01](https://github.com/MiniMax-AI/MiniMax-01) | [HF](https://huggingface.co/MiniMaxAI/MiniMax-Text-01) | 456(45.9)B | 1M token context length |  |  | MoE, 4M token window |
 |2024.12| [DeepSeekV3](https://github.com/deepseek-ai/DeepSeek-V3) | [HF](https://huggingface.co/deepseek-ai/DeepSeek-V3) | 671B | [link](https://github.com/deepseek-ai/DeepSeek-V3/blob/main/LICENSE-MODEL) | 14.8T | sft, RL | MoE |
 |2024.12| [Phi-4](https://www.microsoft.com/en-us/research/uploads/prod/2024/12/P4TechReport.pdf) |[HF](https://huggingface.co/NyxKrage/Microsoft_Phi-4) | 14B | msrla |  |  | small, sft, dpo |
 |2024.11| [QWQ]() |[HF](https://huggingface.co/Qwen/QwQ-32B-Preview) | 32B | Qwen2.5 | apache-2.0 |  | reasoning |
