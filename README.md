@@ -41,7 +41,9 @@ Keeping up with the latest LLMs !
 
 | When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
-|2025.1| [Minimax-01](https://github.com/MiniMax-AI/MiniMax-01) | [HF](https://huggingface.co/MiniMaxAI/MiniMax-Text-01) | 456(45.9)B | 1M token context length |  |  | MoE, 4M token window |
+|2025.1| Qwen2.5-Max | ||||
+|2025.1| [InternLM v3]() | [HF](https://huggingface.co/internlm/internlm3-8b-instruct) | 8B | apache-2.0 | 4T token |  | deep thinking |
+|2025.1| [Minimax-01](https://github.com/MiniMax-AI/MiniMax-01) | [HF](https://huggingface.co/MiniMaxAI/MiniMax-Text-01) | [Minimax](https://github.com/MiniMax-AI/MiniMax-01?tab=License-1-ov-file) | 456(45.9)B | 1M token context length |  | MoE, 4M token window |
 |2024.12| [DeepSeekV3](https://github.com/deepseek-ai/DeepSeek-V3) | [HF](https://huggingface.co/deepseek-ai/DeepSeek-V3) | 671B | [link](https://github.com/deepseek-ai/DeepSeek-V3/blob/main/LICENSE-MODEL) | 14.8T | sft, RL | MoE |
 |2024.12| [Phi-4](https://www.microsoft.com/en-us/research/uploads/prod/2024/12/P4TechReport.pdf) |[HF](https://huggingface.co/NyxKrage/Microsoft_Phi-4) | 14B | msrla |  |  | small, sft, dpo |
 |2024.11| [QWQ]() |[HF](https://huggingface.co/Qwen/QwQ-32B-Preview) | 32B | Qwen2.5 | apache-2.0 |  | reasoning |
@@ -116,7 +118,8 @@ See more on [awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-ll
 ## Model
 |When? | Name |  HF?  | Size | License | pretraining | finetuning/continual | test | misc.|
 |---|---|---|---|---|---|---|---|---|
-|2024.8| [LLaVA-Med++](https://github.com/UCSC-VLAA/MedTrinity-25M) | [8B](https://huggingface.co/MBZUAI/LLaVA-Meta-Llama-3-8B-Instruct-FT-S2) | ? | MedTrinity-25M | VQA-RAD etc. |   |  | |
+|2025.1| [Huatuo-O1](https://github.com/FreedomIntelligence/HuatuoGPT-o1)|[HF](https://huggingface.co/FreedomIntelligence/HuatuoGPT-o1-72B) | 72B | apache-2.0 | 
+|2024.8| [LLaVA-Med++](https://github.com/UCSC-VLAA/MedTrinity-25M) | [HF](https://huggingface.co/MBZUAI/LLaVA-Meta-Llama-3-8B-Instruct-FT-S2) | 8B | ? | MedTrinity-25M | VQA-RAD etc. |   |  | |
 |2024.7| [MedLlama3-JP(EQUES)]() | [HF](https://huggingface.co/EQUES/MedLLama3-JP-v2) | 8B | Llama3 | Llama3 |   |  | japanese, merge model|
 |2024.7| [Llama3-Preferred-MedSwallow]() | [HF](https://huggingface.co/pfnet/Llama3-Preferred-MedSwallow-70B) | 70B | Llama3 | Llama3 |   |  | japanese |
 |2024.7| [Med42-v2]() | [HF](https://huggingface.co/m42-health/Llama3-Med42-70B) | 8,70B | Llama3 | llama3 |  ~1B tokens, including medical flashcards, exam questions, and open-domain dialogues. |  | |
@@ -167,6 +170,14 @@ See also
 For Japanese medical dataset, see [JMedData4LLM](https://github.com/stardust-coder/jmed-data-for-llm).
 
 ### Only Text
+
+[**FreedomIntelligence**](https://github.com/FreedomIntelligence)
+- [Medical O1 Reasoning](https://huggingface.co/datasets/FreedomIntelligence/medical-o1-reasoning-SFT)
+- [Medical O1 Verifiable Problem](https://huggingface.co/datasets/FreedomIntelligence/medical-o1-verifiable-problem)
+- [Disease Database](https://huggingface.co/datasets/FreedomIntelligence/Disease_Database)
+- etc.
+
+**Others**
 - [HealthsearchQA]() : 3173, used for MedPaLM paper
 - [LiveQA]() : 634+10, used for MedPaLM paper
 - [MedQA (USMLE)](https://github.com/jind11/MedQA) 
