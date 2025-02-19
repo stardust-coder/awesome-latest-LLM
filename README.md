@@ -44,16 +44,17 @@ Keeping up with the latest LLMs !
 | When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
 |2025.1| [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1/blob/main/DeepSeek_R1.pdf) | [HF](https://huggingface.co/deepseek-ai/DeepSeek-R1)| 671B | MIT | | |
-<!-- |2025.1| [InternLM v3]() | [HF](https://huggingface.co/internlm/internlm3-8b-instruct) | 8B | apache-2.0 | 4T token |  | deep thinking | -->
 |2025.1| [Minimax-01](https://github.com/MiniMax-AI/MiniMax-01) | [HF](https://huggingface.co/MiniMaxAI/MiniMax-Text-01) | [Minimax](https://github.com/MiniMax-AI/MiniMax-01?tab=License-1-ov-file) | 456(45.9)B | 1M token context length |  | MoE, 4M token window |
 |2024.12| [Llama3.3 (Meta)]() | [HF](https://huggingface.co/collections/meta-llama/llama-33-67531d5c405ec5d08a852000) | 70B | [llama3.3](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct/blob/main/LICENSE) | |  |  |
 |2024.12| [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3) | [HF](https://huggingface.co/deepseek-ai/DeepSeek-V3) | 671B | [link](https://github.com/deepseek-ai/DeepSeek-V3/blob/main/LICENSE-MODEL) | 14.8T | sft, RL | MoE |
 |2024.12| [Phi-4 (Microsoft)](https://www.microsoft.com/en-us/research/uploads/prod/2024/12/P4TechReport.pdf) |[HF](https://huggingface.co/NyxKrage/Microsoft_Phi-4) | 14B | msrla |  |  | small, sft, dpo |
 |2024.11| [QWQ (Alibaba)]() |[HF](https://huggingface.co/Qwen/QwQ-32B-Preview) | 32B | Qwen2.5 | apache-2.0 |  | reasoning |
-<!-- |2024.10| [Llama3.2(Meta)]() |[HF](https://huggingface.co/collections/meta-llama/llama-32-66f448ffc8c32f949b04c8cf) | 1B,3B | llama3.2 |  llama3.2 |  |  | -->
 |2024.9| [Qwen 2.5(Alibaba)]() |[HF](https://huggingface.co/collections/Qwen/qwen25-66e81a666513e518adb90d9e) | 0.5,1.5,3,7,14,32,72B | apache2.0 |  |  | [long context available](https://huggingface.co/collections/Qwen/qwen25-1m-679325716327ec07860530ba) |
 |2024.7| [Reflection]() |[HF](https://huggingface.co/mattshumer/ref_70_e3) | 70B | llama3.1 | Llama 3.1 | synthetic data (Glaive) |  |
-<!-- |2024.7| [Llama3.1(Meta)]() |[HF]() | 70B, 405B | Llama3.1 |  |  |  |
+<!-- 
+|2025.1| [InternLM v3]() | [HF](https://huggingface.co/internlm/internlm3-8b-instruct) | 8B | apache-2.0 | 4T token |  | deep thinking | 
+|2024.10| [Llama3.2(Meta)]() |[HF](https://huggingface.co/collections/meta-llama/llama-32-66f448ffc8c32f949b04c8cf) | 1B,3B | llama3.2 |  llama3.2 |  |  |
+|2024.7| [Llama3.1(Meta)]() |[HF]() | 70B, 405B | Llama3.1 |  |  |  |
 |2024.6| [Gemma2(Google)]() |[HF](https://huggingface.co/collections/google/gemma-2-release-667d6600fd5220e7b967f315) | 2B, 9B, 27B | gemma |  |  |  |
 |2024.6| [Nemotron(NVIDIA)]() |[HF](https://huggingface.co/nvidia/Nemotron-4-340B-Instruct) | 340B |  | - | - |  |
 |2024.6| [Qwen2(Alibaba)]() |[HF](https://huggingface.co/Qwen/Qwen2-72B) | 7~72B | tongyi-qianwen | - | - |  |
@@ -94,6 +95,7 @@ Keeping up with the latest LLMs !
 
 | When? | Name |  HF?  | Size | License | pretraining | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2025.2| [PlaMo 2](https://tech.preferred.jp/ja/blog/plamo-2-8b/) | 未公開 | 8B | ||||
 |2025.2| [Qwen25-Bakeneko (rinna)]()| [HF](https://huggingface.co/collections/rinna/qwen25-bakeneko-67aa2ef444910bbc55a21222) | 32B | apache-2.0 |  |  | |
 |2025.1| [DeepSeek-R1-Distil-Qwen-Japanese(CyberAgent)]()| [HF](https://huggingface.co/cyberagent/DeepSeek-R1-Distill-Qwen-32B-Japanese) | 14,32B | MIT | [distil](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B) | Japanese dataset | |
 |2024.12| [llm-jp-3-172b-instruct3]() | [HF](https://huggingface.co/llm-jp/llm-jp-3-172b-instruct3) | 172B | [利用規約](https://huggingface.co/llm-jp/llm-jp-3-172b-instruct3/raw/main/LICENSE_ja)  |  | |  |
@@ -111,9 +113,14 @@ Keeping up with the latest LLMs !
 |2023.12| [Swallow(東工大)](https://tokyotech-llm.github.io) | [HF](https://huggingface.co/tokyotech-llm) | 70B | | Llama2-70Bベース |
 |2023.11| [StableLM(StabilityAI)](https://ja.stability.ai/blog/japanese-stable-lm-beta) | [HF](https://huggingface.co/stabilityai/japanese-stablelm-base-beta-70b) | 70B | | Llama2-70Bベース |
 |2023.10| [LLM-jp](https://llm-jp.nii.ac.jp/blog/2024/02/09/v1.1-tuning.html) | [HF](https://huggingface.co/llm-jp) | 13B | DPO追加あり | -->
-|| [name]() | [HF]() | | ||||
 
 See more on [awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-llm) and [日本語LLM評価](https://swallow-llm.github.io/evaluation/about.ja.html)
+
+## Small language models (SLM)
+|2025.2| [PlaMo 2](https://tech.preferred.jp/ja/blog/plamo-2-8b/) | [HF](https://huggingface.co/pfnet/plamo-2-1b) | 1B | apache-2.0| 4T (1.25T tokens Japanese)| | base model only |
+|2025.1| [TinySwallow-1.5B-Instruct]() | [HF](https://huggingface.co/SakanaAI/TinySwallow-1.5B-Instruct) | apache-2.0 | qwen | Japanese | | TAID from Qwen2.5-32B|
+|2024.9| [Qwen2.5(Alibaba)]() |[HF](https://huggingface.co/collections/Qwen/qwen25-66e81a666513e518adb90d9e) | 0.5,1.5,3B | apache2.0 |  |  |  |
+|2024.8| [Phi-3.5-mini-instruct(Microsoft)]() |[HF](https://huggingface.co/microsoft/Phi-3.5-mini-instruct) | 3.8B | apache2.0 | MIT |  |  |
 
 
 --- 
