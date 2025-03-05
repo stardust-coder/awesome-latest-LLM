@@ -3,6 +3,7 @@
 Keeping up with the latest LLMs !
 
 **NEWS**
+- 2025.3 Sarashina2.2がリリースされました.
 - 2025.2 小規模言語モデル（SLM）の特集を始めました
 - 2025.2 🔥 Grok3がxAIから発表されました！
 - 2025.2 モデルの絞り込みを行いました.
@@ -120,6 +121,7 @@ See more on [awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-ll
 ## Small language models (SLM)
 | When? | Name |  HF?  | Size | License | pretraining | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2025.3| [Sarashina2.2](https://huggingface.co/sbintuitions/sarashina2.2-3b-instruct-v0.1) |  | 0.5,1,3B | mit | | | ELYZA-tasks 3.75 |
 |2025.2| [Phi-4 mini](https://huggingface.co/microsoft/Phi-4-mini-instruct) |  | 3.8B | mit | | |  |
 |2025.2| [PLaMo 2 2B](https://tech.preferred.jp/ja/blog/plamo-2-2b/) |  | 2B | apache-2.0| | | pruning |
 |2025.2| [PLaMo 2 1B](https://tech.preferred.jp/ja/blog/plamo-2-8b/) | [HF](https://huggingface.co/pfnet/plamo-2-1b) | 1B | apache-2.0| 4T (1.25T tokens Japanese)| | base model only |
