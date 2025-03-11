@@ -3,6 +3,7 @@
 Keeping up with the latest LLMs !
 
 **NEWS**
+- 2025.3 Llama-Swallowの最新版がリリースされました！
 - 2025.3 Sarashina2.2がリリースされました.
 - 2025.2 小規模言語モデル（SLM）の特集を始めました
 - 2025.2 🔥 Grok3がxAIから発表されました！
@@ -97,6 +98,7 @@ Keeping up with the latest LLMs !
 
 | When? | Name |  HF?  | Size | License | pretraining | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2024.3| [Llama-3.3-Swallow-70B-Instruct-v0.4]() | [HF](https://huggingface.co/tokyotech-llm/Llama-3.3-Swallow-70B-Instruct-v0.4) | 70B | [llama3.3](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct/blob/main/LICENSE) | Llama3.3 | | JMT-Bench 0.772 |
 |2025.2| [PlaMo 2](https://tech.preferred.jp/ja/blog/plamo-2-8b/) | [HF](https://huggingface.co/pfnet/plamo-2-8b) | 8B | [plamo](https://tech.preferred.jp/ja/blog/plamo-community-license/) ||| Samba |
 |2025.2| [Qwen25-Bakeneko (rinna)]()| [HF](https://huggingface.co/collections/rinna/qwen25-bakeneko-67aa2ef444910bbc55a21222) | 32B | apache-2.0 |  |  | |
 |2025.1| [DeepSeek-R1-Distil-Qwen-Japanese(CyberAgent)]()| [HF](https://huggingface.co/cyberagent/DeepSeek-R1-Distill-Qwen-32B-Japanese) | 14,32B | MIT | [distil](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B) | Japanese dataset | |
@@ -121,7 +123,7 @@ See more on [awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-ll
 ## Small language models (SLM)
 | When? | Name |  HF?  | Size | License | pretraining | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
-|2025.3| [Sarashina2.2](https://huggingface.co/sbintuitions/sarashina2.2-3b-instruct-v0.1) |  | 0.5,1,3B | mit | | | ELYZA-tasks 3.75 |
+|2025.3| [Sarashina2.2](https://huggingface.co/sbintuitions/sarashina2.2-3b-instruct-v0.1) |  | 0.5B,1B,3B | mit | | | ELYZA-tasks 3.75 |
 |2025.2| [Phi-4 mini](https://huggingface.co/microsoft/Phi-4-mini-instruct) |  | 3.8B | mit | | |  |
 |2025.2| [PLaMo 2 2B](https://tech.preferred.jp/ja/blog/plamo-2-2b/) |  | 2B | apache-2.0| | | pruning |
 |2025.2| [PLaMo 2 1B](https://tech.preferred.jp/ja/blog/plamo-2-8b/) | [HF](https://huggingface.co/pfnet/plamo-2-1b) | 1B | apache-2.0| 4T (1.25T tokens Japanese)| | base model only |
@@ -138,7 +140,9 @@ See more on [awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-ll
 ## Model
 |When? | Name |  HF?  | Size | License | pretraining | finetuning/continual | test | misc.|
 |---|---|---|---|---|---|---|---|---|
-|2025.1| [Huatuo-O1](https://github.com/FreedomIntelligence/HuatuoGPT-o1)|[HF](https://huggingface.co/FreedomIntelligence/HuatuoGPT-o1-72B) | 72B | apache-2.0 | 
+|2025.2| [Preferred-MedLLM-Qwen-72B]() | [HF](https://huggingface.co/pfnet/Preferred-MedLLM-Qwen-72B) | 72B |  | Qwen2.5 | original corpus   |  | japanese |
+|2025.2| [OpenMeditron]()|[HF]() | 8B |  | 
+|2025.1| [Huatuo-o1](https://github.com/FreedomIntelligence/HuatuoGPT-o1)|[HF](https://huggingface.co/FreedomIntelligence/HuatuoGPT-o1-72B) | 72B | apache-2.0 | 
 |2024.8| [LLaVA-Med++](https://github.com/UCSC-VLAA/MedTrinity-25M) | [HF](https://huggingface.co/MBZUAI/LLaVA-Meta-Llama-3-8B-Instruct-FT-S2) | 8B | ? | MedTrinity-25M | VQA-RAD etc. |   |  | |
 |2024.7| [MedLlama3-JP(EQUES)]() | [HF](https://huggingface.co/EQUES/MedLLama3-JP-v2) | 8B | Llama3 | Llama3 |   |  | japanese, merge model|
 |2024.7| [Llama3-Preferred-MedSwallow]() | [HF](https://huggingface.co/pfnet/Llama3-Preferred-MedSwallow-70B) | 70B | Llama3 | Llama3 |   |  | japanese |
