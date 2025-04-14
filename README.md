@@ -3,6 +3,11 @@
 Keeping up with the latest LLMs !
 
 **NEWS**
+- 🔥Llama4がリリースされました！
+
+<details>
+
+<summary>History</summary>
 - 2025.3 🔥Gemma3がリリースされました！
 - 2025.3 🔥Llama-Swallowの最新版がリリースされました！
 - 2025.3 🔥Sarashina2.2がリリースされました.
@@ -10,9 +15,6 @@ Keeping up with the latest LLMs !
 - 2025.2 🔥 Grok3がxAIから発表されました！
 - 2025.2 モデルの絞り込みを行いました.
 - 2025.1 🔥 [Qwen2.5-Max](https://qwenlm.github.io/blog/qwen2.5-max/)がリリースされました. モデル非公開.
-<details>
-
-<summary>History</summary>
 - 2025.1 🔥Minimax-01がリリースされました！
 - 2024.11 🔥Qwenチームからreasoningに優れたとされる実験的モデルQWQがリリースされました！
 - 2024.7 🔥東工大からLlama3の日本語継続学習モデルが発表！
@@ -47,7 +49,8 @@ Keeping up with the latest LLMs !
 
 | When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
-|2025.1| [DeepSeek-V3-0324]() | [HF](https://huggingface.co/deepseek-ai/DeepSeek-V3-0324)|  |  | | only weight|
+|2025.4| [Llama4 (Meta)](https://ai.meta.com/blog/llama-4-multimodal-intelligence/)|[HF](https://huggingface.co/collections/meta-llama/llama-4-67f0c30d9fe03840bc9d0164)|17B|llama4|30T token||10M token|
+|2025.1| [DeepSeek-V3-0324]() | [HF](https://huggingface.co/deepseek-ai/DeepSeek-V3-0324)|  |  | | only weight |
 |2025.3| [Gemma3]() | [HF](https://huggingface.co/collections/google/gemma-3-release-67c6c6f89c4f76621268bb6d)| 27B | [gemma](https://ai.google.dev/gemma/terms) | | |
 |2025.1| [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1/blob/main/DeepSeek_R1.pdf) | [HF](https://huggingface.co/deepseek-ai/DeepSeek-R1)| 671B | MIT | | |
 |2024.12| [Llama3.3 (Meta)]() | [HF](https://huggingface.co/collections/meta-llama/llama-33-67531d5c405ec5d08a852000) | 70B | [llama3.3](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct/blob/main/LICENSE) | |  |  |
@@ -199,6 +202,12 @@ For Japanese medical dataset, see [JMedData4LLM](https://github.com/stardust-cod
 
 ### Only Text
 
+**Representative benchmarks**
+- [MedQA (USMLE)](https://github.com/jind11/MedQA) 
+- [MedMCQA](https://arxiv.org/abs/2203.14371)
+- [PubMedQA](https://arxiv.org/abs/1909.06146)
+- [MMLU]() : subset related to medicine is often used.
+
 [**FreedomIntelligence**](https://github.com/FreedomIntelligence)
 - [Medical O1 Reasoning](https://huggingface.co/datasets/FreedomIntelligence/medical-o1-reasoning-SFT)
 - [Medical O1 Verifiable Problem](https://huggingface.co/datasets/FreedomIntelligence/medical-o1-verifiable-problem)
@@ -209,11 +218,8 @@ For Japanese medical dataset, see [JMedData4LLM](https://github.com/stardust-cod
 - [synthetic-medical-conversations-deepseek-v3](https://huggingface.co/datasets/OnDeviceMedNotes/synthetic-medical-conversations-deepseek-v3)
 
 **Others**
-- [HealthsearchQA]() : 3173, used for MedPaLM paper
-- [LiveQA]() : 634+10, used for MedPaLM paper
-- [MedQA (USMLE)](https://github.com/jind11/MedQA) 
-- [MedMCQA](https://arxiv.org/abs/2203.14371)
-- [PubMedQA](https://arxiv.org/abs/1909.06146)
+- [HealthsearchQA]() : 3173 samples, used in MedPaLM paper
+- [LiveQA]() : 634+10, used in MedPaLM paper
 - [PubHealth](https://github.com/neemakot/Health-Fact-Checking)
 - [MMLU](https://github.com/hendrycks/test) : includes medicine and other related fields(clinical topics covering clinical knowledge,
 college biology, college medicine, medical genetics, professional medicine and anatomy)
@@ -234,8 +240,8 @@ college biology, college medicine, medical genetics, professional medicine and a
 - [TJH Dataset](https://github.com/HAIRLAB/Pre_Surv_COVID_19)
 - [MIMIC-IV]() : Sourced from the EHRs of the Beth Israel Deaconess Medical Center.
 - [ClinicBench]() : 17 comprehensive benchmarks. 
-
-
+- [EquityMedQA](https://huggingface.co/datasets/katielink/EquityMedQA) : Open-ended Q&A for equity and bias mitigation.
+- [MedDistractQA](https://huggingface.co/datasets/KrithikV/MedDistractQA)
 
 
 ### Image + Text
