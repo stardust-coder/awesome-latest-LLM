@@ -1,9 +1,9 @@
-# Awesome latest LLMs
+# 最新LLM&医療LLM一覧
 
-Keeping up with the latest LLMs !
+Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 
 **NEWS**
-- 🔥Llama4がリリースされました！
+- 🔥2025.4 Llama4がリリースされました！
 
 <details>
 
@@ -45,21 +45,27 @@ Keeping up with the latest LLMs !
 - 2023.12 [日本語LLMの学習データを問題視する記事](https://github.com/AUGMXNT/shisa/wiki/A-Review-of-Public-Japanese-Training-Sets#analysis)が公開されました.
 </details>
 
+## Table of Contents
+[English-centric](#english-centric)  
+[Japanese-centric](#japanese-centric)  
+[Medical Adaptation](#medical-adaptation)  
+
 ## English-centric
 
 | When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
 |2025.4| [Llama4 (Meta)](https://ai.meta.com/blog/llama-4-multimodal-intelligence/)|[HF](https://huggingface.co/collections/meta-llama/llama-4-67f0c30d9fe03840bc9d0164)|17B|llama4|30T token||10M token|
-|2025.1| [DeepSeek-V3-0324]() | [HF](https://huggingface.co/deepseek-ai/DeepSeek-V3-0324)|  |  | | only weight |
-|2025.3| [Gemma3]() | [HF](https://huggingface.co/collections/google/gemma-3-release-67c6c6f89c4f76621268bb6d)| 27B | [gemma](https://ai.google.dev/gemma/terms) | | |
+|2025.1| [DeepSeek-V3-0324]() | [HF](https://huggingface.co/deepseek-ai/DeepSeek-V3-0324) | 671B | [link](https://github.com/deepseek-ai/DeepSeek-V3/blob/main/LICENSE-MODEL) | 14.8T |  | MoE(37B) |
+|2025.3| [Gemma3 (Google)]() | [HF](https://huggingface.co/collections/google/gemma-3-release-67c6c6f89c4f76621268bb6d)| 27B | [gemma](https://ai.google.dev/gemma/terms) | | |
 |2025.1| [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1/blob/main/DeepSeek_R1.pdf) | [HF](https://huggingface.co/deepseek-ai/DeepSeek-R1)| 671B | MIT | | |
 |2024.12| [Llama3.3 (Meta)]() | [HF](https://huggingface.co/collections/meta-llama/llama-33-67531d5c405ec5d08a852000) | 70B | [llama3.3](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct/blob/main/LICENSE) | |  |  |
-|2024.12| [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3) | [HF](https://huggingface.co/deepseek-ai/DeepSeek-V3) | 671B | [link](https://github.com/deepseek-ai/DeepSeek-V3/blob/main/LICENSE-MODEL) | 14.8T | sft, RL | MoE |
 |2024.12| [Phi-4 (Microsoft)](https://www.microsoft.com/en-us/research/uploads/prod/2024/12/P4TechReport.pdf) |[HF](https://huggingface.co/NyxKrage/Microsoft_Phi-4) | 14B | msrla |  |  | small, sft, dpo |
-|2024.11| [QWQ (Alibaba)]() |[HF](https://huggingface.co/Qwen/QwQ-32B-Preview) | 32B | Qwen2.5 | apache-2.0 |  | reasoning |
-|2024.9| [Qwen 2.5 (Alibaba)]() |[HF](https://huggingface.co/collections/Qwen/qwen25-66e81a666513e518adb90d9e) | 0.5,1.5,3,7,14,32,72B | apache2.0 |  |  | [long context available](https://huggingface.co/collections/Qwen/qwen25-1m-679325716327ec07860530ba) |
-|2024.7| [Reflection]() |[HF](https://huggingface.co/mattshumer/ref_70_e3) | 70B | llama3.1 | Llama 3.1 | synthetic data (Glaive) |  |
+|2024.11| [QWQ (Alibaba)]() |[HF](https://huggingface.co/Qwen/QwQ-32B-Preview) | 32B | apache-2.0 | Qwen2.5 |  |  reasoning |
+|2024.9| [Qwen 2.5 (Alibaba)]() |[HF](https://huggingface.co/collections/Qwen/qwen25-66e81a666513e518adb90d9e) | 0.5~72B | apache2.0 |  |  | [long context available](https://huggingface.co/collections/Qwen/qwen25-1m-679325716327ec07860530ba) |
+
 <!-- 
+|2024.12| [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3) | [HF](https://huggingface.co/deepseek-ai/DeepSeek-V3) | 671B | [link](https://github.com/deepseek-ai/DeepSeek-V3/blob/main/LICENSE-MODEL) | 14.8T | sft, RL | MoE |
+|2024.7| [Reflection]() |[HF](https://huggingface.co/mattshumer/ref_70_e3) | 70B | llama3.1 | Llama 3.1 | synthetic data (Glaive) |  |
 |2025.1| [InternLM v3]() | [HF](https://huggingface.co/internlm/internlm3-8b-instruct) | 8B | apache-2.0 | 4T token |  | deep thinking | 
 |2024.10| [Llama3.2(Meta)]() |[HF](https://huggingface.co/collections/meta-llama/llama-32-66f448ffc8c32f949b04c8cf) | 1B,3B | llama3.2 |  llama3.2 |  |  |
 |2024.7| [Llama3.1(Meta)]() |[HF]() | 70B, 405B | Llama3.1 |  |  |  |
@@ -97,7 +103,7 @@ Keeping up with the latest LLMs !
 <!-- |2023.11| [Orca2(Microsoft)]() | [HF](https://huggingface.co/microsoft/Orca-2-13b) | 13B | MSRA-license| based on Llama2||| -->
 <!-- |2023.9| [Phi-1.5(Microsoft)](https://arxiv.org/abs/2309.05463) | [HF](https://huggingface.co/microsoft/phi-1_5) | 1.3B| MSRA-license||textbooks| -->
 - PaLM(540B), PaLM2(340B) and GPT-4 are not open.
-- MoE : mixture of experts
+- See also [Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM)
 
 ## Japanese-centric
 
@@ -106,7 +112,7 @@ Keeping up with the latest LLMs !
 |2024.3| [Stockmark 2]() | [HF](https://huggingface.co/stockmark/Stockmark-2-100B-Instruct-beta) | 100B |  |  | |  |
 |2024.3| [Llama-3.3-Swallow-70B-Instruct-v0.4]() | [HF](https://huggingface.co/tokyotech-llm/Llama-3.3-Swallow-70B-Instruct-v0.4) | 70B | [llama3.3](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct/blob/main/LICENSE) | Llama3.3 | | JMT-Bench 0.772 |
 |2025.2| [PlaMo 2 (PFN)](https://tech.preferred.jp/ja/blog/plamo-2-8b/) | [HF](https://huggingface.co/pfnet/plamo-2-8b) | 8B | [plamo](https://tech.preferred.jp/ja/blog/plamo-community-license/) ||| Samba |
-|2025.2-3| [Bakeneko (rinna)]()| [HF](https://huggingface.co/collections/rinna/qwen25-bakeneko-67aa2ef444910bbc55a21222) [HF](https://huggingface.co/rinna/qwq-bakeneko-32b) | 32B | apache-2.0 |  |  | |
+|2025.3| [Bakeneko (rinna)]()| [HF](https://huggingface.co/collections/rinna/qwen25-bakeneko-67aa2ef444910bbc55a21222) [HF](https://huggingface.co/rinna/qwq-bakeneko-32b) | 32B | apache-2.0 |  |  | |
 |2025.1| [DeepSeek-R1-Distil-Qwen-Japanese(CyberAgent)]()| [HF](https://huggingface.co/cyberagent/DeepSeek-R1-Distill-Qwen-32B-Japanese) | 32B | MIT | [distil](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B) | Japanese dataset | |
 |2024.12| [llm-jp-3-172b-instruct3]() | [HF](https://huggingface.co/llm-jp/llm-jp-3-172b-instruct3) | 172B | [利用規約](https://huggingface.co/llm-jp/llm-jp-3-172b-instruct3/raw/main/LICENSE_ja)  |  | |  |
 <!--|2024.12| [Llama-3.1-Swallow-70B-Instruct-v0.3]() | [HF](https://huggingface.co/tokyotech-llm/Llama-3.1-Swallow-70B-Instruct-v0.3) | 70B | [llama3.1](https://huggingface.co/meta-llama/Llama-3.1-70B-Instruct/blob/main/LICENSE) | Llama3.1 | |  |
@@ -124,19 +130,21 @@ Keeping up with the latest LLMs !
 |2023.11| [StableLM(StabilityAI)](https://ja.stability.ai/blog/japanese-stable-lm-beta) | [HF](https://huggingface.co/stabilityai/japanese-stablelm-base-beta-70b) | 70B | | Llama2-70Bベース |
 |2023.10| [LLM-jp](https://llm-jp.nii.ac.jp/blog/2024/02/09/v1.1-tuning.html) | [HF](https://huggingface.co/llm-jp) | 13B | DPO追加あり | -->
 
-See more on [awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-llm) and [日本語LLM評価](https://swallow-llm.github.io/evaluation/about.ja.html)
+- See more on [awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-llm) and [日本語LLM評価](https://swallow-llm.github.io/evaluation/about.ja.html)
+- Let's go soverign AI!
 
 ## Small language models (SLM)
 | When? | Name |  HF?  | Size | License | pretraining | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
 |2025.3| [Gemma3]() | [HF](https://huggingface.co/collections/google/gemma-3-release-67c6c6f89c4f76621268bb6d)| 1B,4B | [gemma](https://ai.google.dev/gemma/terms) | | |
-|2025.3| [Sarashina2.2](https://huggingface.co/sbintuitions/sarashina2.2-3b-instruct-v0.1) |  | 0.5B,1B,3B | mit | | | ELYZA-tasks 3.75 |
+|2025.3| [Sarashina2.2](https://huggingface.co/sbintuitions/sarashina2.2-3b-instruct-v0.1) |  | 0.5B,1B,3B | mit | | | ELYZA-tasks=3.75 |
+|2025.2 | [SmolLM(huggingface)](https://github.com/huggingface/smollm) | [HF](https://huggingface.co/collections/HuggingFaceTB/smollm2-6723884218bcda64b34d7db9)| 135M~1.7B| apache-2.0 | | 
 |2025.2| [Phi-4 mini](https://huggingface.co/microsoft/Phi-4-mini-instruct) |  | 3.8B | mit | | |  |
-|2025.2| [PLaMo 2 2B](https://tech.preferred.jp/ja/blog/plamo-2-2b/) |  | 2B | apache-2.0| | | pruning |
-|2025.2| [PLaMo 2 1B](https://tech.preferred.jp/ja/blog/plamo-2-8b/) | [HF](https://huggingface.co/pfnet/plamo-2-1b) | 1B | apache-2.0| 4T (1.25T tokens Japanese)| | base model only |
+|2025.2| [PLaMo 2 2B](https://tech.preferred.jp/ja/blog/plamo-2-2b/) | None | 2B | apache-2.0| |  | pruning, tested on HumanEval+ |
+|2025.2| [PLaMo 2 1B]() | [HF](https://huggingface.co/pfnet/plamo-2-1b) | 1B | apache-2.0| 4T (1.25T tokens Japanese)| | base model only |
 |2025.1| [TinySwallow-1.5B-Instruct]() | [HF](https://huggingface.co/SakanaAI/TinySwallow-1.5B-Instruct) | 1.5B | apache-2.0 | qwen | Japanese | TAID from Qwen2.5-32B|
-|2024.9| [Qwen2.5(Alibaba)]() |[HF](https://huggingface.co/collections/Qwen/qwen25-66e81a666513e518adb90d9e) | 0.5,1.5,3B | apache2.0 |  |  |  |
-|2024.8| [Phi-3.5-mini-instruct(Microsoft)]() |[HF](https://huggingface.co/microsoft/Phi-3.5-mini-instruct) | 3.8B | apache2.0 | MIT |  |  |
+|2024.9| [Qwen2.5]() |[HF](https://huggingface.co/collections/Qwen/qwen25-66e81a666513e518adb90d9e) | 0.5,1.5,3B | apache2.0 |  |  |  |
+|2024.8| [Phi-3.5-mini-instruct]() |[HF](https://huggingface.co/microsoft/Phi-3.5-mini-instruct) | 3.8B | apache2.0 | MIT |  |  |
 
 
 --- 
@@ -147,8 +155,10 @@ See more on [awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-ll
 ## Model
 |When? | Name |  HF?  | Size | License | pretraining | finetuning/continual | test | misc.|
 |---|---|---|---|---|---|---|---|---|
-|2025.2| [Preferred-MedLLM-Qwen-72B]() | [HF](https://huggingface.co/pfnet/Preferred-MedLLM-Qwen-72B) | 72B |  | Qwen2.5 | original corpus   |  | japanese |
-|2025.2| [OpenMeditron]()|[HF]() | 8B |  | 
+|2025.4| [OmniV-Med(Alibaba)]() | | 1.5,7B |  | 252K instruction data|    | 11 benchmarks (2D/3D image and video) |  |
+|2025.4| [(EQUES)]() | [HF]() | 7B |  | Qwen2.5 | pharma corpus   | None | japanese |
+|2025.2| [Preferred-MedLLM-Qwen-72B]() | [HF](https://huggingface.co/pfnet/Preferred-MedLLM-Qwen-72B) | 72B | Qwen | Qwen2.5 | original corpus   | IgakuQA | japanese |
+|2025.2| [OpenMeditron](https://huggingface.co/OpenMeditron)|[HF](https://huggingface.co/OpenMeditron/Meditron3-70B) | 7~70B | |||MedQA etc. | 
 |2025.1| [Huatuo-o1](https://github.com/FreedomIntelligence/HuatuoGPT-o1)|[HF](https://huggingface.co/FreedomIntelligence/HuatuoGPT-o1-72B) | 72B | apache-2.0 | 
 |2024.8| [LLaVA-Med++](https://github.com/UCSC-VLAA/MedTrinity-25M) | [HF](https://huggingface.co/MBZUAI/LLaVA-Meta-Llama-3-8B-Instruct-FT-S2) | 8B | ? | MedTrinity-25M | VQA-RAD etc. |   |  | |
 |2024.7| [MedLlama3-JP (EQUES)]() | [HF](https://huggingface.co/EQUES/MedLLama3-JP-v2) | 8B | Llama3 | Llama3 |   |  | japanese, merge model|
@@ -160,7 +170,7 @@ See more on [awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-ll
 |2024.5| [medX(JiviAI)]() | [HF](https://huggingface.co/jiviai/medX_v1) | 8B | Apache-2.0 | Llama3 |  100,000+ data, [ORPO](https://huggingface.co/blog/mlabonne/orpo-llama-3) |  |  |
 |2024.4| [UltraMedical(TsinghuaC3I)](https://arxiv.org/html/2406.03949v1) | [HF](https://huggingface.co/TsinghuaC3I) | 8B | - | Llama3 |  | | |
 |2024.4| [Meditron(EPFL)](https://www.meditron.io) | - | 8B | - | Llama3 |  | MedQA, MedMCQA, PubmedQA | SOTA |
-|2024.4| [OpenBioLLM-70B]() | [HF](https://huggingface.co/aaditya/Llama3-OpenBioLLM-70B) | ? | - |  | |  | SOTA |
+|2024.4| [OpenBioLLM]() | [HF](https://huggingface.co/aaditya/Llama3-OpenBioLLM-70B) | 8, 70B |  | Llama3 | |  | SOTA |
 |2024.4| [Med-Gemini(Google)](https://arxiv.org/pdf/2404.18416) | closed | ? | - | Gemini | | |multimodal|
 |2024.4| [Hippocrates](https://cyberiada.github.io/Hippocrates/) | [HF]() | 7B | |  | | |  | |
 |2024.3| [AdaptLLM(Microsoft Research)](https://github.com/microsoft/LMOps/tree/main/adaptllm) | [HF](https://huggingface.co/AdaptLLM/medicine-LLM-13B) | 7B, 13B | | reading comprehensive corpora | | |  | ICLR2024 |
@@ -177,18 +187,20 @@ See more on [awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-ll
 |2023.7| [Med-Flamingo](https://github.com/snap-stanford/med-flamingo) | [HF]() | 8.3B| ? | OpenFlamingo | MTB | Visual USMLE|based on Flamingo |
 |2023.7| [LLaVa-Med(Microsoft)](https://github.com/microsoft/LLaVA-Med) | [HF](https://huggingface.co/microsoft/llava-med-7b-delta) | 13B | - | LLaVa| medical dataset | VAQ-RAD, SLAKE, PathVQA |multi-modal| 
 |2023.7| [Med-PaLM M(Google)](https://arxiv.org/abs/2307.14334) | not open | | - | PaLM2 | | |multi-modal| 
-|2023.5| [Almanac(Stanford)](https://arxiv.org/pdf/2303.01229.pdf), [journal](https://ai.nejm.org/doi/pdf/10.1056/AIoa2300068) | ? | ? | text-davinci-003 |  | | RAG |
+|2023.5| [Almanac(Stanford)](https://arxiv.org/pdf/2303.01229.pdf)| ? | ? | text-davinci-003 |  | | RAG |
 |2023.5| [Med-PaLM2(Google)](https://arxiv.org/abs/2305.09617) | not open | 340B | - | PaLM2 | | |
 |2022.12| [Med-PaLM(Google)](https://arxiv.org/abs/2212.13138) | not open | 540B| - | PaLM | | | |
 || [name]() | [HF]() | | |
 
 See also 
 - [Awesome-Healthcare-Foundation-Models](https://github.com/Jianing-Qiu/Awesome-Healthcare-Foundation-Models)
+- [Awesome-Medical-Large-Language-Models](https://github.com/burglarhobbit/Awesome-Medical-Large-Language-Models)
+- [Awesome-Medical-LLM](https://github.com/BARUDA-AI/Awesome-Medical-LLM)
 - [MedLLMsPracticalGuide](https://github.com/AI-in-Health/MedLLMsPracticalGuide).
 - [医療分野に特化したLLM紹介](https://speakerdeck.com/stardust11)
 
 
-## Evaluation
+## Evaluation benchmarks
 
 - [MIRAGE Leaderboard](https://teddy-xionggz.github.io/MIRAGE/)
 - [Open Medical LLM leaderboard](https://huggingface.co/blog/leaderboard-medicalllm), [leaderboard](https://huggingface.co/spaces/openlifescienceai/open_medical_llm_leaderboard)
@@ -202,19 +214,19 @@ For Japanese medical dataset, see [JMedData4LLM](https://github.com/stardust-cod
 
 ### Only Text
 
-**Representative benchmarks**
+**Representative medical benchmarks**
 - [MedQA (USMLE)](https://github.com/jind11/MedQA) 
 - [MedMCQA](https://arxiv.org/abs/2203.14371)
 - [PubMedQA](https://arxiv.org/abs/1909.06146)
 - [MMLU]() : subset related to medicine is often used.
 
-[**FreedomIntelligence**](https://github.com/FreedomIntelligence)
+Dataset from [**FreedomIntelligence**](https://github.com/FreedomIntelligence)
 - [Medical O1 Reasoning](https://huggingface.co/datasets/FreedomIntelligence/medical-o1-reasoning-SFT)
 - [Medical O1 Verifiable Problem](https://huggingface.co/datasets/FreedomIntelligence/medical-o1-verifiable-problem)
 - [Disease Database](https://huggingface.co/datasets/FreedomIntelligence/Disease_Database)
 - etc.
 
-[**OnDeviceMedNotes**](https://huggingface.co/OnDeviceMedNotes)
+Dataset from [**OnDeviceMedNotes**](https://huggingface.co/OnDeviceMedNotes)
 - [synthetic-medical-conversations-deepseek-v3](https://huggingface.co/datasets/OnDeviceMedNotes/synthetic-medical-conversations-deepseek-v3)
 
 **Others**
@@ -264,3 +276,4 @@ college biology, college medicine, medical genetics, professional medicine and a
 See more on 
 - [He et al.(2023)](https://arxiv.org/pdf/2310.05694.pdf)
 - [MedLLMsPracticalGuide](https://github.com/AI-in-Health/MedLLMsPracticalGuide?tab=readme-ov-file#-practical-guide-for-medical-data)
+- [Medical datasets for LLMs (collection)](https://huggingface.co/collections/mfmezger/medical-datasets-for-llms-66bbb4e371cc405bc4d6b28a)
