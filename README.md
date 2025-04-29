@@ -1,8 +1,11 @@
-# 最新LLM&医療LLM一覧
+# 最新LLM & 医療LLM 一覧
+
+LLMの最新情報のまとめ.
 
 Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 
 **NEWS**
+- 🔥2025.4 Qwen3がリリースされました！
 - 🔥2025.4 Llama4がリリースされました！
 
 <details>
@@ -54,6 +57,7 @@ Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 
 | When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2025.4| [Qwen3 (Alibaba)]()|[HF](https://huggingface.co/collections/Qwen/qwen3-67dd247413f0e2e4f653967f)| 0.6~235B |apache-2.0|| |
 |2025.4| [Llama4 (Meta)](https://ai.meta.com/blog/llama-4-multimodal-intelligence/)|[HF](https://huggingface.co/collections/meta-llama/llama-4-67f0c30d9fe03840bc9d0164)|17B|llama4|30T token||10M token|
 |2025.1| [DeepSeek-V3-0324]() | [HF](https://huggingface.co/deepseek-ai/DeepSeek-V3-0324) | 671B | [link](https://github.com/deepseek-ai/DeepSeek-V3/blob/main/LICENSE-MODEL) | 14.8T |  | MoE(37B) |
 |2025.3| [Gemma3 (Google)]() | [HF](https://huggingface.co/collections/google/gemma-3-release-67c6c6f89c4f76621268bb6d)| 27B | [gemma](https://ai.google.dev/gemma/terms) | | |
@@ -62,7 +66,6 @@ Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 |2024.12| [Phi-4 (Microsoft)](https://www.microsoft.com/en-us/research/uploads/prod/2024/12/P4TechReport.pdf) |[HF](https://huggingface.co/NyxKrage/Microsoft_Phi-4) | 14B | msrla |  |  | small, sft, dpo |
 |2024.11| [QWQ (Alibaba)]() |[HF](https://huggingface.co/Qwen/QwQ-32B-Preview) | 32B | apache-2.0 | Qwen2.5 |  |  reasoning |
 |2024.9| [Qwen 2.5 (Alibaba)]() |[HF](https://huggingface.co/collections/Qwen/qwen25-66e81a666513e518adb90d9e) | 0.5~72B | apache2.0 |  |  | [long context available](https://huggingface.co/collections/Qwen/qwen25-1m-679325716327ec07860530ba) |
-
 <!-- 
 |2024.12| [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3) | [HF](https://huggingface.co/deepseek-ai/DeepSeek-V3) | 671B | [link](https://github.com/deepseek-ai/DeepSeek-V3/blob/main/LICENSE-MODEL) | 14.8T | sft, RL | MoE |
 |2024.7| [Reflection]() |[HF](https://huggingface.co/mattshumer/ref_70_e3) | 70B | llama3.1 | Llama 3.1 | synthetic data (Glaive) |  |
