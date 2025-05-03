@@ -5,6 +5,7 @@ LLMの最新情報のまとめ.
 Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 
 **NEWS**
+- 🔥2025.5 Ai2からOLMo2-1Bの最新版がリリースされました！
 - 🔥2025.4 Qwen3がリリースされました！
 - 🔥2025.4 Llama4がリリースされました！
 
@@ -139,6 +140,7 @@ Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 ## Small language models (SLM)
 | When? | Name |  HF?  | Size | License | pretraining | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2025.5| [OLMo-2](https://huggingface.co/allenai) | [HF](https://huggingface.co/allenai/OLMo-2-0425-1B-Instruct) | 1B | | | |
 |2025.3| [Gemma3]() | [HF](https://huggingface.co/collections/google/gemma-3-release-67c6c6f89c4f76621268bb6d)| 1B,4B | [gemma](https://ai.google.dev/gemma/terms) | | |
 |2025.3| [Sarashina2.2](https://huggingface.co/sbintuitions/sarashina2.2-3b-instruct-v0.1) |  | 0.5B,1B,3B | mit | | | ELYZA-tasks=3.75 |
 |2025.2 | [SmolLM(huggingface)](https://github.com/huggingface/smollm) | [HF](https://huggingface.co/collections/HuggingFaceTB/smollm2-6723884218bcda64b34d7db9)| 135M~1.7B| apache-2.0 | | 
@@ -159,7 +161,7 @@ Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 |When? | Name |  HF?  | Size | License | pretraining | finetuning/continual | test | misc.|
 |---|---|---|---|---|---|---|---|---|
 |2025.4| [OmniV-Med(Alibaba)]() | | 1.5,7B |  | 252K instruction data|    | 11 benchmarks (2D/3D image and video) |  |
-|2025.4| [(EQUES)]() | [HF]() | 7B |  | Qwen2.5 | pharma corpus   | None | japanese |
+|2025.4| [JPharmatron(EQUES)]() | [HF]() | 7B |  | Qwen2.5 | pharma corpus   | None | japanese |
 |2025.2| [Preferred-MedLLM-Qwen-72B]() | [HF](https://huggingface.co/pfnet/Preferred-MedLLM-Qwen-72B) | 72B | Qwen | Qwen2.5 | original corpus   | IgakuQA | japanese |
 |2025.2| [OpenMeditron](https://huggingface.co/OpenMeditron)|[HF](https://huggingface.co/OpenMeditron/Meditron3-70B) | 7~70B | |||MedQA etc. | 
 |2025.1| [Huatuo-o1](https://github.com/FreedomIntelligence/HuatuoGPT-o1)|[HF](https://huggingface.co/FreedomIntelligence/HuatuoGPT-o1-72B) | 72B | apache-2.0 | 
@@ -275,6 +277,7 @@ college biology, college medicine, medical genetics, professional medicine and a
 - [MedEval](https://github.com/ZexueHe/MedEval)
 - [MedTrinity](https://github.com/UCSC-VLAA/MedTrinity-25M)
 - [Clinical NLP 2023](https://clinical-nlp.github.io/2023/resources.html)
+- [OmniMedVQA](https://huggingface.co/datasets/foreverbeliever/OmniMedVQA)
 
 See more on 
 - [He et al.(2023)](https://arxiv.org/pdf/2310.05694.pdf)
