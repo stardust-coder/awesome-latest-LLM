@@ -182,7 +182,8 @@ Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 ## Model
 |When? | Name |  HF?  | Size | License | pretraining | finetuning/continual | test | misc.|
 |---|---|---|---|---|---|---|---|---|
-|2025.4| [OmniV-Med(Alibaba)]() | | 1.5,7B |  | 252K instruction data|    | 11 benchmarks (2D/3D image and video) |  |
+|2025.5| [MedGemma (Google)]() |[HF](https://huggingface.co/collections/google/medgemma-release-680aade845f90bec6a3f60c4)| 4B, 27B| | Gemma3| | | |
+|2025.4| [OmniV-Med(Alibaba)](https://arxiv.org/abs/2504.14692) | | 1.5,7B |  | 252K instruction data|    | 11 benchmarks (2D/3D image and video) |  |
 |2025.4| [JPharmatron(EQUES)]() | [HF]() | 7B |  | Qwen2.5 | pharma corpus   | None | japanese |
 |2025.2| [Preferred-MedLLM-Qwen-72B]() | [HF](https://huggingface.co/pfnet/Preferred-MedLLM-Qwen-72B) | 72B | Qwen | Qwen2.5 | original corpus   | IgakuQA | japanese |
 |2025.2| [OpenMeditron](https://huggingface.co/OpenMeditron)|[HF](https://huggingface.co/OpenMeditron/Meditron3-70B) | 7~70B | |||MedQA etc. | 
