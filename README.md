@@ -3,6 +3,7 @@
 Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 
 **NEWS**
+- 🔥2025.5 DeepSeek-R1の最新版が公開されました！
 - 🔥2025.5 Swallowチームから最新版Gemma Swallowがリリースされました！
 - 🔥2025.5 Ai2からOLMo2-1Bの最新版がリリースされました！
 - 🔥2025.4 Qwen3がリリースされました！
@@ -73,8 +74,10 @@ Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 <a id="english-centric"></a>
 ## English-centric
 
+
 | When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2025.5| [DeepSeek-R1-0528]() | [HF](https://huggingface.co/deepseek-ai/DeepSeek-R1-0528) | 671B |  | |  | approaching o3 & Gemini 2.5 Pro |
 |2025.4| [Qwen3 (Alibaba)]()|[HF](https://huggingface.co/collections/Qwen/qwen3-67dd247413f0e2e4f653967f)| 0.6~235B |apache-2.0|| |
 |2025.4| [Llama4 (Meta)](https://ai.meta.com/blog/llama-4-multimodal-intelligence/)|[HF](https://huggingface.co/collections/meta-llama/llama-4-67f0c30d9fe03840bc9d0164)|17B|llama4|30T token||10M token|
 |2025.1| [DeepSeek-V3-0324]() | [HF](https://huggingface.co/deepseek-ai/DeepSeek-V3-0324) | 671B | [link](https://github.com/deepseek-ai/DeepSeek-V3/blob/main/LICENSE-MODEL) | 14.8T |  | MoE(37B) |
@@ -130,6 +133,7 @@ Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 
 | When? | Name |  HF?  | Size | License | pretraining | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2024.5| [PLaMo 2.0-31B](https://www.preferred.jp/ja/news/pr20250522/) | None | 31B |  | | |
 |2024.5| [Gemma Swallow]() | [HF](https://huggingface.co/collections/tokyotech-llm/gemma-2-swallow-67f2bdf95f03b9e278264241) | 2, 9, 27B |  |  | |  |
 |2024.3| [Stockmark 2]() | [HF](https://huggingface.co/stockmark/Stockmark-2-100B-Instruct-beta) | 100B |  |  | |  |
 |2024.3| [Llama-3.3-Swallow-70B-Instruct-v0.4]() | [HF](https://huggingface.co/tokyotech-llm/Llama-3.3-Swallow-70B-Instruct-v0.4) | 70B | [llama3.3](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct/blob/main/LICENSE) | Llama3.3 | | JMT-Bench 0.772 |
@@ -182,6 +186,7 @@ Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 ## Model
 |When? | Name |  HF?  | Size | License | pretraining | finetuning/continual | test | misc.|
 |---|---|---|---|---|---|---|---|---|
+|2025.5| [Med-R1]() |[HF](https://huggingface.co/yuxianglai117/Med-R1)| 2B | | Qwen2-VL | | | VLM |
 |2025.5| [MedGemma (Google)]() |[HF](https://huggingface.co/collections/google/medgemma-release-680aade845f90bec6a3f60c4)| 4B, 27B| | Gemma3| | | |
 |2025.4| [OmniV-Med(Alibaba)](https://arxiv.org/abs/2504.14692) | | 1.5,7B |  | 252K instruction data|    | 11 benchmarks (2D/3D image and video) |  |
 |2025.4| [JPharmatron(EQUES)]() | [HF]() | 7B |  | Qwen2.5 | pharma corpus   | None | japanese |
@@ -235,7 +240,15 @@ See also
 - [Open Medical-LLM Leaderboard](https://huggingface.co/spaces/openlifescienceai/open_medical_llm_leaderboard)
 
 
-## Evaluation benchmarks
+## Dataset
+
+For Japanese medical dataset, see [JMedData4LLM](https://github.com/stardust-coder/jmed-data-for-llm).
+
+### Corpus
+- [Healthcare Datasets (Aloe Beta)](https://huggingface.co/collections/HPAI-BSC/healthcare-datasets-aloe-beta-672374294ed56f43dc302499)
+
+
+### Evaluation benchmarks
 
 - [MIRAGE Leaderboard](https://teddy-xionggz.github.io/MIRAGE/)
 - [Open Medical LLM leaderboard](https://huggingface.co/blog/leaderboard-medicalllm), [leaderboard](https://huggingface.co/spaces/openlifescienceai/open_medical_llm_leaderboard)
@@ -243,13 +256,7 @@ See also
 - [MedEval](https://arxiv.org/pdf/2310.14088)
 - [MEDIC](https://arxiv.org/pdf/2409.07314)
 
-## Dataset
-
-For Japanese medical dataset, see [JMedData4LLM](https://github.com/stardust-coder/jmed-data-for-llm).
-
-
 ### Only Text
-
 **Representative medical benchmarks**
 - [MedQA (USMLE)](https://github.com/jind11/MedQA) 
 - [MedMCQA](https://arxiv.org/abs/2203.14371)
@@ -304,7 +311,7 @@ Dataset from [**OnDeviceMedNotes**](https://huggingface.co/OnDeviceMedNotes)
 - [MedAlign(Stanford)](https://github.com/som-shahlab/medalign)
 - [MedEval](https://github.com/ZexueHe/MedEval)
 - [MedTrinity](https://github.com/UCSC-VLAA/MedTrinity-25M): 25M
-- [OmniMedVQA](https://huggingface.co/datasets/foreverbeliever/OmniMedVQA)
+- [OmniMedVQA](https://huggingface.co/datasets/foreverbeliever/OmniMedVQA): 73 different medical datasets, contains 118,010 images with 127,995 QA-items, covering 12 different medical image modalities and referring to more than 20 human anatomical regions.
 - [MIMIC-ECG-IV](https://physionet.org/content/mimic-iv-ecg/) : ECG-caption dataset
 - [ECG-QA](https://github.com/Jwoo5/ecg-qa)
 
