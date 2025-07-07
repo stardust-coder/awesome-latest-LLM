@@ -63,11 +63,11 @@ Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 
 || Small | Medium 1 | Medium 2 | Large | 
 |---|---|---|---|---|
-| English | Qwen3-1.7B | Qwen3-8B |  Qwen2.5-32B <br> Qwen3-MoE-30B| Deepseek-V3 <br> Qwen2.5-72B <br> Qwen3-MoE-235B  |
-| Japanese | TinySwallow-1.5B　<br>　Sarashina2.2-3B | Qwen3-8B | DeepSeek-R1-Distil-Qwen-Japanese-32B | LLM-JP-172B |
+| English | Qwen3-1.7B | Qwen3-8B |  Qwen2.5-32B <br> Qwen3-MoE-30B| Deepseek-R1 <br> Qwen2.5-72B <br> Qwen3-MoE-235B  |
+| Japanese | TinySwallow-1.5B　<br>　Sarashina2.2-3B | Qwen3-8B | DeepSeek-R1-Distil-Qwen-Japanese-32B | LLM-JP-8x13B |
 
 - Personally recommended
-- Updated anytime
+- Will be updated anytime
 
 
 # LLM List
@@ -78,7 +78,7 @@ Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 | When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
 |2025.5| [DeepSeek-R1-0528]() | [HF](https://huggingface.co/deepseek-ai/DeepSeek-R1-0528) | 671B |  | |  | approaching o3 & Gemini 2.5 Pro |
-|2025.4| [Qwen3 (Alibaba)]()|[HF](https://huggingface.co/collections/Qwen/qwen3-67dd247413f0e2e4f653967f)| 0.6~235B |apache-2.0|| |
+|2025.4| [Qwen3 (Alibaba)]()|[HF](https://huggingface.co/collections/Qwen/qwen3-67dd247413f0e2e4f653967f)| 0.6~235B |apache-2.0| | |
 |2025.4| [Llama4 (Meta)](https://ai.meta.com/blog/llama-4-multimodal-intelligence/)|[HF](https://huggingface.co/collections/meta-llama/llama-4-67f0c30d9fe03840bc9d0164)|17B|llama4|30T token||10M token|
 |2025.1| [DeepSeek-V3-0324]() | [HF](https://huggingface.co/deepseek-ai/DeepSeek-V3-0324) | 671B | [link](https://github.com/deepseek-ai/DeepSeek-V3/blob/main/LICENSE-MODEL) | 14.8T |  | MoE(37B) |
 |2025.3| [Gemma3 (Google)]() | [HF](https://huggingface.co/collections/google/gemma-3-release-67c6c6f89c4f76621268bb6d)| 27B | [gemma](https://ai.google.dev/gemma/terms) | | |
@@ -133,10 +133,11 @@ Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 
 | When? | Name |  HF?  | Size | License | pretraining | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
-|2024.5| [PLaMo 2.0-31B](https://www.preferred.jp/ja/news/pr20250522/) | None | 31B |  | | |
-|2024.5| [Gemma Swallow]() | [HF](https://huggingface.co/collections/tokyotech-llm/gemma-2-swallow-67f2bdf95f03b9e278264241) | 2, 9, 27B |  |  | |  |
-|2024.3| [Stockmark 2]() | [HF](https://huggingface.co/stockmark/Stockmark-2-100B-Instruct-beta) | 100B |  |  | |  |
-|2024.3| [Llama-3.3-Swallow-70B-Instruct-v0.4]() | [HF](https://huggingface.co/tokyotech-llm/Llama-3.3-Swallow-70B-Instruct-v0.4) | 70B | [llama3.3](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct/blob/main/LICENSE) | Llama3.3 | | JMT-Bench 0.772 |
+|2025.5| [LLM-jp-3.1]() | [HF](https://huggingface.co/collections/llm-jp/llm-jp-31-fine-tuned-models-68368681b9b35de1c4ac8de4) | 1.8, 13. 8x13B |  | | Japanese flagship |
+|2025.5| [PLaMo 2.0-31B](https://www.preferred.jp/ja/news/pr20250522/) | None | 31B |  | | |
+|2025.5| [Gemma Swallow]() | [HF](https://huggingface.co/collections/tokyotech-llm/gemma-2-swallow-67f2bdf95f03b9e278264241) | 2, 9, 27B |  |  | |  |
+|2025.3| [Stockmark 2]() | [HF](https://huggingface.co/stockmark/Stockmark-2-100B-Instruct-beta) | 100B |  |  | |  |
+|2025.3| [Llama-3.3-Swallow-70B-Instruct-v0.4]() | [HF](https://huggingface.co/tokyotech-llm/Llama-3.3-Swallow-70B-Instruct-v0.4) | 70B | [llama3.3](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct/blob/main/LICENSE) | Llama3.3 | | JMT-Bench 0.772 |
 |2025.2| [PlaMo 2 (PFN)](https://tech.preferred.jp/ja/blog/plamo-2-8b/) | [HF](https://huggingface.co/pfnet/plamo-2-8b) | 8B | [plamo](https://tech.preferred.jp/ja/blog/plamo-community-license/) ||| Samba |
 |2025.3| [Bakeneko (rinna)]()| [HF](https://huggingface.co/collections/rinna/qwen25-bakeneko-67aa2ef444910bbc55a21222) [HF](https://huggingface.co/rinna/qwq-bakeneko-32b) | 32B | apache-2.0 |  |  | |
 |2025.1| [DeepSeek-R1-Distil-Qwen-Japanese(CyberAgent)]()| [HF](https://huggingface.co/cyberagent/DeepSeek-R1-Distill-Qwen-32B-Japanese) | 32B | MIT | [distil](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B) | Japanese dataset | |
@@ -186,10 +187,11 @@ Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 ## Model
 |When? | Name |  HF?  | Size | License | pretraining | finetuning/continual | test | misc.|
 |---|---|---|---|---|---|---|---|---|
-|2025.5| [Med-R1]() |[HF](https://huggingface.co/yuxianglai117/Med-R1)| 2B | | Qwen2-VL | | | VLM |
-|2025.5| [MedGemma (Google)]() |[HF](https://huggingface.co/collections/google/medgemma-release-680aade845f90bec6a3f60c4)| 4B, 27B| | Gemma3| | | |
+|2025.5| [MedGemma (Google)]() |[HF](https://huggingface.co/collections/google/medgemma-release-680aade845f90bec6a3f60c4)| 4B, 27B | | Gemma3| | | |
+|2025.4| [Med-R1 (IEEE)](https://arxiv.org/pdf/2503.13939v4) |[HF](https://huggingface.co/yuxianglai117/Med-R1)| 2B | | Qwen2-VL | | | VLM |
+|2025.4| [Med-R1 8B(IQVIA)](https://www.iqvia.com/blogs/2025/04/introducing-iqvia-medical-reasoning-med-r1-8b) | None | 8B | |  | | | reasoning |
 |2025.4| [OmniV-Med(Alibaba)](https://arxiv.org/abs/2504.14692) | | 1.5,7B |  | 252K instruction data|    | 11 benchmarks (2D/3D image and video) |  |
-|2025.4| [JPharmatron(EQUES)]() | [HF]() | 7B |  | Qwen2.5 | pharma corpus   | None | japanese |
+|2025.4| [JPharmatron(EQUES)](https://arxiv.org/pdf/2505.16661) | [HF](https://huggingface.co/EQUES/JPharmatron-7B) | 7B | cc-by-sa-4.0 | Qwen2.5 | pharma corpus | None | Japanese |
 |2025.2| [Preferred-MedLLM-Qwen-72B]() | [HF](https://huggingface.co/pfnet/Preferred-MedLLM-Qwen-72B) | 72B | Qwen | Qwen2.5 | original corpus   | IgakuQA | japanese |
 |2025.2| [OpenMeditron](https://huggingface.co/OpenMeditron)|[HF](https://huggingface.co/OpenMeditron/Meditron3-70B) | 7~70B | |||MedQA etc. | 
 |2025.1| [Huatuo-o1](https://github.com/FreedomIntelligence/HuatuoGPT-o1)|[HF](https://huggingface.co/FreedomIntelligence/HuatuoGPT-o1-72B) | 72B | apache-2.0 | 
@@ -275,7 +277,7 @@ Dataset from [**OnDeviceMedNotes**](https://huggingface.co/OnDeviceMedNotes)
 
 **Others**
 - [HealthsearchQA](https://huggingface.co/datasets/katielink/healthsearchqa) : 3173 samples, used in MedPaLM paper
-- [LiveQA]() : 634+10, used in MedPaLM paper
+- [LiveQA](https://github.com/abachaa/LiveQA_MedicalTask_TREC2017) : 634+10, used in MedPaLM paper
 - [PubHealth](https://github.com/neemakot/Health-Fact-Checking)
 - [HeadQA](https://huggingface.co/datasets/dvilares/head_qa) : Spanish healthcare system
 - [K-Q&A](https://github.com/Itaymanes/K-QA)
@@ -296,7 +298,8 @@ Dataset from [**OnDeviceMedNotes**](https://huggingface.co/OnDeviceMedNotes)
 - [EquityMedQA](https://huggingface.co/datasets/katielink/EquityMedQA) : Open-ended Q&A for equity and bias mitigation.
 - [MedDistractQA](https://huggingface.co/datasets/KrithikV/MedDistractQA)
 - [AlpaCare-MedInstruct-52k](https://huggingface.co/datasets/lavita/AlpaCare-MedInstruct-52k)
-
+- [HealthBench (OpenAI)](https://openai.com/index/healthbench/)
+- [CLUE](https://github.com/TIO-IKIM/CLUE)
 
 ### Image + Text
 - [Clinical NLP 2023](https://clinical-nlp.github.io/2023/resources.html)
