@@ -187,6 +187,7 @@ Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 ## Model
 |When? | Name |  HF?  | Size | License | pretraining | finetuning/continual | test | misc.|
 |---|---|---|---|---|---|---|---|---|
+|2025.7| [ELYZA-Med-Base-1.0-Qwen2.5-72B](https://prtimes.jp/main/html/rd/p/000000061.000047565.html) | None | 72B | Qwen | Qwen2.5 |   | IgakuQA | japanese |
 |2025.5| [MedGemma (Google)]() |[HF](https://huggingface.co/collections/google/medgemma-release-680aade845f90bec6a3f60c4)| 4B, 27B | | Gemma3| | | |
 |2025.4| [Med-R1 (IEEE)](https://arxiv.org/pdf/2503.13939v4) |[HF](https://huggingface.co/yuxianglai117/Med-R1)| 2B | | Qwen2-VL | | | VLM |
 |2025.4| [Med-R1 8B(IQVIA)](https://www.iqvia.com/blogs/2025/04/introducing-iqvia-medical-reasoning-med-r1-8b) | None | 8B | |  | | | reasoning |
