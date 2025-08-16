@@ -63,7 +63,7 @@ Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 
 || Small | Medium 1 | Medium 2 | Large | 
 |---|---|---|---|---|
-| English | Qwen3-1.7B | Qwen3-8B |  Qwen2.5-32B <br> Qwen3-MoE-30B| Deepseek-R1 <br> Qwen2.5-72B <br> Qwen3-MoE-235B  |
+| English | Gemma3-270M <br> Qwen3-1.7B | Qwen3-8B |  Qwen2.5-32B <br> Qwen3-MoE-30B| Deepseek-R1 <br> Qwen2.5-72B <br> Qwen3-MoE-235B  |
 | Japanese | TinySwallow-1.5B　<br>　Sarashina2.2-3B | Qwen3-8B | DeepSeek-R1-Distil-Qwen-Japanese-32B | LLM-JP-8x13B |
 
 - Personally recommended
@@ -77,6 +77,7 @@ Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 
 | When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2025.8| [GPT-OSS (OpenAI)]() | [HF](https://huggingface.co/openai/gpt-oss-120b) | 20,120B |  | |  |  |
 |2025.5| [DeepSeek-R1-0528]() | [HF](https://huggingface.co/deepseek-ai/DeepSeek-R1-0528) | 671B |  | |  | approaching o3 & Gemini 2.5 Pro |
 |2025.4| [Qwen3 (Alibaba)]()|[HF](https://huggingface.co/collections/Qwen/qwen3-67dd247413f0e2e4f653967f)| 0.6~235B |apache-2.0| | |
 |2025.4| [Llama4 (Meta)](https://ai.meta.com/blog/llama-4-multimodal-intelligence/)|[HF](https://huggingface.co/collections/meta-llama/llama-4-67f0c30d9fe03840bc9d0164)|17B|llama4|30T token||10M token|
@@ -165,6 +166,7 @@ Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 ## Small language models (SLM)
 | When? | Name |  HF?  | Size | License | pretraining | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2025.8| [Gemma3-270M]() | [HF](https://huggingface.co/google/gemma-3-270m) | 0.27B | | | |
 |2025.5| [OLMo-2](https://huggingface.co/allenai) | [HF](https://huggingface.co/allenai/OLMo-2-0425-1B-Instruct) | 1B | | | |
 |2025.3| [Gemma3]() | [HF](https://huggingface.co/collections/google/gemma-3-release-67c6c6f89c4f76621268bb6d)| 1B,4B | [gemma](https://ai.google.dev/gemma/terms) | | |
 |2025.3| [Sarashina2.2](https://huggingface.co/sbintuitions/sarashina2.2-3b-instruct-v0.1) |  | 0.5B,1B,3B | mit | | | ELYZA-tasks=3.75 |
