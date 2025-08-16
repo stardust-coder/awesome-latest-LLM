@@ -3,15 +3,16 @@
 Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 
 **NEWS**
+
+
+<details>
+
+<summary>History</summary>
 - 🔥2025.5 DeepSeek-R1の最新版が公開されました！
 - 🔥2025.5 Swallowチームから最新版Gemma Swallowがリリースされました！
 - 🔥2025.5 Ai2からOLMo2-1Bの最新版がリリースされました！
 - 🔥2025.4 Qwen3がリリースされました！
 - 🔥2025.4 Llama4がリリースされました！
-
-<details>
-
-<summary>History</summary>
 - 2025.3 🔥Gemma3がリリースされました！
 - 2025.3 🔥Llama-Swallowの最新版がリリースされました！
 - 2025.3 🔥Sarashina2.2がリリースされました.
