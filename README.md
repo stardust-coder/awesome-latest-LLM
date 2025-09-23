@@ -3,7 +3,7 @@
 Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 
 **NEWS**
-
+- 🔥2025.9 Qwen3-Nextがリリースされました！
 
 <details>
 
@@ -52,6 +52,7 @@ Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 
 ## Table of Contents
 [Pickup](#pickup)  
+[Omni★★★](#omni)  
 [English-centric](#english-centric)  
 [Japanese-centric](#japanese-centric)  
 [Small Language Model](#SLM)  
@@ -70,6 +71,13 @@ Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 - Personally recommended
 - Will be updated anytime
 
+# Omni
+<a id="omni"></a>
+
+| When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
+|---|---|---|---|---|---|---|---|
+|2025.9| [Qwen3-Omni (Alibaba)](https://github.com/QwenLM/Qwen3-Omni) | [HF](https://huggingface.co/collections/Qwen/qwen3-omni-68d100a86cd0906843ceccbe) | 30B-A3B | apache-2.0 |  text-first pretraining and mixed multimodal training |  | [demo](https://huggingface.co/spaces/Qwen/Qwen3-Omni-Demo) |
+
 
 # LLM List
 <a id="english-centric"></a>
@@ -78,7 +86,8 @@ Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 
 | When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
-|2025.8| [GPT-OSS (OpenAI)]() | [HF](https://huggingface.co/openai/gpt-oss-120b) | 20,120B |  | |  |  |
+|2025.9| [Qwen3-Next (Alibaba)]() | [HF](https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct) | 80B-A3B | apache-2.0 | 15T |  | moe |
+|2025.8| [GPT-OSS (OpenAI)]() | [HF](https://huggingface.co/openai/gpt-oss-120b) | 20B,120B |  | |  |  |
 |2025.5| [DeepSeek-R1-0528]() | [HF](https://huggingface.co/deepseek-ai/DeepSeek-R1-0528) | 671B |  | |  | approaching o3 & Gemini 2.5 Pro |
 |2025.4| [Qwen3 (Alibaba)]()|[HF](https://huggingface.co/collections/Qwen/qwen3-67dd247413f0e2e4f653967f)| 0.6~235B |apache-2.0| | |
 |2025.4| [Llama4 (Meta)](https://ai.meta.com/blog/llama-4-multimodal-intelligence/)|[HF](https://huggingface.co/collections/meta-llama/llama-4-67f0c30d9fe03840bc9d0164)|17B|llama4|30T token||10M token|
@@ -135,7 +144,7 @@ Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 
 | When? | Name |  HF?  | Size | License | pretraining | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
-|2025.5| [LLM-jp-3.1]() | [HF](https://huggingface.co/collections/llm-jp/llm-jp-31-fine-tuned-models-68368681b9b35de1c4ac8de4) | 1.8, 13. 8x13B |  | | Japanese flagship |
+|2025.5| [LLM-jp-3.1]() | [HF](https://huggingface.co/collections/llm-jp/llm-jp-31-fine-tuned-models-68368681b9b35de1c4ac8de4) | 1.8B, 13B, 8x13B |  | | Japanese flagship |
 |2025.5| [PLaMo 2.0-31B](https://www.preferred.jp/ja/news/pr20250522/) | None | 31B |  | | |
 |2025.5| [Gemma Swallow]() | [HF](https://huggingface.co/collections/tokyotech-llm/gemma-2-swallow-67f2bdf95f03b9e278264241) | 2, 9, 27B |  |  | |  |
 |2025.3| [Stockmark 2]() | [HF](https://huggingface.co/stockmark/Stockmark-2-100B-Instruct-beta) | 100B |  |  | |  |
