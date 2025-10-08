@@ -86,6 +86,7 @@ Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 
 | When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2025.10| [Ling-1T (InclusionAI)]() | [HF](https://huggingface.co/collections/inclusionAI/ling-v2-68bf1dd2fc34c306c1fa6f86) | 1T-A50B | MIT | 20T+ |  | moe |
 |2025.9| [Qwen3-Next (Alibaba)]() | [HF](https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct) | 80B-A3B | apache-2.0 | 15T |  | moe |
 |2025.8| [GPT-OSS (OpenAI)]() | [HF](https://huggingface.co/openai/gpt-oss-120b) | 20B,120B |  | |  |  |
 |2025.5| [DeepSeek-R1-0528]() | [HF](https://huggingface.co/deepseek-ai/DeepSeek-R1-0528) | 671B |  | |  | approaching o3 & Gemini 2.5 Pro |
@@ -176,6 +177,7 @@ Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 ## Small language models (SLM)
 | When? | Name |  HF?  | Size | License | pretraining | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2025.10| [Granite-4.0-H-Micro (IBM)]() | [HF](https://huggingface.co/ibm-granite/granite-4.0-h-micro) | 3B | apache-2.0 | | |
 |2025.8| [Gemma3-270M]() | [HF](https://huggingface.co/google/gemma-3-270m) | 0.27B | | | |
 |2025.5| [OLMo-2](https://huggingface.co/allenai) | [HF](https://huggingface.co/allenai/OLMo-2-0425-1B-Instruct) | 1B | | | |
 |2025.3| [Gemma3]() | [HF](https://huggingface.co/collections/google/gemma-3-release-67c6c6f89c4f76621268bb6d)| 1B,4B | [gemma](https://ai.google.dev/gemma/terms) | | |
