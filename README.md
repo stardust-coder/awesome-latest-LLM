@@ -3,6 +3,7 @@
 Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 
 **NEWS**
+- 🔥2025.11 エンプラモデルをも超えうる1TパラメタのKimi-K2がリリースされました！
 - 🔥2025.9 Qwen3-Nextがリリースされました！
 
 <details>
@@ -86,6 +87,7 @@ Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 
 | When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2025.11| [Kimi-K2]() | [HF](https://huggingface.co/collections/moonshotai/kimi-k2) | 1T-32B | [modified MIT](https://huggingface.co/moonshotai/Kimi-K2-Thinking/blob/main/LICENSE) |  |  | moe |
 |2025.10| [Ling-1T (InclusionAI)]() | [HF](https://huggingface.co/collections/inclusionAI/ling-v2-68bf1dd2fc34c306c1fa6f86) | 1T-A50B | MIT | 20T+ |  | moe |
 |2025.9| [Qwen3-Next (Alibaba)]() | [HF](https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct) | 80B-A3B | apache-2.0 | 15T |  | moe |
 |2025.8| [GPT-OSS (OpenAI)]() | [HF](https://huggingface.co/openai/gpt-oss-120b) | 20B,120B |  | |  |  |
@@ -169,7 +171,7 @@ Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 |2023.11| [StableLM(StabilityAI)](https://ja.stability.ai/blog/japanese-stable-lm-beta) | [HF](https://huggingface.co/stabilityai/japanese-stablelm-base-beta-70b) | 70B | | Llama2-70Bベース |
 |2023.10| [LLM-jp](https://llm-jp.nii.ac.jp/blog/2024/02/09/v1.1-tuning.html) | [HF](https://huggingface.co/llm-jp) | 13B | DPO追加あり |
 
-- See more on [awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-llm) and [日本語LLM評価](https://swallow-llm.github.io/evaluation/about.ja.html)
+- See more on [awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-llm), [日本語LLMまとめ](https://llm-jp.github.io/awesome-japanese-llm/) and [日本語LLM評価](https://swallow-llm.github.io/evaluation/about.ja.html)
 - Let's go soverign AI!
 
 <a id="SLM"></a>
@@ -204,9 +206,9 @@ Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 |2025.7| [ELYZA-Med-Base-1.0-Qwen2.5-72B](https://prtimes.jp/main/html/rd/p/000000061.000047565.html) | None | 72B | Qwen | Qwen2.5 |   | IgakuQA | japanese |
 |2025.5| [MedGemma (Google)]() |[HF](https://huggingface.co/collections/google/medgemma-release-680aade845f90bec6a3f60c4)| 4B, 27B | | Gemma3| | | |
 |2025.4| [Med-R1 (IEEE)](https://arxiv.org/pdf/2503.13939v4) |[HF](https://huggingface.co/yuxianglai117/Med-R1)| 2B | | Qwen2-VL | | | VLM |
-|2025.4| [Med-R1 8B(IQVIA)](https://www.iqvia.com/blogs/2025/04/introducing-iqvia-medical-reasoning-med-r1-8b) | None | 8B | |  | | | reasoning |
+|2025.4| [Med-R1 8B (IQVIA)](https://www.iqvia.com/blogs/2025/04/introducing-iqvia-medical-reasoning-med-r1-8b) | None | 8B | |  | | | reasoning |
 |2025.4| [OmniV-Med(Alibaba)](https://arxiv.org/abs/2504.14692) | | 1.5,7B |  | 252K instruction data|    | 11 benchmarks (2D/3D image and video) |  |
-|2025.4| [JPharmatron(EQUES)](https://arxiv.org/pdf/2505.16661) | [HF](https://huggingface.co/EQUES/JPharmatron-7B) | 7B | cc-by-sa-4.0 | Qwen2.5 | pharma corpus | None | Japanese |
+|2025.4| [JPharmatron(EQUES)](https://arxiv.org/pdf/2505.16661) | [HF](https://huggingface.co/EQUES/JPharmatron-7B) | 7B | cc-by-sa-4.0 | Qwen2.5 | pharma corpus | None | Japanese, AACL2025 |
 |2025.2| [Preferred-MedLLM-Qwen-72B]() | [HF](https://huggingface.co/pfnet/Preferred-MedLLM-Qwen-72B) | 72B | Qwen | Qwen2.5 | original corpus   | IgakuQA | japanese |
 |2025.2| [OpenMeditron](https://huggingface.co/OpenMeditron)|[HF](https://huggingface.co/OpenMeditron/Meditron3-70B) | 7~70B | |||MedQA etc. | 
 |2025.1| [Huatuo-o1](https://github.com/FreedomIntelligence/HuatuoGPT-o1)|[HF](https://huggingface.co/FreedomIntelligence/HuatuoGPT-o1-72B) | 72B | apache-2.0 | 
