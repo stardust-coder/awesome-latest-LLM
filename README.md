@@ -3,12 +3,15 @@
 Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 
 **NEWS**
+
+- 🔥2025.11 DeepSeekの最新版モデルがリリースされました！
 - 🔥2025.11 エンプラモデルをも超えうる1TパラメタのKimi-K2がリリースされました！
-- 🔥2025.9 Qwen3-Nextがリリースされました！
 
 <details>
 
 <summary>History</summary>
+
+- 🔥2025.9 Qwen3-Nextがリリースされました！
 - 🔥2025.5 DeepSeek-R1の最新版が公開されました！
 - 🔥2025.5 Swallowチームから最新版Gemma Swallowがリリースされました！
 - 🔥2025.5 Ai2からOLMo2-1Bの最新版がリリースされました！
@@ -87,11 +90,14 @@ Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 
 | When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp
+|2025.11| [DeepSeek-V3.2-Exp]() | [HF](https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp) | 671B | [MIT](https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp/blob/main/LICENSE)|  |  |  |
 |2025.11| [Kimi-K2]() | [HF](https://huggingface.co/collections/moonshotai/kimi-k2) | 1T-32B | [modified MIT](https://huggingface.co/moonshotai/Kimi-K2-Thinking/blob/main/LICENSE) |  |  | moe |
 |2025.10| [Ling-1T (InclusionAI)]() | [HF](https://huggingface.co/collections/inclusionAI/ling-v2-68bf1dd2fc34c306c1fa6f86) | 1T-A50B | MIT | 20T+ |  | moe |
 |2025.9| [Qwen3-Next (Alibaba)]() | [HF](https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct) | 80B-A3B | apache-2.0 | 15T |  | moe |
-|2025.8| [GPT-OSS (OpenAI)]() | [HF](https://huggingface.co/openai/gpt-oss-120b) | 20B,120B |  | |  |  |
-|2025.5| [DeepSeek-R1-0528]() | [HF](https://huggingface.co/deepseek-ai/DeepSeek-R1-0528) | 671B |  | |  | approaching o3 & Gemini 2.5 Pro |
+|2025.8| [GPT-OSS (OpenAI)]() | [HF](https://huggingface.co/openai/gpt-oss-120b) | 20B~120B |  | |  |  |
+
+<!-- |2025.5| [DeepSeek-R1-0528]() | [HF](https://huggingface.co/deepseek-ai/DeepSeek-R1-0528) | 671B |  | |  | approaching o3 & Gemini 2.5 Pro |
 |2025.4| [Qwen3 (Alibaba)]()|[HF](https://huggingface.co/collections/Qwen/qwen3-67dd247413f0e2e4f653967f)| 0.6~235B |apache-2.0| | |
 |2025.4| [Llama4 (Meta)](https://ai.meta.com/blog/llama-4-multimodal-intelligence/)|[HF](https://huggingface.co/collections/meta-llama/llama-4-67f0c30d9fe03840bc9d0164)|17B|llama4|30T token||10M token|
 |2025.1| [DeepSeek-V3-0324]() | [HF](https://huggingface.co/deepseek-ai/DeepSeek-V3-0324) | 671B | [link](https://github.com/deepseek-ai/DeepSeek-V3/blob/main/LICENSE-MODEL) | 14.8T |  | MoE(37B) |
@@ -136,7 +142,7 @@ Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 |2024.1| [LLaMa-Pro-8B(Tencent)]() | [HF](https://huggingface.co/TencentARC/LLaMA-Pro-8B) | 8B | Llama2 |||
 |2023.12| [Amber](https://www.llm360.ai) | [HF](https://huggingface.co/LLM360/Amber) | 7B | apache-2.0 | Llama|| totally open|
 |2023.11| [Orca2(Microsoft)]() | [HF](https://huggingface.co/microsoft/Orca-2-13b) | 13B | MSRA-license| based on Llama2|||
-|2023.9| [Phi-1.5(Microsoft)](https://arxiv.org/abs/2309.05463) | [HF](https://huggingface.co/microsoft/phi-1_5) | 1.3B| MSRA-license||textbooks|
+|2023.9| [Phi-1.5(Microsoft)](https://arxiv.org/abs/2309.05463) | [HF](https://huggingface.co/microsoft/phi-1_5) | 1.3B| MSRA-license||textbooks| -->
 
 - See also [Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM)
 
@@ -147,10 +153,12 @@ Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 
 | When? | Name |  HF?  | Size | License | pretraining | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
-|2025.5| [LLM-jp-3.1]() | [HF](https://huggingface.co/collections/llm-jp/llm-jp-31-fine-tuned-models-68368681b9b35de1c4ac8de4) | 1.8B, 13B, 8x13B |  | | Japanese flagship |
-|2025.5| [PLaMo 2.0-31B](https://www.preferred.jp/ja/news/pr20250522/) | None | 31B |  | | |
-|2025.5| [Gemma Swallow]() | [HF](https://huggingface.co/collections/tokyotech-llm/gemma-2-swallow-67f2bdf95f03b9e278264241) | 2, 9, 27B |  |  | |  |
-|2025.3| [Stockmark 2]() | [HF](https://huggingface.co/stockmark/Stockmark-2-100B-Instruct-beta) | 100B |  |  | |  |
+|2025.11| [PLaMo 3（PFN）]() | [HF](https://huggingface.co/pfnet/plamo-3-nict-31b-base) | 31B |  |  | |  |
+|2025.7| [Stockmark 2（Stockmark）]() | [HF](https://huggingface.co/stockmark/Stockmark-2-100B-Instruct) | 100B |  |  | |  |
+|2025.5| [LLM-jp-3.1（NII）]() | [HF](https://huggingface.co/collections/llm-jp/llm-jp-31-fine-tuned-models-68368681b9b35de1c4ac8de4) | 1.8B, 13B, 8x13B |  | | Japanese flagship |
+|2025.5| [Gemma2 Swallow （科学大）]() | [HF](https://huggingface.co/collections/tokyotech-llm/gemma-2-swallow-67f2bdf95f03b9e278264241) | 2, 9, 27B |  |  | |  |
+
+<!-- |2025.3| [Stockmark 2]() | [HF](https://huggingface.co/stockmark/Stockmark-2-100B-Instruct-beta) | 100B |  |  | |  |
 |2025.3| [Llama-3.3-Swallow-70B-Instruct-v0.4]() | [HF](https://huggingface.co/tokyotech-llm/Llama-3.3-Swallow-70B-Instruct-v0.4) | 70B | [llama3.3](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct/blob/main/LICENSE) | Llama3.3 | | JMT-Bench 0.772 |
 |2025.2| [PlaMo 2 (PFN)](https://tech.preferred.jp/ja/blog/plamo-2-8b/) | [HF](https://huggingface.co/pfnet/plamo-2-8b) | 8B | [plamo](https://tech.preferred.jp/ja/blog/plamo-community-license/) ||| Samba |
 |2025.3| [Bakeneko (rinna)]()| [HF](https://huggingface.co/collections/rinna/qwen25-bakeneko-67aa2ef444910bbc55a21222) [HF](https://huggingface.co/rinna/qwq-bakeneko-32b) | 32B | apache-2.0 |  |  | |
@@ -169,7 +177,7 @@ Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 |2023.12| [ELYZA-japanese-Llama-2-13b](https://note.com/elyza/n/n5d42686b60b7) | [HF](https://huggingface.co/elyza/ELYZA-japanese-Llama-2-13b) | 13B | | Llama-2-13b-chatベース |
 |2023.12| [Swallow(東工大)](https://tokyotech-llm.github.io) | [HF](https://huggingface.co/tokyotech-llm) | 70B | | Llama2-70Bベース |
 |2023.11| [StableLM(StabilityAI)](https://ja.stability.ai/blog/japanese-stable-lm-beta) | [HF](https://huggingface.co/stabilityai/japanese-stablelm-base-beta-70b) | 70B | | Llama2-70Bベース |
-|2023.10| [LLM-jp](https://llm-jp.nii.ac.jp/blog/2024/02/09/v1.1-tuning.html) | [HF](https://huggingface.co/llm-jp) | 13B | DPO追加あり |
+|2023.10| [LLM-jp](https://llm-jp.nii.ac.jp/blog/2024/02/09/v1.1-tuning.html) | [HF](https://huggingface.co/llm-jp) | 13B | DPO追加あり | -->
 
 - See more on [awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-llm), [日本語LLMまとめ](https://llm-jp.github.io/awesome-japanese-llm/) and [日本語LLM評価](https://swallow-llm.github.io/evaluation/about.ja.html)
 - Let's go soverign AI!
