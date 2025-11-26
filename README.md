@@ -56,7 +56,8 @@ Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 
 ## Table of Contents
 [Pickup](#pickup)  
-[Omni★★★](#omni)  
+[Omni](#omni)  
+[Computer-use](#computer-use)  
 [English-centric](#english-centric)  
 [Japanese-centric](#japanese-centric)  
 [Small Language Model](#SLM)  
@@ -67,10 +68,7 @@ Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 
 # Pickup
 
-|| Small | Medium 1 | Medium 2 | Large | 
-|---|---|---|---|---|
-| English | Gemma3-270M <br> Qwen3-1.7B | Qwen3-8B |  Qwen2.5-32B <br> Qwen3-MoE-30B| Deepseek-R1 <br> Qwen2.5-72B <br> Qwen3-MoE-235B  |
-| Japanese | TinySwallow-1.5B　<br>　Sarashina2.2-3B | Qwen3-8B | DeepSeek-R1-Distil-Qwen-Japanese-32B | LLM-JP-8x13B |
+Coming soon ...
 
 - Personally recommended
 - Will be updated anytime
@@ -80,7 +78,15 @@ Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 
 | When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2025.11| [Uni-Moe-Omni (HIT)](https://idealistxy.github.io/Uni-MoE-v2.github.io/) | [HF](https://huggingface.co/HIT-TMG/Uni-MoE-2.0-Omni) | 33B-1.5~18B | apache-2.0 | 75B token   |  | MoE, surpass Qwen2.5-Omni |
 |2025.9| [Qwen3-Omni (Alibaba)](https://github.com/QwenLM/Qwen3-Omni) | [HF](https://huggingface.co/collections/Qwen/qwen3-omni-68d100a86cd0906843ceccbe) | 30B-A3B | apache-2.0 |  text-first pretraining and mixed multimodal training |  | [demo](https://huggingface.co/spaces/Qwen/Qwen3-Omni-Demo) |
+
+# Computer Use
+<a id="computer-use"></a>
+
+| When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
+|---|---|---|---|---|---|---|---|
+| 2025.11 | Jana | 
 
 
 # LLM List
@@ -90,9 +96,10 @@ Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 
 | When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
-https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp
+|2025.11| [Olmo 3 (Allen)](https://allenai.org/blog/olmo3) | [HF](https://huggingface.co/collections/allenai/olmo-3) | 7, 32B | apache-2.0 |  |  |  |
 |2025.11| [DeepSeek-V3.2-Exp]() | [HF](https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp) | 671B | [MIT](https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp/blob/main/LICENSE)|  |  |  |
-|2025.11| [Kimi-K2]() | [HF](https://huggingface.co/collections/moonshotai/kimi-k2) | 1T-32B | [modified MIT](https://huggingface.co/moonshotai/Kimi-K2-Thinking/blob/main/LICENSE) |  |  | moe |
+|2025.11| [Kimi-K2]() | [HF](https://huggingface.co/collections/moonshotai/kimi-k2) | 1T-A32B | [modified MIT](https://huggingface.co/moonshotai/Kimi-K2-Thinking/blob/main/LICENSE) |  |  | moe |
+|2025.11| [Kimi-Linear]() | [HF](https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct) | 48B-A3B | [modified MIT](https://huggingface.co/moonshotai/Kimi-K2-Thinking/blob/main/LICENSE) |  |  | moe |
 |2025.10| [Ling-1T (InclusionAI)]() | [HF](https://huggingface.co/collections/inclusionAI/ling-v2-68bf1dd2fc34c306c1fa6f86) | 1T-A50B | MIT | 20T+ |  | moe |
 |2025.9| [Qwen3-Next (Alibaba)]() | [HF](https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct) | 80B-A3B | apache-2.0 | 15T |  | moe |
 |2025.8| [GPT-OSS (OpenAI)]() | [HF](https://huggingface.co/openai/gpt-oss-120b) | 20B~120B |  | |  |  |
