@@ -4,6 +4,7 @@ Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 
 **NEWS**
 
+- 🔥2025.12 Mistralから最新版モデルがリリースされました！
 - 🔥2025.11 DeepSeekの最新版モデルがリリースされました！
 - 🔥2025.11 エンプラモデルをも超えうる1TパラメタのKimi-K2がリリースされました！
 
@@ -68,7 +69,8 @@ Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 
 # Pickup
 
-Coming soon ...
+- [Ministral 3](https://huggingface.co/collections/mistralai/ministral-3), 3~14B
+
 
 - Personally recommended
 - Will be updated anytime
@@ -86,7 +88,7 @@ Coming soon ...
 
 | When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
-| 2025.11 | Jana | 
+|2025.11| [Fara (Microsoft)]() | [HF](https://huggingface.co/microsoft/Fara-7B) | 7B | mit | Qwen2.5-VL-7B |  |  |
 
 
 # LLM List
@@ -96,6 +98,8 @@ Coming soon ...
 
 | When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2025.12| [Mistral-Large-3]() | [HF](https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512) | 675B | |  |  | |
+|2025.12| [DeepSeek-V3.2]() | [HF](https://huggingface.co/deepseek-ai/DeepSeek-V3.2) | 685B | |  |  | surpasses GPT-5 |
 |2025.11| [Olmo 3 (Allen)](https://allenai.org/blog/olmo3) | [HF](https://huggingface.co/collections/allenai/olmo-3) | 7, 32B | apache-2.0 |  |  |  |
 |2025.11| [DeepSeek-V3.2-Exp]() | [HF](https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp) | 671B | [MIT](https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp/blob/main/LICENSE)|  |  |  |
 |2025.11| [Kimi-K2]() | [HF](https://huggingface.co/collections/moonshotai/kimi-k2) | 1T-A32B | [modified MIT](https://huggingface.co/moonshotai/Kimi-K2-Thinking/blob/main/LICENSE) |  |  | moe |
@@ -152,7 +156,7 @@ Coming soon ...
 |2023.9| [Phi-1.5(Microsoft)](https://arxiv.org/abs/2309.05463) | [HF](https://huggingface.co/microsoft/phi-1_5) | 1.3B| MSRA-license||textbooks| -->
 
 - See also [Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM)
-
+- See [OpenVLM Leaderboard](https://huggingface.co/spaces/opencompass/open_vlm_leaderboard) for VLMs.
 
 <a id="japanese-centric"></a>
 
