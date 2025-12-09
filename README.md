@@ -69,7 +69,8 @@ Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 
 # Pickup
 
-- [Ministral 3](https://huggingface.co/collections/mistralai/ministral-3), 3~14B
+- [Ministral 3](https://huggingface.co/collections/mistralai/ministral-3), works on WebGPU
+- [Qwen3-Next-80B-A3B](https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct), works on 64GB memory or ollama
 
 
 - Personally recommended
@@ -88,8 +89,8 @@ Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 
 | When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
-|2025.11| [Fara (Microsoft)]() | [HF](https://huggingface.co/microsoft/Fara-7B) | 7B | mit | Qwen2.5-VL-7B |  |  |
-
+|2025.11| [Fara (Microsoft)](https://www.microsoft.com/en-us/research/blog/fara-7b-an-efficient-agentic-model-for-computer-use/) | [HF](https://huggingface.co/microsoft/Fara-7B) | 7B | mit | Qwen2.5-VL-7B |  |  |
+|2025.11| [Jan-v2]() | [HF](https://huggingface.co/collections/janhq/jan-v2-vl) | 8B | apache-2.0 | [Qwen3-VL-8B-Thinking](https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking)|  |  |
 
 # LLM List
 <a id="english-centric"></a>
@@ -98,6 +99,7 @@ Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 
 | When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2025.12| [rnj-1(EssentialAI)]() | [HF](https://huggingface.co/EssentialAI/rnj-1-instruct) | 8B | |  |  | code and STEM |
 |2025.12| [Mistral-Large-3]() | [HF](https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512) | 675B | |  |  | |
 |2025.12| [DeepSeek-V3.2]() | [HF](https://huggingface.co/deepseek-ai/DeepSeek-V3.2) | 685B | |  |  | surpasses GPT-5 |
 |2025.11| [Olmo 3 (Allen)](https://allenai.org/blog/olmo3) | [HF](https://huggingface.co/collections/allenai/olmo-3) | 7, 32B | apache-2.0 |  |  |  |
@@ -166,9 +168,9 @@ Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 |---|---|---|---|---|---|---|---|
 |2025.11| [PLaMo 3（PFN）]() | [HF](https://huggingface.co/pfnet/plamo-3-nict-31b-base) | 31B |  |  | |  |
 |2025.7| [Stockmark 2（Stockmark）]() | [HF](https://huggingface.co/stockmark/Stockmark-2-100B-Instruct) | 100B |  |  | |  |
-|2025.5| [LLM-jp-3.1（NII）]() | [HF](https://huggingface.co/collections/llm-jp/llm-jp-31-fine-tuned-models-68368681b9b35de1c4ac8de4) | 1.8B, 13B, 8x13B |  | | Japanese flagship |
-|2025.5| [Gemma2 Swallow （科学大）]() | [HF](https://huggingface.co/collections/tokyotech-llm/gemma-2-swallow-67f2bdf95f03b9e278264241) | 2, 9, 27B |  |  | |  |
-
+|2025.5| [Llama3.3 Swallow （科学大）]() | [HF](https://huggingface.co/tokyotech-llm/Llama-3.3-Swallow-70B-Instruct-v0.4) | 70B | Llama3.3 | Llama3.3 | |  |
+|2025.5| [LLM-jp-3.1（NII）]() | [HF](https://huggingface.co/collections/llm-jp/llm-jp-31-fine-tuned-models-68368681b9b35de1c4ac8de4) | 1.8B, 13B, 8x13B | apache2.0 | Wikipedia etc. | | Japanese flagship |
+<!-- |2025.5| [Gemma2 Swallow （科学大）]() | [HF](https://huggingface.co/collections/tokyotech-llm/gemma-2-swallow-67f2bdf95f03b9e278264241) | 2, 9, 27B |  |  | |  | -->
 <!-- |2025.3| [Stockmark 2]() | [HF](https://huggingface.co/stockmark/Stockmark-2-100B-Instruct-beta) | 100B |  |  | |  |
 |2025.3| [Llama-3.3-Swallow-70B-Instruct-v0.4]() | [HF](https://huggingface.co/tokyotech-llm/Llama-3.3-Swallow-70B-Instruct-v0.4) | 70B | [llama3.3](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct/blob/main/LICENSE) | Llama3.3 | | JMT-Bench 0.772 |
 |2025.2| [PlaMo 2 (PFN)](https://tech.preferred.jp/ja/blog/plamo-2-8b/) | [HF](https://huggingface.co/pfnet/plamo-2-8b) | 8B | [plamo](https://tech.preferred.jp/ja/blog/plamo-community-license/) ||| Samba |
@@ -198,18 +200,21 @@ Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 ## Small language models (SLM)
 | When? | Name |  HF?  | Size | License | pretraining | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2025.12| [Ministral 3]() | [HF](https://huggingface.co/collections/mistralai/ministral-3) | 3B |  | | |
 |2025.10| [Granite-4.0-H-Micro (IBM)]() | [HF](https://huggingface.co/ibm-granite/granite-4.0-h-micro) | 3B | apache-2.0 | | |
 |2025.8| [Gemma3-270M]() | [HF](https://huggingface.co/google/gemma-3-270m) | 0.27B | | | |
+|2025.7| [Qwen3]() |[HF](https://huggingface.co/collections/Qwen/qwen3) | 0.6~4B | apache2.0 |  |  |  |
+|2025.7| [Phi-4-mini-instruct]() |[HF](https://huggingface.co/microsoft/Phi-4-mini-instruct) | 3.8B | apache2.0 | 5T |  |  |
 |2025.5| [OLMo-2](https://huggingface.co/allenai) | [HF](https://huggingface.co/allenai/OLMo-2-0425-1B-Instruct) | 1B | | | |
 |2025.3| [Gemma3]() | [HF](https://huggingface.co/collections/google/gemma-3-release-67c6c6f89c4f76621268bb6d)| 1B,4B | [gemma](https://ai.google.dev/gemma/terms) | | |
-|2025.3| [Sarashina2.2](https://huggingface.co/sbintuitions/sarashina2.2-3b-instruct-v0.1) |  | 0.5B,1B,3B | mit | | | ELYZA-tasks=3.75 |
-|2025.2 | [SmolLM (Huggingface)](https://github.com/huggingface/smollm) | [HF](https://huggingface.co/collections/HuggingFaceTB/smollm2-6723884218bcda64b34d7db9)| 135M~1.7B| apache-2.0 | | 
-|2025.2| [Phi-4 mini](https://huggingface.co/microsoft/Phi-4-mini-instruct) |  | 3.8B | mit | | |  |
-|2025.2| [PLaMo 2 2B](https://tech.preferred.jp/ja/blog/plamo-2-2b/) | None | 2B | apache-2.0| |  | pruning, tested on HumanEval+ |
-|2025.2| [PLaMo 2 1B]() | [HF](https://huggingface.co/pfnet/plamo-2-1b) | 1B | apache-2.0| 4T (1.25T tokens Japanese)| | base model only |
+|2025.3| [Sarashina2.2](https://huggingface.co/sbintuitions/sarashina2.2-3b-instruct-v0.1) | [HF](https://huggingface.co/collections/sbintuitions/sarashina22) | 0.5B,1B,3B | mit | | | ELYZA-tasks=3.75 |
+|2025.2| [SmolLM (Huggingface)](https://github.com/huggingface/smollm) | [HF](https://huggingface.co/collections/HuggingFaceTB/smollm2-6723884218bcda64b34d7db9)| 135M~1.7B| apache-2.0 | | 
 |2025.1| [TinySwallow-1.5B-Instruct]() | [HF](https://huggingface.co/SakanaAI/TinySwallow-1.5B-Instruct) | 1.5B | apache-2.0 | qwen | Japanese | TAID from Qwen2.5-32B|
-|2024.9| [Qwen2.5]() |[HF](https://huggingface.co/collections/Qwen/qwen25-66e81a666513e518adb90d9e) | 0.5,1.5,3B | apache2.0 |  |  |  |
-|2024.8| [Phi-3.5-mini-instruct]() |[HF](https://huggingface.co/microsoft/Phi-3.5-mini-instruct) | 3.8B | apache2.0 | MIT |  |  |
+<!-- |2025.2| [Phi-4 mini](https://huggingface.co/microsoft/Phi-4-mini-instruct) |  | 3.8B | mit | | |  | -->
+<!-- |2025.2| [PLaMo 2 2B](https://tech.preferred.jp/ja/blog/plamo-2-2b/) | None | 2B | apache-2.0| |  | pruning, tested on HumanEval+ |
+|2025.2| [PLaMo 2 1B]() | [HF](https://huggingface.co/pfnet/plamo-2-1b) | 1B | apache-2.0| 4T (1.25T tokens Japanese)| | base model only | -->
+<!-- |2024.9| [Qwen2.5]() |[HF](https://huggingface.co/collections/Qwen/qwen25-66e81a666513e518adb90d9e) | 0.5,1.5,3B | apache2.0 |  |  |  | -->
+<!-- |2024.8| [Phi-3.5-mini-instruct]() |[HF](https://huggingface.co/microsoft/Phi-3.5-mini-instruct) | 3.8B | apache2.0 | MIT |  |  | -->
 
 
 --- 
@@ -261,7 +266,7 @@ Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 |2023.5| [Almanac(Stanford)](https://arxiv.org/pdf/2303.01229.pdf)| ? | ? | text-davinci-003 |  | | RAG |
 |2023.5| [Med-PaLM2(Google)](https://arxiv.org/abs/2305.09617) | not open | 340B | - | PaLM2 | | |
 |2022.12| [Med-PaLM(Google)](https://arxiv.org/abs/2212.13138) | not open | 540B| - | PaLM | | | |
-|| [name]() | [HF]() | | |
+
 
 See also 
 - [Awesome-Healthcare-Foundation-Models](https://github.com/Jianing-Qiu/Awesome-Healthcare-Foundation-Models)
@@ -336,6 +341,7 @@ Dataset from [**OnDeviceMedNotes**](https://huggingface.co/OnDeviceMedNotes)
 - [AlpaCare-MedInstruct-52k](https://huggingface.co/datasets/lavita/AlpaCare-MedInstruct-52k)
 - [HealthBench (OpenAI)](https://openai.com/index/healthbench/)
 - [CLUE](https://github.com/TIO-IKIM/CLUE)
+- [CUREBench (Harvard)](https://github.com/mims-harvard/CUREBench)
 
 ### Image + Text
 - [Clinical NLP 2023](https://clinical-nlp.github.io/2023/resources.html)
