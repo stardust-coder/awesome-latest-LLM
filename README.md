@@ -1,10 +1,13 @@
-# LLMの最新情報のまとめ
+# 🧠 Awesome Latest LLM / LLMの最新情報のまとめ
 
-Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
+A continuously updated, curated list of the latest Large Language Models — categorized, benchmarked, and optimized for real-world use.
+Stay ahead of the rapidly evolving LLM ecosystem.
+
+<p align="center"> <img src="https://img.shields.io/badge/Updates-Monthly-blue" /> <img src="https://img.shields.io/github/stars/stardust-coder/awesome-latest-LLM?style=social" /> <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen" /> </p>
 
 **NEWS**
 
-- 🔥2025.12 Mistralから最新版モデルがリリースされました！
+- 🔥2025.12 Mistralから最新版モデルがリリースされました！Code特化のDevestral 2も!
 - 🔥2025.11 DeepSeekの最新版モデルがリリースされました！
 - 🔥2025.11 エンプラモデルをも超えうる1TパラメタのKimi-K2がリリースされました！
 
@@ -56,7 +59,7 @@ Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 </details>
 
 ## Table of Contents
-[Pickup](#pickup)  
+[My Pickup](#pickup)  
 [Omni](#omni)  
 [Computer-use](#computer-use)  
 [English-centric](#english-centric)  
@@ -67,11 +70,11 @@ Awesome latest LLMs. Let's keep up with the latest LLMs and medical LLMs!
 
 <a id="pickup"></a>
 
-# Pickup
+# My Pickup
 
 - [Ministral 3](https://huggingface.co/collections/mistralai/ministral-3), works on WebGPU
-- [Qwen3-Next-80B-A3B](https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct), works on 64GB memory or ollama
-
+- [Qwen3-Next-80B-A3B](https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct), works on 64GB memory or [ollama](https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct-GGUF)
+- [Devestral 2](https://huggingface.co/collections/mistralai/devstral-2), local competent coding LLMs
 
 - Personally recommended
 - Will be updated anytime
@@ -298,6 +301,10 @@ For Japanese medical dataset, see [JMedData4LLM](https://github.com/stardust-cod
 - [MMedBench](https://github.com/MAGIC-AI4Med/MMedLM)
 - [MedEval](https://arxiv.org/pdf/2310.14088)
 - [MEDIC](https://arxiv.org/pdf/2409.07314)
+- [CLIMB](https://github.com/DDVD233/CLIMB), multimodal
+- [MAST: Medical AI Superintelligence Test](https://bench.arise-ai.org/)
+- [MedHELM Leaderboard](https://crfm.stanford.edu/helm/medhelm/latest/#/leaderboard)
+
 
 ### Only Text
 **Representative medical benchmarks**
