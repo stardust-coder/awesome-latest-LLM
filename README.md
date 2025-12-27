@@ -1,12 +1,12 @@
 # 🧠 Awesome Latest LLM / LLMの最新情報のまとめ
 
-A continuously updated, curated list of the latest Large Language Models — categorized, benchmarked, and optimized for real-world use.
+A continuously updated, curated list of the latest Large Language Models in chronological order.
 Stay ahead of the rapidly evolving LLM ecosystem.
 
 <p align="center"> <img src="https://img.shields.io/badge/Updates-Monthly-blue" /> <img src="https://img.shields.io/github/stars/stardust-coder/awesome-latest-LLM?style=social" /> <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen" /> </p>
 
 **NEWS**
-
+- 🔥2025.12 ZAIからスマホを操作するLLM（AutoGLM）やCodingに長けたLLM（GLM）がリリースされました！
 - 🔥2025.12 Mistralから最新版モデルがリリースされました！Code特化のDevestral 2も!
 - 🔥2025.11 DeepSeekの最新版モデルがリリースされました！
 - 🔥2025.11 エンプラモデルをも超えうる1TパラメタのKimi-K2がリリースされました！
@@ -72,6 +72,7 @@ Stay ahead of the rapidly evolving LLM ecosystem.
 
 # My Pickup
 
+- [GLM-4.7](https://huggingface.co/zai-org/GLM-4.7), core coding
 - [Ministral 3](https://huggingface.co/collections/mistralai/ministral-3), works on WebGPU
 - [Qwen3-Next-80B-A3B](https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct), works on 64GB memory or [ollama](https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct-GGUF)
 - [Devestral 2](https://huggingface.co/collections/mistralai/devstral-2), local competent coding LLMs
@@ -87,11 +88,14 @@ Stay ahead of the rapidly evolving LLM ecosystem.
 |2025.11| [Uni-Moe-Omni (HIT)](https://idealistxy.github.io/Uni-MoE-v2.github.io/) | [HF](https://huggingface.co/HIT-TMG/Uni-MoE-2.0-Omni) | 33B-1.5~18B | apache-2.0 | 75B token   |  | MoE, surpass Qwen2.5-Omni |
 |2025.9| [Qwen3-Omni (Alibaba)](https://github.com/QwenLM/Qwen3-Omni) | [HF](https://huggingface.co/collections/Qwen/qwen3-omni-68d100a86cd0906843ceccbe) | 30B-A3B | apache-2.0 |  text-first pretraining and mixed multimodal training |  | [demo](https://huggingface.co/spaces/Qwen/Qwen3-Omni-Demo) |
 
-# Computer Use
+# Computer Use / Tool Use / Function Calling
 <a id="computer-use"></a>
+
 
 | When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2025.12| [FunctionGemma (Google)](https://huggingface.co/google/functiongemma-270m-it) | [HF](https://huggingface.co/zai-org/AutoGLM-Phone-9B-Multilingual) | 0.27B |  | | | function calling |
+|2025.12| [AutoGLM-Phone-9B-Multilingual (ZAI)](https://x.com/Zai_org/status/1999118106543919203?s=20) | [HF](https://huggingface.co/zai-org/AutoGLM-Phone-9B-Multilingual) | 9B | mit (for research and educational purposes only.) | | | smartphone |
 |2025.11| [Fara (Microsoft)](https://www.microsoft.com/en-us/research/blog/fara-7b-an-efficient-agentic-model-for-computer-use/) | [HF](https://huggingface.co/microsoft/Fara-7B) | 7B | mit | Qwen2.5-VL-7B |  |  |
 |2025.11| [Jan-v2]() | [HF](https://huggingface.co/collections/janhq/jan-v2-vl) | 8B | apache-2.0 | [Qwen3-VL-8B-Thinking](https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking)|  |  |
 
@@ -102,8 +106,8 @@ Stay ahead of the rapidly evolving LLM ecosystem.
 
 | When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
-|2025.12| [rnj-1(EssentialAI)]() | [HF](https://huggingface.co/EssentialAI/rnj-1-instruct) | 8B | |  |  | code and STEM |
-|2025.12| [Mistral-Large-3]() | [HF](https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512) | 675B | |  |  | |
+|2025.12| [rnj-1(EssentialAI)](https://x.com/essential_ai/status/1997123628765524132?s=20) | [HF](https://huggingface.co/EssentialAI/rnj-1-instruct) | 8B | apache2.0 | 8.4T+380B tokens  | 150B tokens | code and STEM |
+|2025.12| [Mistral-Large-3](https://x.com/MistralAI/status/1995872766177018340?s=20) | [HF](https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512) | 675B | |  |  | |
 |2025.12| [DeepSeek-V3.2]() | [HF](https://huggingface.co/deepseek-ai/DeepSeek-V3.2) | 685B | |  |  | surpasses GPT-5 |
 |2025.11| [Olmo 3 (Allen)](https://allenai.org/blog/olmo3) | [HF](https://huggingface.co/collections/allenai/olmo-3) | 7, 32B | apache-2.0 |  |  |  |
 |2025.11| [DeepSeek-V3.2-Exp]() | [HF](https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp) | 671B | [MIT](https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp/blob/main/LICENSE)|  |  |  |
@@ -307,6 +311,7 @@ For Japanese medical dataset, see [JMedData4LLM](https://github.com/stardust-cod
 
 
 ### Only Text
+
 **Representative medical benchmarks**
 - [MedQA (USMLE)](https://github.com/jind11/MedQA) 
 - [MedMCQA](https://arxiv.org/abs/2203.14371)
@@ -351,6 +356,7 @@ Dataset from [**OnDeviceMedNotes**](https://huggingface.co/OnDeviceMedNotes)
 - [CUREBench (Harvard)](https://github.com/mims-harvard/CUREBench)
 
 ### Image + Text
+
 - [Clinical NLP 2023](https://clinical-nlp.github.io/2023/resources.html)
 - PMC-15M : the largest biomedical image-text dataset
 - [LLaVA-Med Dataset](https://github.com/microsoft/LLaVA-Med/blob/main/README.md#data-download): used GPT-4 to generate diverse biomedical multimodal instruction-following data using image-text pairs from PMC-15M.
