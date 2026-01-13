@@ -8,13 +8,13 @@ Stay ahead of the rapidly evolving LLM ecosystem.
 **NEWS**
 - 🔥2025.12 ZAIからスマホを操作するLLM（AutoGLM）やCodingに長けたLLM（GLM）がリリースされました！
 - 🔥2025.12 Mistralから最新版モデルがリリースされました！Code特化のDevestral 2も!
-- 🔥2025.11 DeepSeekの最新版モデルがリリースされました！
-- 🔥2025.11 エンプラモデルをも超えうる1TパラメタのKimi-K2がリリースされました！
 
 <details>
 
 <summary>History</summary>
 
+- 🔥2025.11 DeepSeekの最新版モデルがリリースされました！
+- 🔥2025.11 エンプラモデルをも超えうる1TパラメタのKimi-K2がリリースされました！
 - 🔥2025.9 Qwen3-Nextがリリースされました！
 - 🔥2025.5 DeepSeek-R1の最新版が公開されました！
 - 🔥2025.5 Swallowチームから最新版Gemma Swallowがリリースされました！
@@ -234,8 +234,10 @@ Stay ahead of the rapidly evolving LLM ecosystem.
 ## Model
 |When? | Name |  HF?  | Size | License | pretraining | finetuning/continual | test | misc.|
 |---|---|---|---|---|---|---|---|---|
+|2026.1| [ChatGPT Health (OpenAI)](https://openai.com/ja-JP/index/introducing-chatgpt-health/) | None |  | | |   |  | not a model |
+|2025.10| [SIP-jmed-llm-3-8x13b-AC-32k-instruct]() | [HF](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-3-8x13b-AC-32k-instruct) | 8x13B | CC BY-NC-SA 4.0 | [llm-jp-3-8x13b](https://huggingface.co/llm-jp/llm-jp-3-8x13b) | [list](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-3-8x13b-AC-32k-instruct)  | - | japanese |
 |2025.7| [ELYZA-Med-Base-1.0-Qwen2.5-72B](https://prtimes.jp/main/html/rd/p/000000061.000047565.html) | None | 72B | Qwen | Qwen2.5 |   | IgakuQA | japanese |
-|2025.5| [MedGemma (Google)]() |[HF](https://huggingface.co/collections/google/medgemma-release-680aade845f90bec6a3f60c4)| 4B, 27B | | Gemma3| | | |
+|2025.5| [MedGemma (Google)](https://deepmind.google/models/gemma/medgemma/) |[HF](https://huggingface.co/collections/google/medgemma-release-680aade845f90bec6a3f60c4)| 4B, 27B | | Gemma3 | | | |
 |2025.4| [Med-R1 (IEEE)](https://arxiv.org/pdf/2503.13939v4) |[HF](https://huggingface.co/yuxianglai117/Med-R1)| 2B | | Qwen2-VL | | | VLM |
 |2025.4| [Med-R1 8B (IQVIA)](https://www.iqvia.com/blogs/2025/04/introducing-iqvia-medical-reasoning-med-r1-8b) | None | 8B | |  | | | reasoning |
 |2025.4| [OmniV-Med(Alibaba)](https://arxiv.org/abs/2504.14692) | | 1.5,7B |  | 252K instruction data|    | 11 benchmarks (2D/3D image and video) |  |
@@ -296,7 +298,7 @@ For Japanese medical dataset, see [JMedData4LLM](https://github.com/stardust-cod
 
 ### Corpus
 - [Healthcare Datasets (Aloe Beta)](https://huggingface.co/collections/HPAI-BSC/healthcare-datasets-aloe-beta-672374294ed56f43dc302499)
-
+- [PMC-Patients](https://huggingface.co/datasets/zhengyun21/PMC-Patients) from Pubmed Central, 167k patient summaries.
 
 ### Evaluation benchmarks
 
@@ -308,12 +310,12 @@ For Japanese medical dataset, see [JMedData4LLM](https://github.com/stardust-cod
 - [CLIMB](https://github.com/DDVD233/CLIMB), multimodal
 - [MAST: Medical AI Superintelligence Test](https://bench.arise-ai.org/)
 - [MedHELM Leaderboard](https://crfm.stanford.edu/helm/medhelm/latest/#/leaderboard)
-
+- [PMC-Patients Leaderboard](https://pmc-patients.github.io/)
 
 ### Only Text
 
 **Representative medical benchmarks**
-- [MedQA (USMLE)](https://github.com/jind11/MedQA) 
+- [MedQA (created from USMLE)](https://github.com/jind11/MedQA) 
 - [MedMCQA](https://arxiv.org/abs/2203.14371)
 - [PubMedQA](https://arxiv.org/abs/1909.06146)
 - [MMLU](https://github.com/hendrycks/test) : includes medicine and other related fields(clinical topics covering clinical knowledge,
@@ -354,6 +356,8 @@ Dataset from [**OnDeviceMedNotes**](https://huggingface.co/OnDeviceMedNotes)
 - [HealthBench (OpenAI)](https://openai.com/index/healthbench/)
 - [CLUE](https://github.com/TIO-IKIM/CLUE)
 - [CUREBench (Harvard)](https://github.com/mims-harvard/CUREBench)
+- [GlobMed](https://huggingface.co/collections/ruiyang-medinfo/globmed)
+- [OpenMed](https://huggingface.co/openmed-community)
 
 ### Image + Text
 
