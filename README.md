@@ -6,13 +6,15 @@ Stay ahead of the rapidly evolving LLM ecosystem.
 <p align="center"> <img src="https://img.shields.io/badge/Updates-Monthly-blue" /> <img src="https://img.shields.io/github/stars/stardust-coder/awesome-latest-LLM?style=social" /> <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen" /> </p>
 
 **NEWS**
-- 🔥2025.12 ZAIからスマホを操作するLLM（AutoGLM）やCodingに長けたLLM（GLM）がリリースされました！
-- 🔥2025.12 Mistralから最新版モデルがリリースされました！Code特化のDevestral 2も!
+
+- 🔥2026.1 Kimiの最新版モデルがリリースされました！
 
 <details>
 
 <summary>History</summary>
 
+- 🔥2025.12 ZAIからスマホを操作するLLM（AutoGLM）やCodingに長けたLLM（GLM）がリリースされました！
+- 🔥2025.12 Mistralから最新版モデルがリリースされました！Code特化のDevestral 2も!
 - 🔥2025.11 DeepSeekの最新版モデルがリリースされました！
 - 🔥2025.11 エンプラモデルをも超えうる1TパラメタのKimi-K2がリリースされました！
 - 🔥2025.9 Qwen3-Nextがリリースされました！
@@ -106,18 +108,20 @@ Stay ahead of the rapidly evolving LLM ecosystem.
 
 | When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2026.1| [Kimi-K2.5](https://x.com/Kimi_Moonshot/status/2016024049869324599?s=20) | [HF](https://huggingface.co/moonshotai/Kimi-K2.5) | 1TA32B | modifiedMIT | Kimi-K2-Base  | 15T tokens | moe |
+|2025.12| [DeepSeek-V3.2]() | [HF](https://huggingface.co/collections/deepseek-ai/deepseek-v32) | 671B | MIT |  |  |  |
 |2025.12| [rnj-1(EssentialAI)](https://x.com/essential_ai/status/1997123628765524132?s=20) | [HF](https://huggingface.co/EssentialAI/rnj-1-instruct) | 8B | apache2.0 | 8.4T+380B tokens  | 150B tokens | code and STEM |
 |2025.12| [Mistral-Large-3](https://x.com/MistralAI/status/1995872766177018340?s=20) | [HF](https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512) | 675B | |  |  | |
 |2025.12| [DeepSeek-V3.2]() | [HF](https://huggingface.co/deepseek-ai/DeepSeek-V3.2) | 685B | |  |  | surpasses GPT-5 |
 |2025.11| [Olmo 3 (Allen)](https://allenai.org/blog/olmo3) | [HF](https://huggingface.co/collections/allenai/olmo-3) | 7, 32B | apache-2.0 |  |  |  |
-|2025.11| [DeepSeek-V3.2-Exp]() | [HF](https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp) | 671B | [MIT](https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp/blob/main/LICENSE)|  |  |  |
-|2025.11| [Kimi-K2]() | [HF](https://huggingface.co/collections/moonshotai/kimi-k2) | 1T-A32B | [modified MIT](https://huggingface.co/moonshotai/Kimi-K2-Thinking/blob/main/LICENSE) |  |  | moe |
-|2025.11| [Kimi-Linear]() | [HF](https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct) | 48B-A3B | [modified MIT](https://huggingface.co/moonshotai/Kimi-K2-Thinking/blob/main/LICENSE) |  |  | moe |
 |2025.10| [Ling-1T (InclusionAI)]() | [HF](https://huggingface.co/collections/inclusionAI/ling-v2-68bf1dd2fc34c306c1fa6f86) | 1T-A50B | MIT | 20T+ |  | moe |
 |2025.9| [Qwen3-Next (Alibaba)]() | [HF](https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct) | 80B-A3B | apache-2.0 | 15T |  | moe |
 |2025.8| [GPT-OSS (OpenAI)]() | [HF](https://huggingface.co/openai/gpt-oss-120b) | 20B~120B |  | |  |  |
 
-<!-- |2025.5| [DeepSeek-R1-0528]() | [HF](https://huggingface.co/deepseek-ai/DeepSeek-R1-0528) | 671B |  | |  | approaching o3 & Gemini 2.5 Pro |
+<!-- 
+|2025.11| [Kimi-K2]() | [HF](https://huggingface.co/collections/moonshotai/kimi-k2) | 1T-A32B | [modified MIT](https://huggingface.co/moonshotai/Kimi-K2-Thinking/blob/main/LICENSE) |  |  | moe |
+|2025.11| [Kimi-Linear]() | [HF](https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct) | 48B-A3B | [modified MIT](https://huggingface.co/moonshotai/Kimi-K2-Thinking/blob/main/LICENSE) |  |  | moe |
+|2025.5| [DeepSeek-R1-0528]() | [HF](https://huggingface.co/deepseek-ai/DeepSeek-R1-0528) | 671B |  | |  | approaching o3 & Gemini 2.5 Pro |
 |2025.4| [Qwen3 (Alibaba)]()|[HF](https://huggingface.co/collections/Qwen/qwen3-67dd247413f0e2e4f653967f)| 0.6~235B |apache-2.0| | |
 |2025.4| [Llama4 (Meta)](https://ai.meta.com/blog/llama-4-multimodal-intelligence/)|[HF](https://huggingface.co/collections/meta-llama/llama-4-67f0c30d9fe03840bc9d0164)|17B|llama4|30T token||10M token|
 |2025.1| [DeepSeek-V3-0324]() | [HF](https://huggingface.co/deepseek-ai/DeepSeek-V3-0324) | 671B | [link](https://github.com/deepseek-ai/DeepSeek-V3/blob/main/LICENSE-MODEL) | 14.8T |  | MoE(37B) |
