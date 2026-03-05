@@ -7,12 +7,14 @@ Stay ahead of the rapidly evolving LLM ecosystem.
 
 **NEWS**
 
-- 🔥2026.1 Kimiの最新版モデルがリリースされました！
+- 🔥2026.2 Qwen3.5シリーズがリリースされました！
+- 🔥2026.2 Swallowシリーズの新作がリリースされました！
 
 <details>
 
 <summary>History</summary>
 
+- 🔥2026.1 Kimiの最新版モデルがリリースされました！
 - 🔥2025.12 ZAIからスマホを操作するLLM（AutoGLM）やCodingに長けたLLM（GLM）がリリースされました！
 - 🔥2025.12 Mistralから最新版モデルがリリースされました！Code特化のDevestral 2も!
 - 🔥2025.11 DeepSeekの最新版モデルがリリースされました！
@@ -108,6 +110,7 @@ Stay ahead of the rapidly evolving LLM ecosystem.
 
 | When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2026.2| [Qwen3.5 (Alibaba)]() | [HF]() |  | apache-2.0 |  |  |  |
 |2026.1| [Kimi-K2.5](https://x.com/Kimi_Moonshot/status/2016024049869324599?s=20) | [HF](https://huggingface.co/moonshotai/Kimi-K2.5) | 1TA32B | modifiedMIT | Kimi-K2-Base  | 15T tokens | moe |
 |2025.12| [DeepSeek-V3.2]() | [HF](https://huggingface.co/collections/deepseek-ai/deepseek-v32) | 671B | MIT |  |  |  |
 |2025.12| [rnj-1(EssentialAI)](https://x.com/essential_ai/status/1997123628765524132?s=20) | [HF](https://huggingface.co/EssentialAI/rnj-1-instruct) | 8B | apache2.0 | 8.4T+380B tokens  | 150B tokens | code and STEM |
@@ -313,8 +316,10 @@ For Japanese medical dataset, see [JMedData4LLM](https://github.com/stardust-cod
 - [MEDIC](https://arxiv.org/pdf/2409.07314)
 - [CLIMB](https://github.com/DDVD233/CLIMB), multimodal
 - [MAST: Medical AI Superintelligence Test](https://bench.arise-ai.org/)
-- [MedHELM Leaderboard](https://crfm.stanford.edu/helm/medhelm/latest/#/leaderboard)
+- [MedHELM Leaderboard](https://crfm.stanford.edu/helm/medhelm/latest/#/leaderboard) [nature medicine](https://www.nature.com/articles/s41591-025-04151-2)
 - [PMC-Patients Leaderboard](https://pmc-patients.github.io/)
+- [Opencompass MedBench (Chinese)](https://medbench.opencompass.org.cn/home) and [arxiv](https://arxiv.org/pdf/2511.14439)
+
 
 ### Only Text
 
@@ -362,6 +367,7 @@ Dataset from [**OnDeviceMedNotes**](https://huggingface.co/OnDeviceMedNotes)
 - [CUREBench (Harvard)](https://github.com/mims-harvard/CUREBench)
 - [GlobMed](https://huggingface.co/collections/ruiyang-medinfo/globmed)
 - [OpenMed](https://huggingface.co/openmed-community)
+- [MultiMedX](https://huggingface.co/datasets/li-lab/MultiMed-X): 7 languages（BioNLI, [LiveQA](https://github.com/abachaa/LiveQA_MedicalTask_TREC2017)
 
 ### Image + Text
 
