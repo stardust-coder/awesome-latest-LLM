@@ -7,6 +7,7 @@ Stay ahead of the rapidly evolving LLM ecosystem.
 
 **NEWS**
 
+- 🔥2026.3 Rakuten 3.0がリリースされました！
 - 🔥2026.2 Qwen3.5シリーズがリリースされました！
 - 🔥2026.2 Swallowシリーズの新作がリリースされました！
 
@@ -110,18 +111,19 @@ Stay ahead of the rapidly evolving LLM ecosystem.
 
 | When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
-|2026.2| [Qwen3.5 (Alibaba)]() | [HF]() |  | apache-2.0 |  |  |  |
+|2026.3| [Nemotron3]() | [HF](https://huggingface.co/collections/nvidia/nvidia-nemotron-v3) | 4~235B | [license](https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-nemotron-open-model-license/)  |  |  |  |
+|2026.3| [Mistral-Small-4]() | [HF](https://huggingface.co/mistralai/Mistral-Small-4-119B-2603) | 119B | apache-2.0  |  |  |  |
+|2026.2| [Qwen3.5 (Alibaba)]() | [HF](https://huggingface.co/collections/Qwen/qwen35) | 0.8~397B | apache-2.0 |  |  |  |
 |2026.1| [Kimi-K2.5](https://x.com/Kimi_Moonshot/status/2016024049869324599?s=20) | [HF](https://huggingface.co/moonshotai/Kimi-K2.5) | 1TA32B | modifiedMIT | Kimi-K2-Base  | 15T tokens | moe |
 |2025.12| [DeepSeek-V3.2]() | [HF](https://huggingface.co/collections/deepseek-ai/deepseek-v32) | 671B | MIT |  |  |  |
 |2025.12| [rnj-1(EssentialAI)](https://x.com/essential_ai/status/1997123628765524132?s=20) | [HF](https://huggingface.co/EssentialAI/rnj-1-instruct) | 8B | apache2.0 | 8.4T+380B tokens  | 150B tokens | code and STEM |
 |2025.12| [Mistral-Large-3](https://x.com/MistralAI/status/1995872766177018340?s=20) | [HF](https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512) | 675B | |  |  | |
-|2025.12| [DeepSeek-V3.2]() | [HF](https://huggingface.co/deepseek-ai/DeepSeek-V3.2) | 685B | |  |  | surpasses GPT-5 |
-|2025.11| [Olmo 3 (Allen)](https://allenai.org/blog/olmo3) | [HF](https://huggingface.co/collections/allenai/olmo-3) | 7, 32B | apache-2.0 |  |  |  |
-|2025.10| [Ling-1T (InclusionAI)]() | [HF](https://huggingface.co/collections/inclusionAI/ling-v2-68bf1dd2fc34c306c1fa6f86) | 1T-A50B | MIT | 20T+ |  | moe |
-|2025.9| [Qwen3-Next (Alibaba)]() | [HF](https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct) | 80B-A3B | apache-2.0 | 15T |  | moe |
 |2025.8| [GPT-OSS (OpenAI)]() | [HF](https://huggingface.co/openai/gpt-oss-120b) | 20B~120B |  | |  |  |
 
 <!-- 
+|2025.11| [Olmo 3 (Allen)](https://allenai.org/blog/olmo3) | [HF](https://huggingface.co/collections/allenai/olmo-3) | 7, 32B | apache-2.0 |  |  |  |
+|2025.10| [Ling-1T (InclusionAI)]() | [HF](https://huggingface.co/collections/inclusionAI/ling-v2-68bf1dd2fc34c306c1fa6f86) | 1T-A50B | MIT | 20T+ |  | moe |
+|2025.9| [Qwen3-Next (Alibaba)]() | [HF](https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct) | 80B-A3B | apache-2.0 | 15T |  | moe |
 |2025.11| [Kimi-K2]() | [HF](https://huggingface.co/collections/moonshotai/kimi-k2) | 1T-A32B | [modified MIT](https://huggingface.co/moonshotai/Kimi-K2-Thinking/blob/main/LICENSE) |  |  | moe |
 |2025.11| [Kimi-Linear]() | [HF](https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct) | 48B-A3B | [modified MIT](https://huggingface.co/moonshotai/Kimi-K2-Thinking/blob/main/LICENSE) |  |  | moe |
 |2025.5| [DeepSeek-R1-0528]() | [HF](https://huggingface.co/deepseek-ai/DeepSeek-R1-0528) | 671B |  | |  | approaching o3 & Gemini 2.5 Pro |
@@ -180,6 +182,7 @@ Stay ahead of the rapidly evolving LLM ecosystem.
 
 | When? | Name |  HF?  | Size | License | pretraining | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2026.3| [Rakuten 3.0]() | [HF](https://huggingface.co/Rakuten/RakutenAI-3.0) | 671B |  | Deepseek | |  |
 |2025.11| [PLaMo 3（PFN）]() | [HF](https://huggingface.co/pfnet/plamo-3-nict-31b-base) | 31B |  |  | |  |
 |2025.7| [Stockmark 2（Stockmark）]() | [HF](https://huggingface.co/stockmark/Stockmark-2-100B-Instruct) | 100B |  |  | |  |
 |2025.5| [Llama3.3 Swallow （科学大）]() | [HF](https://huggingface.co/tokyotech-llm/Llama-3.3-Swallow-70B-Instruct-v0.4) | 70B | Llama3.3 | Llama3.3 | |  |
@@ -241,6 +244,7 @@ Stay ahead of the rapidly evolving LLM ecosystem.
 ## Model
 |When? | Name |  HF?  | Size | License | pretraining | finetuning/continual | test | misc.|
 |---|---|---|---|---|---|---|---|---|
+|2026.3| [Med-V1]() | [HF](https://huggingface.co/ncbi/Med-V1-Q3B) | 3B | MIT | Qwen2.5/Llama3.2 |   |  |  |
 |2026.1| [ChatGPT Health (OpenAI)](https://openai.com/ja-JP/index/introducing-chatgpt-health/) | None |  | | |   |  | not a model |
 |2025.10| [SIP-jmed-llm-3-8x13b-AC-32k-instruct]() | [HF](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-3-8x13b-AC-32k-instruct) | 8x13B | CC BY-NC-SA 4.0 | [llm-jp-3-8x13b](https://huggingface.co/llm-jp/llm-jp-3-8x13b) | [list](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-3-8x13b-AC-32k-instruct)  | - | japanese |
 |2025.7| [ELYZA-Med-Base-1.0-Qwen2.5-72B](https://prtimes.jp/main/html/rd/p/000000061.000047565.html) | None | 72B | Qwen | Qwen2.5 |   | IgakuQA | japanese |
@@ -368,6 +372,7 @@ Dataset from [**OnDeviceMedNotes**](https://huggingface.co/OnDeviceMedNotes)
 - [GlobMed](https://huggingface.co/collections/ruiyang-medinfo/globmed)
 - [OpenMed](https://huggingface.co/openmed-community)
 - [MultiMedX](https://huggingface.co/datasets/li-lab/MultiMed-X): 7 languages（BioNLI, [LiveQA](https://github.com/abachaa/LiveQA_MedicalTask_TREC2017)
+- [MedFact-Synth](https://huggingface.co/datasets/ncbi/MedFact-Synth): synthetic training set including 1.5 million instances
 
 ### Image + Text
 
