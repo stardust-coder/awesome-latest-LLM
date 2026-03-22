@@ -77,10 +77,7 @@ Stay ahead of the rapidly evolving LLM ecosystem.
 
 # My Pickup
 
-- [GLM-4.7](https://huggingface.co/zai-org/GLM-4.7), core coding
-- [Ministral 3](https://huggingface.co/collections/mistralai/ministral-3), works on WebGPU
-- [Qwen3-Next-80B-A3B](https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct), works on 64GB memory or [ollama](https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct-GGUF)
-- [Devestral 2](https://huggingface.co/collections/mistralai/devstral-2), local competent coding LLMs
+Coming soon...
 
 - Personally recommended
 - Will be updated anytime
@@ -182,7 +179,7 @@ Stay ahead of the rapidly evolving LLM ecosystem.
 
 | When? | Name |  HF?  | Size | License | pretraining | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
-|2026.3| [Rakuten 3.0]() | [HF](https://huggingface.co/Rakuten/RakutenAI-3.0) | 671B |  | Deepseek | |  |
+|2026.3| [Rakuten 3.0]() | [HF](https://huggingface.co/Rakuten/RakutenAI-3.0) | 671B |  | DeepseekV3.2 | |  |
 |2025.11| [PLaMo 3（PFN）]() | [HF](https://huggingface.co/pfnet/plamo-3-nict-31b-base) | 31B |  |  | |  |
 |2025.7| [Stockmark 2（Stockmark）]() | [HF](https://huggingface.co/stockmark/Stockmark-2-100B-Instruct) | 100B |  |  | |  |
 |2025.5| [Llama3.3 Swallow （科学大）]() | [HF](https://huggingface.co/tokyotech-llm/Llama-3.3-Swallow-70B-Instruct-v0.4) | 70B | Llama3.3 | Llama3.3 | |  |
@@ -238,12 +235,12 @@ Stay ahead of the rapidly evolving LLM ecosystem.
 
 <a id="medical-adaptation"></a>
 
-# Medical-Adaptation 
-
+# Medical Domain Adaptation 
 
 ## Model
 |When? | Name |  HF?  | Size | License | pretraining | finetuning/continual | test | misc.|
 |---|---|---|---|---|---|---|---|---|
+|2026.3| [SIP-jmed-llm-3-13b-OP-32k-R0.1]() | [HF](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-3-13b-OP-32k-R0.1) | 13B |  | [llm-jp-3-13b]() | [list](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-3-8x13b-AC-32k-instruct)  | - | japanese |
 |2026.3| [Med-V1]() | [HF](https://huggingface.co/ncbi/Med-V1-Q3B) | 3B | MIT | Qwen2.5/Llama3.2 |   |  |  |
 |2026.1| [ChatGPT Health (OpenAI)](https://openai.com/ja-JP/index/introducing-chatgpt-health/) | None |  | | |   |  | not a model |
 |2025.10| [SIP-jmed-llm-3-8x13b-AC-32k-instruct]() | [HF](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-3-8x13b-AC-32k-instruct) | 8x13B | CC BY-NC-SA 4.0 | [llm-jp-3-8x13b](https://huggingface.co/llm-jp/llm-jp-3-8x13b) | [list](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-3-8x13b-AC-32k-instruct)  | - | japanese |
@@ -297,15 +294,19 @@ See also
 
 
 ## Leaderboard
-- [Medical LLM Leaderboard (Working in progress)](https://huggingface.co/spaces/fenglinliu/medical_llm_leaderboard)
+- [Medical LLM Leaderboard (~2024/11)](https://huggingface.co/spaces/fenglinliu/medical_llm_leaderboard)
     - 22 LLMs in the clinic:
     - Currently, Medical LLM Leaderboard covers 11 tasks, 7 metrics, 17 datasets, and over 20,000 test samples.
-- [Open Medical-LLM Leaderboard](https://huggingface.co/spaces/openlifescienceai/open_medical_llm_leaderboard)
-
+- [Open Medical-LLM Leaderboard (down)](https://huggingface.co/spaces/openlifescienceai/open_medical_llm_leaderboard)
+- [MIRAGE Leaderboard](https://teddy-xionggz.github.io/MIRAGE/)
+- [MedHELM Leaderboard](https://crfm.stanford.edu/helm/medhelm/latest/#/leaderboard)
+- [PMC-Patients Leaderboard (2023)](https://pmc-patients.github.io/)
+- [MEDIC Leaderboard](https://huggingface.co/spaces/m42-health/MEDIC-Benchmark)
 
 ## Dataset
 
 For Japanese medical dataset, see [JMedData4LLM](https://github.com/stardust-coder/jmed-data-for-llm).
+
 
 ### Corpus
 - [Healthcare Datasets (Aloe Beta)](https://huggingface.co/collections/HPAI-BSC/healthcare-datasets-aloe-beta-672374294ed56f43dc302499)
@@ -313,26 +314,24 @@ For Japanese medical dataset, see [JMedData4LLM](https://github.com/stardust-cod
 
 ### Evaluation benchmarks
 
-- [MIRAGE Leaderboard](https://teddy-xionggz.github.io/MIRAGE/)
-- [Open Medical LLM leaderboard](https://huggingface.co/blog/leaderboard-medicalllm), [leaderboard](https://huggingface.co/spaces/openlifescienceai/open_medical_llm_leaderboard)
+#### Pickups
 - [MMedBench](https://github.com/MAGIC-AI4Med/MMedLM)
 - [MedEval](https://arxiv.org/pdf/2310.14088)
 - [MEDIC](https://arxiv.org/pdf/2409.07314)
 - [CLIMB](https://github.com/DDVD233/CLIMB), multimodal
 - [MAST: Medical AI Superintelligence Test](https://bench.arise-ai.org/)
-- [MedHELM Leaderboard](https://crfm.stanford.edu/helm/medhelm/latest/#/leaderboard) [nature medicine](https://www.nature.com/articles/s41591-025-04151-2)
-- [PMC-Patients Leaderboard](https://pmc-patients.github.io/)
 - [Opencompass MedBench (Chinese)](https://medbench.opencompass.org.cn/home) and [arxiv](https://arxiv.org/pdf/2511.14439)
 
 
-### Only Text
+#### Text-Only
 
-**Representative medical benchmarks**
+**classical medical benchmarks**
 - [MedQA (created from USMLE)](https://github.com/jind11/MedQA) 
 - [MedMCQA](https://arxiv.org/abs/2203.14371)
 - [PubMedQA](https://arxiv.org/abs/1909.06146)
-- [MMLU](https://github.com/hendrycks/test) : includes medicine and other related fields(clinical topics covering clinical knowledge,
-college biology, college medicine, medical genetics, professional medicine and anatomy)
+
+
+**collections**
 
 Dataset from [**FreedomIntelligence**](https://github.com/FreedomIntelligence)
 - [Medical O1 Reasoning](https://huggingface.co/datasets/FreedomIntelligence/medical-o1-reasoning-SFT)
@@ -344,19 +343,20 @@ Dataset from [**OnDeviceMedNotes**](https://huggingface.co/OnDeviceMedNotes)
 - [synthetic-medical-conversations-deepseek-v3](https://huggingface.co/datasets/OnDeviceMedNotes/synthetic-medical-conversations-deepseek-v3)
 
 **Others**
+- [MMLU](https://github.com/hendrycks/test) : includes medicine and other related fields(clinical topics covering clinical knowledge,
+college biology, college medicine, medical genetics, professional medicine and anatomy)
+- [MMLUProX](https://mmluprox.github.io/)
 - [HealthsearchQA](https://huggingface.co/datasets/katielink/healthsearchqa) : 3173 samples, used in MedPaLM paper
 - [LiveQA](https://github.com/abachaa/LiveQA_MedicalTask_TREC2017) : 634+10, used in MedPaLM paper
 - [PubHealth](https://github.com/neemakot/Health-Fact-Checking)
 - [HeadQA](https://huggingface.co/datasets/dvilares/head_qa) : Spanish healthcare system
 - [K-Q&A](https://github.com/Itaymanes/K-QA)
-- Clincal Case Challenges : NEHM dataset and JAMA dataset
 - [MeDiSumQA](https://physionet.org/content/medisumqa/1.0.0/) : discharge summaries from the MIMIC-IV. released on Physionet.
 - [MedNLI](https://jgc128.github.io/mednli/) : MIMIC-III dataset, logical relationship between a premise and a hypothesis
 - [MeQSum](https://huggingface.co/datasets/albertvillanova/meqsum) : summarizing health queries
 - [LongHealth](https://github.com/kbressem/LongHealth) : 20 patient records, answer questions about them from a long document.
 - [Medical Eval Sphere](https://github.com/lavita-ai/medical-eval-sphere) : Long form medical questions
 - [MedCalcBench](https://github.com/ncbi-nlp/MedCalc-Bench):  [HF](https://huggingface.co/datasets/ncbi/MedCalc-Bench-v1.0)
-- [PMC Patients](https://huggingface.co/datasets/zhengyun21/PMC-Patients/tree/main)
 - [MedQA-Calc](https://huggingface.co/datasets/Nicholas-Wan/MedQA-Calc)
 - [MedS-Bench](https://huggingface.co/datasets/Henrychur/MedS-Bench)
 - [MedQuAD](https://github.com/abachaa/MedQuAD)
@@ -374,10 +374,10 @@ Dataset from [**OnDeviceMedNotes**](https://huggingface.co/OnDeviceMedNotes)
 - [MultiMedX](https://huggingface.co/datasets/li-lab/MultiMed-X): 7 languages（BioNLI, [LiveQA](https://github.com/abachaa/LiveQA_MedicalTask_TREC2017)
 - [MedFact-Synth](https://huggingface.co/datasets/ncbi/MedFact-Synth): synthetic training set including 1.5 million instances
 
-### Image + Text
+#### Image + Text
 
 - [Clinical NLP 2023](https://clinical-nlp.github.io/2023/resources.html)
-- PMC-15M : the largest biomedical image-text dataset
+- [PMC-15M](https://github.com/microsoft/BiomedCLIP_data_pipeline) : the largest biomedical image-text dataset
 - [LLaVA-Med Dataset](https://github.com/microsoft/LLaVA-Med/blob/main/README.md#data-download): used GPT-4 to generate diverse biomedical multimodal instruction-following data using image-text pairs from PMC-15M.
 - [PMC-OA](https://huggingface.co/datasets/axiong/pmc_oa) : 1.6M image-caption pairs
 - [MedICaT](https://github.com/allenai/medicat): image, caption, textual reference
@@ -392,8 +392,9 @@ Dataset from [**OnDeviceMedNotes**](https://huggingface.co/OnDeviceMedNotes)
 - [MIMIC-ECG-IV](https://physionet.org/content/mimic-iv-ecg/) : ECG-caption dataset
 - [ECG-QA](https://github.com/Jwoo5/ecg-qa)
 
+
 See more on 
-- [He et al.(2023)](https://arxiv.org/pdf/2310.05694.pdf)
+- [OpenLifeSciences (collection)](https://huggingface.co/openlifescienceai)
 - [MedLLMsPracticalGuide](https://github.com/AI-in-Health/MedLLMsPracticalGuide?tab=readme-ov-file#-practical-guide-for-medical-data)
 - [Medical datasets for LLMs (collection)](https://huggingface.co/collections/mfmezger/medical-datasets-for-llms-66bbb4e371cc405bc4d6b28a)
-- [Awesome-Medical-Dataset](https://github.com/openmedlab/Awesome-Medical-Dataset).
+- [Awesome-Medical-Dataset (~2025/1)](https://github.com/openmedlab/Awesome-Medical-Dataset).
