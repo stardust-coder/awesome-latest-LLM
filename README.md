@@ -108,6 +108,7 @@ Coming soon...
 
 | When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2026.4| [Gemma 4]() | [HF](https://huggingface.co/collections/google/gemma-4) | 2.3~31B | apache-2.0  |  |  |  |
 |2026.3| [Nemotron3]() | [HF](https://huggingface.co/collections/nvidia/nvidia-nemotron-v3) | 4~235B | [license](https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-nemotron-open-model-license/)  |  |  |  |
 |2026.3| [Mistral-Small-4]() | [HF](https://huggingface.co/mistralai/Mistral-Small-4-119B-2603) | 119B | apache-2.0  |  |  |  |
 |2026.2| [Qwen3.5 (Alibaba)]() | [HF](https://huggingface.co/collections/Qwen/qwen35) | 0.8~397B | apache-2.0 |  |  |  |
@@ -212,8 +213,11 @@ Coming soon...
 <a id="SLM"></a>
 
 ## Small language models (SLM)
+
 | When? | Name |  HF?  | Size | License | pretraining | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2026.4| [Bonsai (PrismML)](https://prismml.com/) | [HF](https://huggingface.co/collections/prism-ml/bonsai) | 1.7~8B | apache2.0| | |
+|2026.4| [LFM2.5 (LiquidAI)]() | [HF](https://huggingface.co/collections/LiquidAI/lfm25) | 0.35, 1.2B | [LFMv1](https://huggingface.co/LiquidAI/LFM2.5-350M/blob/main/LICENSE) | | also japanese |
 |2025.12| [Ministral 3]() | [HF](https://huggingface.co/collections/mistralai/ministral-3) | 3B |  | | |
 |2025.10| [Granite-4.0-H-Micro (IBM)]() | [HF](https://huggingface.co/ibm-granite/granite-4.0-h-micro) | 3B | apache-2.0 | | |
 |2025.8| [Gemma3-270M]() | [HF](https://huggingface.co/google/gemma-3-270m) | 0.27B | | | |
