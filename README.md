@@ -7,6 +7,7 @@ Stay ahead of the rapidly evolving LLM ecosystem.
 
 **NEWS**
 
+- 🔥2026.4 GLM-5.1, Gemma4がリリースされました！
 - 🔥2026.3 Rakuten 3.0がリリースされました！
 - 🔥2026.2 Qwen3.5シリーズがリリースされました！
 - 🔥2026.2 Swallowシリーズの新作がリリースされました！
@@ -108,6 +109,7 @@ Coming soon...
 
 | When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2026.4| [GLM 5.1](https://z.ai/blog/glm-5.1) | [HF](https://huggingface.co/zai-org/GLM-5.1) | 754B | MIT  |  |  |  |
 |2026.4| [Gemma 4]() | [HF](https://huggingface.co/collections/google/gemma-4) | 2.3~31B | apache-2.0  |  |  |  |
 |2026.3| [Nemotron3]() | [HF](https://huggingface.co/collections/nvidia/nvidia-nemotron-v3) | 4~235B | [license](https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-nemotron-open-model-license/)  |  |  |  |
 |2026.3| [Mistral-Small-4]() | [HF](https://huggingface.co/mistralai/Mistral-Small-4-119B-2603) | 119B | apache-2.0  |  |  |  |
@@ -180,6 +182,7 @@ Coming soon...
 
 | When? | Name |  HF?  | Size | License | pretraining | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2026.4| [LLM-jp-4（NII）]() | [HF](https://huggingface.co/collections/llm-jp/llm-jp-4-models) | 8, 32B | apache2.0 |  | | Japanese flagship |
 |2026.3| [Rakuten 3.0]() | [HF](https://huggingface.co/Rakuten/RakutenAI-3.0) | 671B |  | DeepseekV3.2 | |  |
 |2025.11| [PLaMo 3（PFN）]() | [HF](https://huggingface.co/pfnet/plamo-3-nict-31b-base) | 31B |  |  | |  |
 |2025.7| [Stockmark 2（Stockmark）]() | [HF](https://huggingface.co/stockmark/Stockmark-2-100B-Instruct) | 100B |  |  | |  |
@@ -219,15 +222,15 @@ Coming soon...
 |2026.4| [Bonsai (PrismML)](https://prismml.com/) | [HF](https://huggingface.co/collections/prism-ml/bonsai) | 1.7~8B | apache2.0| | |
 |2026.4| [LFM2.5 (LiquidAI)]() | [HF](https://huggingface.co/collections/LiquidAI/lfm25) | 0.35, 1.2B | [LFMv1](https://huggingface.co/LiquidAI/LFM2.5-350M/blob/main/LICENSE) | | also japanese |
 |2025.12| [Ministral 3]() | [HF](https://huggingface.co/collections/mistralai/ministral-3) | 3B |  | | |
-|2025.10| [Granite-4.0-H-Micro (IBM)]() | [HF](https://huggingface.co/ibm-granite/granite-4.0-h-micro) | 3B | apache-2.0 | | |
-|2025.8| [Gemma3-270M]() | [HF](https://huggingface.co/google/gemma-3-270m) | 0.27B | | | |
-|2025.7| [Qwen3]() |[HF](https://huggingface.co/collections/Qwen/qwen3) | 0.6~4B | apache2.0 |  |  |  |
-|2025.7| [Phi-4-mini-instruct]() |[HF](https://huggingface.co/microsoft/Phi-4-mini-instruct) | 3.8B | apache2.0 | 5T |  |  |
-|2025.5| [OLMo-2](https://huggingface.co/allenai) | [HF](https://huggingface.co/allenai/OLMo-2-0425-1B-Instruct) | 1B | | | |
-|2025.3| [Gemma3]() | [HF](https://huggingface.co/collections/google/gemma-3-release-67c6c6f89c4f76621268bb6d)| 1B,4B | [gemma](https://ai.google.dev/gemma/terms) | | |
 |2025.3| [Sarashina2.2](https://huggingface.co/sbintuitions/sarashina2.2-3b-instruct-v0.1) | [HF](https://huggingface.co/collections/sbintuitions/sarashina22) | 0.5B,1B,3B | mit | | | ELYZA-tasks=3.75 |
-|2025.2| [SmolLM (Huggingface)](https://github.com/huggingface/smollm) | [HF](https://huggingface.co/collections/HuggingFaceTB/smollm2-6723884218bcda64b34d7db9)| 135M~1.7B| apache-2.0 | | 
-|2025.1| [TinySwallow-1.5B-Instruct]() | [HF](https://huggingface.co/SakanaAI/TinySwallow-1.5B-Instruct) | 1.5B | apache-2.0 | qwen | Japanese | TAID from Qwen2.5-32B|
+<!-- |2025.10| [Granite-4.0-H-Micro (IBM)]() | [HF](https://huggingface.co/ibm-granite/granite-4.0-h-micro) | 3B | apache-2.0 | | | -->
+<!-- |2025.8| [Gemma3-270M]() | [HF](https://huggingface.co/google/gemma-3-270m) | 0.27B | | | | -->
+<!-- |2025.7| [Qwen3]() |[HF](https://huggingface.co/collections/Qwen/qwen3) | 0.6~4B | apache2.0 |  |  |  | -->
+<!-- |2025.7| [Phi-4-mini-instruct]() |[HF](https://huggingface.co/microsoft/Phi-4-mini-instruct) | 3.8B | apache2.0 | 5T |  |  | -->
+<!-- |2025.5| [OLMo-2](https://huggingface.co/allenai) | [HF](https://huggingface.co/allenai/OLMo-2-0425-1B-Instruct) | 1B | | | | -->
+<!-- |2025.3| [Gemma3]() | [HF](https://huggingface.co/collections/google/gemma-3-release-67c6c6f89c4f76621268bb6d)| 1B,4B | [gemma](https://ai.google.dev/gemma/terms) | | | -->
+<!-- |2025.2| [SmolLM (Huggingface)](https://github.com/huggingface/smollm) | [HF](https://huggingface.co/collections/HuggingFaceTB/smollm2-6723884218bcda64b34d7db9)| 135M~1.7B| apache-2.0 | |  -->
+<!-- |2025.1| [TinySwallow-1.5B-Instruct]() | [HF](https://huggingface.co/SakanaAI/TinySwallow-1.5B-Instruct) | 1.5B | apache-2.0 | qwen | Japanese | TAID from Qwen2.5-32B| -->
 <!-- |2025.2| [Phi-4 mini](https://huggingface.co/microsoft/Phi-4-mini-instruct) |  | 3.8B | mit | | |  | -->
 <!-- |2025.2| [PLaMo 2 2B](https://tech.preferred.jp/ja/blog/plamo-2-2b/) | None | 2B | apache-2.0| |  | pruning, tested on HumanEval+ |
 |2025.2| [PLaMo 2 1B]() | [HF](https://huggingface.co/pfnet/plamo-2-1b) | 1B | apache-2.0| 4T (1.25T tokens Japanese)| | base model only | -->
