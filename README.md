@@ -7,15 +7,15 @@ Stay ahead of the rapidly evolving LLM ecosystem.
 
 **NEWS**
 
-- 🔥2026.4 GLM-5.1, Gemma4がリリースされました！
-- 🔥2026.3 Rakuten 3.0がリリースされました！
-- 🔥2026.2 Qwen3.5シリーズがリリースされました！
-- 🔥2026.2 Swallowシリーズの新作がリリースされました！
+- 🔥2026.4 GLM, Gemma, DeepSeek, Qwenの最新版がリリースされました！
 
 <details>
 
 <summary>History</summary>
 
+- 🔥2026.3 Rakuten 3.0がリリースされました！
+- 🔥2026.2 Qwen3.5シリーズがリリースされました！
+- 🔥2026.2 Swallowシリーズの新作がリリースされました！
 - 🔥2026.1 Kimiの最新版モデルがリリースされました！
 - 🔥2025.12 ZAIからスマホを操作するLLM（AutoGLM）やCodingに長けたLLM（GLM）がリリースされました！
 - 🔥2025.12 Mistralから最新版モデルがリリースされました！Code特化のDevestral 2も!
@@ -109,6 +109,8 @@ Coming soon...
 
 | When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2026.4| [Deepseek V4 Pro]() | [HF](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro) | 1.6TB-A49B | MIT  |  |  |  |
+|2026.2| [Qwen3.6 (Alibaba)]() | [HF](https://huggingface.co/collections/Qwen/qwen36) | 27B | apache-2.0 |  |  |  |
 |2026.4| [GLM 5.1](https://z.ai/blog/glm-5.1) | [HF](https://huggingface.co/zai-org/GLM-5.1) | 754B | MIT  |  |  |  |
 |2026.4| [Gemma 4]() | [HF](https://huggingface.co/collections/google/gemma-4) | 2.3~31B | apache-2.0  |  |  |  |
 |2026.3| [Nemotron3]() | [HF](https://huggingface.co/collections/nvidia/nvidia-nemotron-v3) | 4~235B | [license](https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-nemotron-open-model-license/)  |  |  |  |
@@ -116,11 +118,11 @@ Coming soon...
 |2026.2| [Qwen3.5 (Alibaba)]() | [HF](https://huggingface.co/collections/Qwen/qwen35) | 0.8~397B | apache-2.0 |  |  |  |
 |2026.1| [Kimi-K2.5](https://x.com/Kimi_Moonshot/status/2016024049869324599?s=20) | [HF](https://huggingface.co/moonshotai/Kimi-K2.5) | 1TA32B | modifiedMIT | Kimi-K2-Base  | 15T tokens | moe |
 |2025.12| [DeepSeek-V3.2]() | [HF](https://huggingface.co/collections/deepseek-ai/deepseek-v32) | 671B | MIT |  |  |  |
-|2025.12| [rnj-1(EssentialAI)](https://x.com/essential_ai/status/1997123628765524132?s=20) | [HF](https://huggingface.co/EssentialAI/rnj-1-instruct) | 8B | apache2.0 | 8.4T+380B tokens  | 150B tokens | code and STEM |
 |2025.12| [Mistral-Large-3](https://x.com/MistralAI/status/1995872766177018340?s=20) | [HF](https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512) | 675B | |  |  | |
 |2025.8| [GPT-OSS (OpenAI)]() | [HF](https://huggingface.co/openai/gpt-oss-120b) | 20B~120B |  | |  |  |
 
 <!-- 
+|2025.12| [rnj-1(EssentialAI)](https://x.com/essential_ai/status/1997123628765524132?s=20) | [HF](https://huggingface.co/EssentialAI/rnj-1-instruct) | 8B | apache2.0 | 8.4T+380B tokens  | 150B tokens | code and STEM |
 |2025.11| [Olmo 3 (Allen)](https://allenai.org/blog/olmo3) | [HF](https://huggingface.co/collections/allenai/olmo-3) | 7, 32B | apache-2.0 |  |  |  |
 |2025.10| [Ling-1T (InclusionAI)]() | [HF](https://huggingface.co/collections/inclusionAI/ling-v2-68bf1dd2fc34c306c1fa6f86) | 1T-A50B | MIT | 20T+ |  | moe |
 |2025.9| [Qwen3-Next (Alibaba)]() | [HF](https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct) | 80B-A3B | apache-2.0 | 15T |  | moe |
@@ -184,6 +186,7 @@ Coming soon...
 |---|---|---|---|---|---|---|---|
 |2026.4| [LLM-jp-4（NII）]() | [HF](https://huggingface.co/collections/llm-jp/llm-jp-4-models) | 8, 32B | apache2.0 |  | | Japanese flagship |
 |2026.3| [Rakuten 3.0]() | [HF](https://huggingface.co/Rakuten/RakutenAI-3.0) | 671B |  | DeepseekV3.2 | |  |
+|2026.2| [GPTOSS-Swallow （科学大）]() | [HF](https://huggingface.co/tokyotech-llm/GPT-OSS-Swallow-120B-SFT-v0.1) | 120B |  |  | |  |
 |2025.11| [PLaMo 3（PFN）]() | [HF](https://huggingface.co/pfnet/plamo-3-nict-31b-base) | 31B |  |  | |  |
 |2025.7| [Stockmark 2（Stockmark）]() | [HF](https://huggingface.co/stockmark/Stockmark-2-100B-Instruct) | 100B |  |  | |  |
 |2025.5| [Llama3.3 Swallow （科学大）]() | [HF](https://huggingface.co/tokyotech-llm/Llama-3.3-Swallow-70B-Instruct-v0.4) | 70B | Llama3.3 | Llama3.3 | |  |
@@ -247,6 +250,7 @@ Coming soon...
 ## Model
 |When? | Name |  HF?  | Size | License | pretraining | finetuning/continual | test | misc.|
 |---|---|---|---|---|---|---|---|---|
+|2026.4| [ChatGPT for Clinicians (OpenAI)](https://chatgpt.com/plans/clinicians/) | None |  | | |   |  | ? |
 |2026.3| [SIP-jmed-llm-3-13b-OP-32k-R0.1]() | [HF](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-3-13b-OP-32k-R0.1) | 13B |  | [llm-jp-3-13b]() | [list](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-3-8x13b-AC-32k-instruct)  | - | japanese |
 |2026.3| [Med-V1]() | [HF](https://huggingface.co/ncbi/Med-V1-Q3B) | 3B | MIT | Qwen2.5/Llama3.2 |   |  |  |
 |2026.1| [ChatGPT Health (OpenAI)](https://openai.com/ja-JP/index/introducing-chatgpt-health/) | None |  | | |   |  | not a model |
