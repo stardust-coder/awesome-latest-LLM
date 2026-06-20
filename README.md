@@ -7,6 +7,8 @@ Stay ahead of the rapidly evolving LLM ecosystem.
 
 **NEWS**
 
+- 🔥2026.6 Gemma4に12Bが追加されました！画像、音声も入力できます
+- 🔥2026.6 MicrosoftからMAI-Thinking-1が発表されました！
 - 🔥2026.4 GLM, Gemma, DeepSeek, Qwenの最新版がリリースされました！
 
 <details>
@@ -107,8 +109,11 @@ Coming soon...
 ## English-centric
 
 
+
 | When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2026.6| [GLM 5.2](https://z.ai/blog/glm-5.1) | [HF](https://huggingface.co/zai-org/GLM-5.2) | 754B | MIT  |  |  |  |
+|2026.6| [Kimi-K2.6]() | [HF](https://huggingface.co/moonshotai/Kimi-K2.6) | 1TA32B | modifiedMIT |   |  | moe, 256k context |
 |2026.4| [Deepseek V4 Pro]() | [HF](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro) | 1.6TB-A49B | MIT  |  |  |  |
 |2026.2| [Qwen3.6 (Alibaba)]() | [HF](https://huggingface.co/collections/Qwen/qwen36) | 27B | apache-2.0 |  |  |  |
 |2026.4| [GLM 5.1](https://z.ai/blog/glm-5.1) | [HF](https://huggingface.co/zai-org/GLM-5.1) | 754B | MIT  |  |  |  |
@@ -402,6 +407,7 @@ college biology, college medicine, medical genetics, professional medicine and a
 - [OmniMedVQA](https://huggingface.co/datasets/foreverbeliever/OmniMedVQA): 73 different medical datasets, contains 118,010 images with 127,995 QA-items, covering 12 different medical image modalities and referring to more than 20 human anatomical regions.
 - [MIMIC-ECG-IV](https://physionet.org/content/mimic-iv-ecg/) : ECG-caption dataset
 - [ECG-QA](https://github.com/Jwoo5/ecg-qa)
+- [CheXThought (Stanford, coming...)](https://aimi.stanford.edu/data)
 
 
 See more on 
