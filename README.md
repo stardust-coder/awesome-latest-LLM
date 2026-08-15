@@ -112,6 +112,7 @@ Coming soon...
 
 | When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2026.7| [FIM-Midtraining (TIGER AI Lab)](https://github.com/TIGER-AI-Lab/FIM-Midtraining) | [HF](https://huggingface.co/collections/TIGER-Lab/fim-midtraining) | 14B | Apache-2.0 | Qwen2.5-Coder / Qwen3 with function-aware fill-in-the-middle mid-training | R2E-Gym / SWE-Smith / SWE-Lego | [paper](https://arxiv.org/abs/2607.12463), code models |
 |2026.6| [GLM 5.2](https://z.ai/blog/glm-5.1) | [HF](https://huggingface.co/zai-org/GLM-5.2) | 754B | MIT  |  |  |  |
 |2026.6| [Kimi-K2.6]() | [HF](https://huggingface.co/moonshotai/Kimi-K2.6) | 1TA32B | modifiedMIT |   |  | moe, 256k context |
 |2026.4| [Deepseek V4 Pro]() | [HF](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro) | 1.6TB-A49B | MIT  |  |  |  |
