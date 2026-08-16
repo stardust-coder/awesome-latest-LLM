@@ -7,6 +7,8 @@ Stay ahead of the rapidly evolving LLM ecosystem.
 
 **NEWS**
 
+- 🔥2026.8 Kimi K3がリリースされました！
+- 🔥2026.6 GLM5.2がリリースされました！
 - 🔥2026.6 Gemma4に12Bが追加されました！画像、音声も入力できます
 - 🔥2026.6 MicrosoftからMAI-Thinking-1が発表されました！
 - 🔥2026.4 GLM, Gemma, DeepSeek, Qwenの最新版がリリースされました！
@@ -108,26 +110,26 @@ Coming soon...
 <a id="english-centric"></a>
 ## English-centric
 
-
-
 | When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
-|2026.7| [FIM-Midtraining (TIGER AI Lab)](https://github.com/TIGER-AI-Lab/FIM-Midtraining) | [HF](https://huggingface.co/collections/TIGER-Lab/fim-midtraining) | 14B | Apache-2.0 | Qwen2.5-Coder / Qwen3 with function-aware fill-in-the-middle mid-training | R2E-Gym / SWE-Smith / SWE-Lego | [paper](https://arxiv.org/abs/2607.12463), code models |
+|2026.7| [Kimi K3](https://huggingface.co/moonshotai/Kimi-K3) | [HF](https://huggingface.co/moonshotai/Kimi-K3) | 2.8TB | [Kimi K3 License](https://huggingface.co/moonshotai/Kimi-K3/blob/main/LICENSE) | ? | ? | 1T context window, moe(104Ba) |
+|2026.7| [FIM-Midtraining (TIGER AI Lab)](https://github.com/TIGER-AI-Lab/FIM-Midtraining) | [HF](https://huggingface.co/collections/TIGER-Lab/fim-midtraining) | 14B | Apache-2.0 | Qwen2.5-Coder / Qwen3 with function-aware fill-in-the-middle mid-training | R2E-Gym / SWE-Smith / SWE-Lego | [paper](https://arxiv.org/abs/2607.12463)|
+|2026.7| [Mistral-Medium-3.5]() | [HF](https://huggingface.co/mistralai/Mistral-Medium-3.5-128B) | 128B | apache-2.0  |  |  |  |
 |2026.6| [GLM 5.2](https://z.ai/blog/glm-5.1) | [HF](https://huggingface.co/zai-org/GLM-5.2) | 754B | MIT  |  |  |  |
-|2026.6| [Kimi-K2.6]() | [HF](https://huggingface.co/moonshotai/Kimi-K2.6) | 1TA32B | modifiedMIT |   |  | moe, 256k context |
+|2026.6| [Kimi-K2.6]() | [HF](https://huggingface.co/moonshotai/Kimi-K2.6) | 1TA32B | modifiedMIT |  ? | ? | moe, 256k context |
 |2026.4| [Deepseek V4 Pro]() | [HF](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro) | 1.6TB-A49B | MIT  |  |  |  |
 |2026.2| [Qwen3.6 (Alibaba)]() | [HF](https://huggingface.co/collections/Qwen/qwen36) | 27B | apache-2.0 |  |  |  |
-|2026.4| [GLM 5.1](https://z.ai/blog/glm-5.1) | [HF](https://huggingface.co/zai-org/GLM-5.1) | 754B | MIT  |  |  |  |
 |2026.4| [Gemma 4]() | [HF](https://huggingface.co/collections/google/gemma-4) | 2.3~31B | apache-2.0  |  |  |  |
 |2026.3| [Nemotron3]() | [HF](https://huggingface.co/collections/nvidia/nvidia-nemotron-v3) | 4~235B | [license](https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-nemotron-open-model-license/)  |  |  |  |
-|2026.3| [Mistral-Small-4]() | [HF](https://huggingface.co/mistralai/Mistral-Small-4-119B-2603) | 119B | apache-2.0  |  |  |  |
+|2026.3| [Mistral-Small-4]() | [HF](https://huggingface.co/mistralai/Mistral-Small-4-119B-2603) | 119B | apache-2.0  |  |  | moe |
 |2026.2| [Qwen3.5 (Alibaba)]() | [HF](https://huggingface.co/collections/Qwen/qwen35) | 0.8~397B | apache-2.0 |  |  |  |
-|2026.1| [Kimi-K2.5](https://x.com/Kimi_Moonshot/status/2016024049869324599?s=20) | [HF](https://huggingface.co/moonshotai/Kimi-K2.5) | 1TA32B | modifiedMIT | Kimi-K2-Base  | 15T tokens | moe |
-|2025.12| [DeepSeek-V3.2]() | [HF](https://huggingface.co/collections/deepseek-ai/deepseek-v32) | 671B | MIT |  |  |  |
 |2025.12| [Mistral-Large-3](https://x.com/MistralAI/status/1995872766177018340?s=20) | [HF](https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512) | 675B | |  |  | |
 |2025.8| [GPT-OSS (OpenAI)]() | [HF](https://huggingface.co/openai/gpt-oss-120b) | 20B~120B |  | |  |  |
 
 <!-- 
+|2026.4| [GLM 5.1](https://z.ai/blog/glm-5.1) | [HF](https://huggingface.co/zai-org/GLM-5.1) | 754B | MIT  |  |  |  |
+|2026.1| [Kimi-K2.5](https://x.com/Kimi_Moonshot/status/2016024049869324599?s=20) | [HF](https://huggingface.co/moonshotai/Kimi-K2.5) | 1TA32B | modifiedMIT | Kimi-K2-Base  | 15T tokens | moe |
+|2025.12| [DeepSeek-V3.2]() | [HF](https://huggingface.co/collections/deepseek-ai/deepseek-v32) | 671B | MIT |  |  |  |
 |2025.12| [rnj-1(EssentialAI)](https://x.com/essential_ai/status/1997123628765524132?s=20) | [HF](https://huggingface.co/EssentialAI/rnj-1-instruct) | 8B | apache2.0 | 8.4T+380B tokens  | 150B tokens | code and STEM |
 |2025.11| [Olmo 3 (Allen)](https://allenai.org/blog/olmo3) | [HF](https://huggingface.co/collections/allenai/olmo-3) | 7, 32B | apache-2.0 |  |  |  |
 |2025.10| [Ling-1T (InclusionAI)]() | [HF](https://huggingface.co/collections/inclusionAI/ling-v2-68bf1dd2fc34c306c1fa6f86) | 1T-A50B | MIT | 20T+ |  | moe |
@@ -228,6 +230,7 @@ Coming soon...
 
 | When? | Name |  HF?  | Size | License | pretraining | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2026.8| [Ling-3.0-tiny (inclusionAI)](https://huggingface.co/inclusionAI/Ling-3.0-tiny) | [HF](https://huggingface.co/inclusionAI/Ling-3.0-tiny) | 7.9B | mit| ? | ? | moe 1.3Ba |
 |2026.4| [Bonsai (PrismML)](https://prismml.com/) | [HF](https://huggingface.co/collections/prism-ml/bonsai) | 1.7~8B | apache2.0| | |
 |2026.4| [LFM2.5 (LiquidAI)]() | [HF](https://huggingface.co/collections/LiquidAI/lfm25) | 0.35, 1.2B | [LFMv1](https://huggingface.co/LiquidAI/LFM2.5-350M/blob/main/LICENSE) | | also japanese |
 |2025.12| [Ministral 3]() | [HF](https://huggingface.co/collections/mistralai/ministral-3) | 3B |  | | |
@@ -256,13 +259,15 @@ Coming soon...
 ## Model
 |When? | Name |  HF?  | Size | License | pretraining | finetuning/continual | test | misc.|
 |---|---|---|---|---|---|---|---|---|
+|2026.6| [MeditronFO (EPFL)](https://huggingface.co/collections/EPFLiGHT/meditronfo) | [HF](https://huggingface.co/collections/EPFLiGHT/meditronfo) | 8~70B | apache-2.0, dataset is NonCommercial. | Apertus、OLMo、EuroLLM  | fullSFT with QA  |  fully open |
+|2026.6| [MedPsy (QVAC)]() | [HF](https://huggingface.co/qvac/MedPsy-1.7B) |  1.7, 4B | apache-2.0 | Qwen3 | SFT,RL  | QA, HealthBench |  |
 |2026.4| [ChatGPT for Clinicians (OpenAI)](https://chatgpt.com/plans/clinicians/) | None |  | | |   |  | ? |
 |2026.3| [SIP-jmed-llm-3-13b-OP-32k-R0.1]() | [HF](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-3-13b-OP-32k-R0.1) | 13B |  | [llm-jp-3-13b]() | [list](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-3-8x13b-AC-32k-instruct)  | - | japanese |
 |2026.3| [Med-V1]() | [HF](https://huggingface.co/ncbi/Med-V1-Q3B) | 3B | MIT | Qwen2.5/Llama3.2 |   |  |  |
 |2026.1| [ChatGPT Health (OpenAI)](https://openai.com/ja-JP/index/introducing-chatgpt-health/) | None |  | | |   |  | not a model |
 |2025.10| [SIP-jmed-llm-3-8x13b-AC-32k-instruct]() | [HF](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-3-8x13b-AC-32k-instruct) | 8x13B | CC BY-NC-SA 4.0 | [llm-jp-3-8x13b](https://huggingface.co/llm-jp/llm-jp-3-8x13b) | [list](https://huggingface.co/SIP-med-LLM/SIP-jmed-llm-3-8x13b-AC-32k-instruct)  | - | japanese |
 |2025.7| [ELYZA-Med-Base-1.0-Qwen2.5-72B](https://prtimes.jp/main/html/rd/p/000000061.000047565.html) | None | 72B | Qwen | Qwen2.5 |   | IgakuQA | japanese |
-|2025.5| [MedGemma (Google)](https://deepmind.google/models/gemma/medgemma/) |[HF](https://huggingface.co/collections/google/medgemma-release-680aade845f90bec6a3f60c4)| 4B, 27B | | Gemma3 | | | |
+|2025.5| [MedGemma (Google)](https://deepmind.google/models/gemma/medgemma/) |[HF](https://huggingface.co/collections/google/medgemma-release-680aade845f90bec6a3f60c4)| 1.5, 4, 27B | | Gemma3 | | | |
 |2025.4| [Med-R1 (IEEE)](https://arxiv.org/pdf/2503.13939v4) |[HF](https://huggingface.co/yuxianglai117/Med-R1)| 2B | | Qwen2-VL | | | VLM |
 |2025.4| [Med-R1 8B (IQVIA)](https://www.iqvia.com/blogs/2025/04/introducing-iqvia-medical-reasoning-med-r1-8b) | None | 8B | |  | | | reasoning |
 |2025.4| [OmniV-Med(Alibaba)](https://arxiv.org/abs/2504.14692) | | 1.5,7B |  | 252K instruction data|    | 11 benchmarks (2D/3D image and video) |  |
