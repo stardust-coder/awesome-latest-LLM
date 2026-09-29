@@ -7,6 +7,7 @@ Stay ahead of the rapidly evolving LLM ecosystem.
 
 **NEWS**
 
+- 🔥2026.8 Qwen3.8がリリースされました！
 - 🔥2026.8 Kimi K3がリリースされました！
 - 🔥2026.6 GLM5.2がリリースされました！
 - 🔥2026.6 Gemma4に12Bが追加されました！画像、音声も入力できます
@@ -90,21 +91,26 @@ Coming soon...
 # Omni
 <a id="omni"></a>
 
-| When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
+| When? | Name | HF? | Size(max) | License | pretraining/base | finetuning | misc. |
 |---|---|---|---|---|---|---|---|
-|2025.11| [Uni-Moe-Omni (HIT)](https://idealistxy.github.io/Uni-MoE-v2.github.io/) | [HF](https://huggingface.co/HIT-TMG/Uni-MoE-2.0-Omni) | 33B-1.5~18B | apache-2.0 | 75B token   |  | MoE, surpass Qwen2.5-Omni |
-|2025.9| [Qwen3-Omni (Alibaba)](https://github.com/QwenLM/Qwen3-Omni) | [HF](https://huggingface.co/collections/Qwen/qwen3-omni-68d100a86cd0906843ceccbe) | 30B-A3B | apache-2.0 |  text-first pretraining and mixed multimodal training |  | [demo](https://huggingface.co/spaces/Qwen/Qwen3-Omni-Demo) |
+|2026.4| [Nemotron 3 Nano Omni (NVIDIA)](https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8) | [HF](https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8) | 30B-A3B | NVIDIA Open Model Agreement | Nemotron 3 Nano | multimodal + reasoning | text/image/audio/video, ASR, long audio-video understanding, computer use |
+|2026.4| [MiniCPM-o 4.5 (OpenBMB)](https://huggingface.co/openbmb/MiniCPM-o-4_5) | [HF](https://huggingface.co/openbmb/MiniCPM-o-4_5) | 9B | apache-2.0 | MiniCPM-o | multimodal + speech | text/image/audio input, speech output, full-duplex, proactive interaction |
+|2025.11| [Uni-MoE-Omni (HIT)](https://idealistxy.github.io/Uni-MoE-v2.github.io/) | [HF](https://huggingface.co/HIT-TMG/Uni-MoE-2.0-Omni) | 33B-1.5~18B | apache-2.0 | 75B token | | MoE, surpass Qwen2.5-Omni |
+|2025.9| [Qwen3-Omni (Alibaba)](https://github.com/QwenLM/Qwen3-Omni) | [HF](https://huggingface.co/collections/Qwen/qwen3-omni-68d100a86cd0906843ceccbe) | 30B-A3B | apache-2.0 | text-first pretraining and mixed multimodal training | | text/image/audio/video, [demo](https://huggingface.co/spaces/Qwen/Qwen3-Omni-Demo) |
+
 
 # Computer Use / Tool Use / Function Calling
 <a id="computer-use"></a>
 
-
-| When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
+| When? | Name | HF? | Size(max) | License | pretraining/base | finetuning | misc. |
 |---|---|---|---|---|---|---|---|
-|2025.12| [FunctionGemma (Google)](https://huggingface.co/google/functiongemma-270m-it) | [HF](https://huggingface.co/zai-org/AutoGLM-Phone-9B-Multilingual) | 0.27B |  | | | function calling |
+|2026.6| [Holo3.1 (H Company)](https://huggingface.co/Hcompany/Holo-3.1-35B-A3B) | [HF](https://huggingface.co/Hcompany/Holo-3.1-35B-A3B) | 35B-A3B | apache-2.0 | Qwen3.5 family | GUI/navigation | 0.8B/4B/9B/35B-A3B; web, desktop, mobile; function calling |
+|2026.4| [Nemotron 3 Nano Omni (NVIDIA)](https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8) | [HF](https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8) | 30B-A3B | NVIDIA Open Model Agreement | Nemotron 3 Nano | multimodal + reasoning | agentic computer use; text/image/audio/video |
+|2026.1| [OmegaUse (Baidu)](https://arxiv.org/abs/2601.20380) | | MoE | | MoE VLM | SFT + GRPO | desktop + mobile GUI agent |
+|2025.12| [FunctionGemma (Google)](https://huggingface.co/google/functiongemma-270m-it) | [HF](https://huggingface.co/google/functiongemma-270m-it) | 0.27B | Gemma license | Gemma 3 270M | function-call tuning | text-only function calling |
 |2025.12| [AutoGLM-Phone-9B-Multilingual (ZAI)](https://x.com/Zai_org/status/1999118106543919203?s=20) | [HF](https://huggingface.co/zai-org/AutoGLM-Phone-9B-Multilingual) | 9B | mit (for research and educational purposes only.) | | | smartphone |
-|2025.11| [Fara (Microsoft)](https://www.microsoft.com/en-us/research/blog/fara-7b-an-efficient-agentic-model-for-computer-use/) | [HF](https://huggingface.co/microsoft/Fara-7B) | 7B | mit | Qwen2.5-VL-7B |  |  |
-|2025.11| [Jan-v2]() | [HF](https://huggingface.co/collections/janhq/jan-v2-vl) | 8B | apache-2.0 | [Qwen3-VL-8B-Thinking](https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking)|  |  |
+|2025.11| [Fara (Microsoft)](https://www.microsoft.com/en-us/research/blog/fara-7b-an-efficient-agentic-model-for-computer-use/) | [HF](https://huggingface.co/microsoft/Fara-7B) | 7B | mit | Qwen2.5-VL-7B | | computer use |
+|2025.11| [Jan-v2](https://huggingface.co/collections/janhq/jan-v2-vl) | [HF](https://huggingface.co/collections/janhq/jan-v2-vl) | 8B | apache-2.0 | [Qwen3-VL-8B-Thinking](https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking) | | |
 
 # LLM List
 <a id="english-centric"></a>
@@ -112,22 +118,25 @@ Coming soon...
 
 | When? | Name |  HF?  | Size(max) | License | pretraining/base | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
+|2026.9| [GLM 5.3](https://z.ai/blog/glm-5.3) | [HF](https://huggingface.co/zai-org/GLM-5.3) | 754B | GLM5.3  | same as GLM 5.2 |  | post-trained well |
+|2026.9| [Deepseek V4.1 Flash]() | [HF](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash) |284B-A13 | MIT  |  |  | moe |
+|2026.8| [Qwen3.8 (Alibaba)]() | [HF](https://huggingface.co/collections/Qwen/qwen38) | 27B, 2.4T | apache-2.0 |  |  | dense, moe |
 |2026.7| [Kimi K3](https://huggingface.co/moonshotai/Kimi-K3) | [HF](https://huggingface.co/moonshotai/Kimi-K3) | 2.8TB | [Kimi K3 License](https://huggingface.co/moonshotai/Kimi-K3/blob/main/LICENSE) | ? | ? | 1T context window, moe(104Ba) |
 |2026.7| [FIM-Midtraining (TIGER AI Lab)](https://github.com/TIGER-AI-Lab/FIM-Midtraining) | [HF](https://huggingface.co/collections/TIGER-Lab/fim-midtraining) | 14B | Apache-2.0 | Qwen2.5-Coder / Qwen3 with function-aware fill-in-the-middle mid-training | R2E-Gym / SWE-Smith / SWE-Lego | [paper](https://arxiv.org/abs/2607.12463)|
 |2026.7| [Mistral-Medium-3.5]() | [HF](https://huggingface.co/mistralai/Mistral-Medium-3.5-128B) | 128B | apache-2.0  |  |  |  |
-|2026.6| [GLM 5.2](https://z.ai/blog/glm-5.1) | [HF](https://huggingface.co/zai-org/GLM-5.2) | 754B | MIT  |  |  |  |
-|2026.6| [Kimi-K2.6]() | [HF](https://huggingface.co/moonshotai/Kimi-K2.6) | 1TA32B | modifiedMIT |  ? | ? | moe, 256k context |
 |2026.4| [Deepseek V4 Pro]() | [HF](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro) | 1.6TB-A49B | MIT  |  |  |  |
 |2026.2| [Qwen3.6 (Alibaba)]() | [HF](https://huggingface.co/collections/Qwen/qwen36) | 27B | apache-2.0 |  |  |  |
 |2026.4| [Gemma 4]() | [HF](https://huggingface.co/collections/google/gemma-4) | 2.3~31B | apache-2.0  |  |  |  |
 |2026.3| [Nemotron3]() | [HF](https://huggingface.co/collections/nvidia/nvidia-nemotron-v3) | 4~235B | [license](https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-nemotron-open-model-license/)  |  |  |  |
 |2026.3| [Mistral-Small-4]() | [HF](https://huggingface.co/mistralai/Mistral-Small-4-119B-2603) | 119B | apache-2.0  |  |  | moe |
-|2026.2| [Qwen3.5 (Alibaba)]() | [HF](https://huggingface.co/collections/Qwen/qwen35) | 0.8~397B | apache-2.0 |  |  |  |
 |2025.12| [Mistral-Large-3](https://x.com/MistralAI/status/1995872766177018340?s=20) | [HF](https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512) | 675B | |  |  | |
 |2025.8| [GPT-OSS (OpenAI)]() | [HF](https://huggingface.co/openai/gpt-oss-120b) | 20B~120B |  | |  |  |
 
 <!-- 
+|2026.6| [Kimi-K2.6]() | [HF](https://huggingface.co/moonshotai/Kimi-K2.6) | 1TA32B | modifiedMIT |  ? | ? | moe, 256k context |
+|2026.6| [GLM 5.2](https://z.ai/blog/glm-5.1) | [HF](https://huggingface.co/zai-org/GLM-5.2) | 754B | MIT  |  |  |  |
 |2026.4| [GLM 5.1](https://z.ai/blog/glm-5.1) | [HF](https://huggingface.co/zai-org/GLM-5.1) | 754B | MIT  |  |  |  |
+|2026.2| [Qwen3.5 (Alibaba)]() | [HF](https://huggingface.co/collections/Qwen/qwen35) | 0.8~397B | apache-2.0 |  |  |  |
 |2026.1| [Kimi-K2.5](https://x.com/Kimi_Moonshot/status/2016024049869324599?s=20) | [HF](https://huggingface.co/moonshotai/Kimi-K2.5) | 1TA32B | modifiedMIT | Kimi-K2-Base  | 15T tokens | moe |
 |2025.12| [DeepSeek-V3.2]() | [HF](https://huggingface.co/collections/deepseek-ai/deepseek-v32) | 671B | MIT |  |  |  |
 |2025.12| [rnj-1(EssentialAI)](https://x.com/essential_ai/status/1997123628765524132?s=20) | [HF](https://huggingface.co/EssentialAI/rnj-1-instruct) | 8B | apache2.0 | 8.4T+380B tokens  | 150B tokens | code and STEM |
@@ -192,13 +201,14 @@ Coming soon...
 
 | When? | Name |  HF?  | Size | License | pretraining | finetuning | misc.|
 |---|---|---|---|---|---|---|---|
-|2026.4| [LLM-jp-4（NII）]() | [HF](https://huggingface.co/collections/llm-jp/llm-jp-4-models) | 8, 32B | apache2.0 |  | | Japanese flagship |
-|2026.3| [Rakuten 3.0]() | [HF](https://huggingface.co/Rakuten/RakutenAI-3.0) | 671B |  | DeepseekV3.2 | |  |
-|2026.2| [GPTOSS-Swallow （科学大）]() | [HF](https://huggingface.co/tokyotech-llm/GPT-OSS-Swallow-120B-SFT-v0.1) | 120B |  |  | |  |
-|2025.11| [PLaMo 3（PFN）]() | [HF](https://huggingface.co/pfnet/plamo-3-nict-31b-base) | 31B |  |  | |  |
-|2025.7| [Stockmark 2（Stockmark）]() | [HF](https://huggingface.co/stockmark/Stockmark-2-100B-Instruct) | 100B |  |  | |  |
-|2025.5| [Llama3.3 Swallow （科学大）]() | [HF](https://huggingface.co/tokyotech-llm/Llama-3.3-Swallow-70B-Instruct-v0.4) | 70B | Llama3.3 | Llama3.3 | |  |
-|2025.5| [LLM-jp-3.1（NII）]() | [HF](https://huggingface.co/collections/llm-jp/llm-jp-31-fine-tuned-models-68368681b9b35de1c4ac8de4) | 1.8B, 13B, 8x13B | apache2.0 | Wikipedia etc. | | Japanese flagship |
+|2026.9| [LLM-jp-4.1（NII）]() | [HF](https://huggingface.co/llm-jp/llm-jp-4.1-33b-thinking) | 8, 33B | apache2.0 |  | | Japanese flagship |
+|2025.11| [PLaMo 3 2604（PFN）]() | [HF](https://huggingface.co/pfnet/plamo-3-nict-2604-31b-base) | 31B | plamo |  |  | base, not instruct-tuned, distilled from larger model |
+|2025.11| [PLaMo 3（PFN）]() | [HF](https://huggingface.co/pfnet/plamo-3-nict-31b-base) | 2, 8, 31B | plamo |  |  | base, not instruct-tuned |
+<!-- |2026.3| [Rakuten 3.0]() | [HF](https://huggingface.co/Rakuten/RakutenAI-3.0) | 671B |  | DeepseekV3.2 | |  | -->
+<!-- |2026.2| [GPTOSS-Swallow （科学大）]() | [HF](https://huggingface.co/tokyotech-llm/GPT-OSS-Swallow-120B-SFT-v0.1) | 120B |  |  | |  | -->
+<!-- |2025.7| [Stockmark 2（Stockmark）]() | [HF](https://huggingface.co/stockmark/Stockmark-2-100B-Instruct) | 100B |  |  | |  | -->
+<!-- |2025.5| [Llama3.3 Swallow （科学大）]() | [HF](https://huggingface.co/tokyotech-llm/Llama-3.3-Swallow-70B-Instruct-v0.4) | 70B | Llama3.3 | Llama3.3 | |  | -->
+<!-- |2025.5| [LLM-jp-3.1（NII）]() | [HF](https://huggingface.co/collections/llm-jp/llm-jp-31-fine-tuned-models-68368681b9b35de1c4ac8de4) | 1.8B, 13B, 8x13B | apache2.0 | Wikipedia etc. | | Japanese flagship | -->
 <!-- |2025.5| [Gemma2 Swallow （科学大）]() | [HF](https://huggingface.co/collections/tokyotech-llm/gemma-2-swallow-67f2bdf95f03b9e278264241) | 2, 9, 27B |  |  | |  | -->
 <!-- |2025.3| [Stockmark 2]() | [HF](https://huggingface.co/stockmark/Stockmark-2-100B-Instruct-beta) | 100B |  |  | |  |
 |2025.3| [Llama-3.3-Swallow-70B-Instruct-v0.4]() | [HF](https://huggingface.co/tokyotech-llm/Llama-3.3-Swallow-70B-Instruct-v0.4) | 70B | [llama3.3](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct/blob/main/LICENSE) | Llama3.3 | | JMT-Bench 0.772 |
